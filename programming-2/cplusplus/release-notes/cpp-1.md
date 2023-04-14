@@ -12,7 +12,7 @@ needGenerateH3Content: false
 
 ### Fixed
 
-- Fixed a bug that the colours of binarized images might be inverted when using [`LEM_MARGIN_BASED`]({{site.parameters}}reference/line-extraction-modes.html) mode for `LineExtractionModes`.
+- Fixed a bug that the colours of binarized images might be inverted when using [`LEM_MARGIN_BASED`]({{site.parameters_reference}}reference/line-extraction-modes.html) mode for `LineExtractionModes`.
 
 ## 1.0.10 (09/29/2022)
 

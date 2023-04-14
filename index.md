@@ -7,18 +7,15 @@ description: Documentation Homepage
 ---
 
 
-# Documentation HomePage
+# Dynamsoft Document Normalizer Documentation
 
-- [Introduction]({{ site.introduction }})
+Learn how to use Dynamsoft Document Normalizer SDK in different programming languages:
 
-- [Programming]({{ site.programming }})
-  - [Android]({{ site.android }})
-  - [iOS]({{ site.ios }})
-  - [C]({{ site.c }})
-  - [C++]({{ site.cpp }})
-  - [Xamarin.Forms]({{ site.xamarin }})
-  - [JavaScript]({{ site.javascript }})
+- [C++]({{ site.cpp }})
 
-- [Parameters]({{ site.parameters }})
-  - [Parameter Organization Structure]({{ site.parameters }}parameter-organization-structure.html)
-  - [Parameter Reference]({{ site.parameters_reference }})
+Coming soon:
+
+- Python
+- C
+- .NET]
+- Java]
