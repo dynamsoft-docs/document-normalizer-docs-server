@@ -12,10 +12,10 @@ cpp: /document-normalizer/docs/server/programming/cplusplus/
 cpp_api: /document-normalizer/docs/server/programming/cplusplus/api-reference/
 cpp_release_notes: /document-normalizer/docs/server/programming/cplusplus/release-notes/
 
-enumerations: /capture-vision2/docs/enums/
-parameters_reference: /document-normalizer/docs/server/parameters/reference/
+enumerations: /capture-vision/docs/core/enums/
+parameters_reference: /capture-vision/docs/core/parameters/reference/
 
-dcv_cpp_api: /capture-vision2/docs/server/programming/cplusplus/api-reference/
+dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
 
 
 useVersionTree: true
