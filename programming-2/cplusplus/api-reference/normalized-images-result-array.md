@@ -1,62 +1,51 @@
 ---
 layout: default-layout
-title: CNormalizedImageResult Class
-description: This page shows CNormalizedImageResult class definition of Dynamsoft Document Normalizer SDK C++ Edition.
-keywords: GetImageData, CNormalizedImageResult, api reference
+title: CNormalizedImagesResultArray Class
+description: This page shows CNormalizedImagesResultArray class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+keywords: GetCount, GetResult, CNormalizedImagesResultArray, api reference
 ---
 
-# CNormalizedImageResult Class
+# CNormalizedImagesResultArray Class
 
-Stores the normalized image result.
+An array storing normalized images results.
 
 ```cpp
-class dynamsoft::ddn::CNormalizedImageResult
+class dynamsoft::ddn::CNormalizedImagesResultArray
 ```
 
 | Method | Description |
 |--------|-------------|
-| [`GetImageData`](#getimagedata) | Gets the image data of the NormalizedImageResult.|
-| [`SaveToFile`](#savetofile) | Save the normalized image result to a file. |
+| [`GetCount`](#getcount) | Gets the count of normalized images results in the array.|
+| [`GetResult`](#getresult) | Gets a normalized images result at a specified index.|
 
-## GetImageData
+## GetCount
 
-Gets the image data of the NormalizedImageResult.
+Gets the count of normalized images results in the array.
 
 ```cpp
-const CImageData* GetImageData() 
+int GetCount() 
 ```
 
 **Return Value**
 
-The image data.
+The count of normalized images results in the array.
 
-## SaveToFile
+## GetResult
 
-Save the image data to a file.
+Gets a normalized images result at a specified index.
 
 ```cpp
-int dynamsoft::ddn::CDocumentNormalizer::SaveToFile(const char* filePath)
+const CNormalizedImagesResult* GetResult(int index) 
 ```
 
 **Parameters**
 
-`[in] filePath` The path of the output image file with the extension specifying the image format. It supports BMP, PNG, JPEG and PDF file types. If the target file exists, the image will be appended to the last page of the PDF file while the BMP, PNG and JPEG file will be replaced.
+`[in] index` The index of the normalized images result to retrieve.
 
 **Return Value**
 
-Returns error code (returns 0 if the function operates successfully).
+Returns a pointer to a CNormalizedImagesResult object that represents the result at the specified index.
 
-*You can call [`DC_GetErrorString`](document-normalizer-general.md#dc_geterrorstring) to get detailed error message.*
+**See Also**
 
-**Code Snippet**
-
-```cpp
-CDocumentNormalizer ddn;
-CNormalizedImageResult* normalizedResult = NULL;
-ddn.Normalize("YOUR-SOURCE-FILE-PATH", "", NULL, &normalizedResult);
-if (normalizedResult != NULL)
-{   
-    normalizedResult->SaveToFile("YOUR-TARGET-FILE-PATH");
-    CDocumentNormalizer::FreeNormalizedImageResult(&normalizedResult);
-}
-```
+* [CNormalizedImagesResult]()

@@ -1,50 +1,51 @@
 ---
 layout: default-layout
-title: CDetectedQuadResultArray Class
-description: This page shows CDetectedQuadResultArray class definition of Dynamsoft Document Normalizer SDK C++ Edition.
-keywords: GetCount, GetDetectedQuadResult, CDetectedQuadResultArray, api reference
+title: CDetectedQuadsResultArray Class
+description: This page shows CDetectedQuadsResultArray class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+keywords: GetCount, GetResult, CDetectedQuadsResultArray, api reference
 ---
 
-# CDetectedQuadResultArray Class
+# CDetectedQuadsResultArray Class
 
-An array storing detected quad results.
+An array storing detected quads results.
 
 ```cpp
-class dynamsoft::ddn::CDetectedQuadResultArray
+class dynamsoft::ddn::CDetectedQuadsResultArray
 ```
 
 | Method | Description |
 |--------|-------------|
-| [`GetCount`](#getcount) | Gets the count of detected quad results in the array.|
-| [`GetDetectedQuadResult`](#getdetectedquadresult) | Gets a detected quad result by specifying the index in the array.|
+| [`GetCount`](#getcount) | Gets the count of detected quads results in the array.|
+| [`GetResult`](#getresult) | Gets a detected quads result at a specified index.|
 
 ## GetCount
 
-Gets the count of detected quad results in the array.
+Gets the count of detected quads results in the array.
 
 ```cpp
-const CQuadrilateral* GetCount() 
+int GetCount() 
 ```
 
 **Return Value**
 
-The count of detected quad results in the array.
+The count of detected quads results in the array.
 
-## GetDetectedQuadResult
+## GetResult
 
-Gets a detected quad result by specifying the index in the array.
+Gets a detected quads result at a specified index.
 
 ```cpp
-int GetDetectedQuadResult(int index, CDetectedQuadResult** result) 
+const CDetectedQuadsResult* GetResult(int index) 
 ```
 
 **Parameters**
 
-`[in] index` The index of the detected quad result to get in the array.
+`[in] index` The index of the detected quads result to retrieve.
 
-`[in] result` The detected quad result got from the array.
+**Return Value**
 
-**Return Value**  
-Returns error code (returns 0 if the function operates successfully).
+Returns a pointer to a CDetectedQuadsResult object that represents the result at the specified index.
 
-*You can call [`DC_GetErrorString`](document-normalizer-general.md#dc_geterrorstring) to get detailed error message.*
+**See Also**
+
+* [CDetectedQuadsResult]()
