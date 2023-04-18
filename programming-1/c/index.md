@@ -3,7 +3,7 @@ title: Documentation Main Page for C Edition
 keywords: c, cplusplus, documentation
 description: Dynamsoft Document Normalizer - C Documentation
 needAutoGenerateSidebar: false
-permalink: /programming/c/index-v1.0.20.html
+permalink: /programming/c/index.html
 ---
 
 # Documentation - C
