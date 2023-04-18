@@ -3,7 +3,7 @@ title: Documentation Main Page for C++ Edition
 keywords: c++, cplusplus, documentation
 description: Dynamsoft Document Normalizer - C++ Documentation
 needAutoGenerateSidebar: false
-permalink: /programming/cplusplus/index.html
+permalink: /programming/cplusplus/index-v1.0.20.html
 ---
 
 # Documentation - C++
@@ -20,5 +20,4 @@ This is the main page of Dynamsoft Document Normalizer SDK documentation for C++
 
 ## Release Notes
 
-- [Version 2.x](release-notes/cpp-2.md)
 - [Version 1.x](release-notes/cpp-1.md)

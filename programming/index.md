@@ -2,13 +2,9 @@
 title: Dynamsoft Document Normalizer - Programming
 keywords: programming, documentation
 description: Dynamsoft Document Normalizer - Programming
+permalink: /programming/index.html
 ---
 
 # Programming
 
-- [Android](android)
-- [iOS](ios)
-- [C](c/)
 - [C++](cplusplus/)
-- [JavaScript](javascript/)
-- [Xamarin.Forms](xamarin/)

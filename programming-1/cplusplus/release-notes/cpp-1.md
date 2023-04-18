@@ -1,0 +1,41 @@
+---
+layout: default-layout
+title: Release Notes for C++ Edition - v1.x
+description: This is the release notes page of Dynamsoft Document Normalizer SDK C++ Edition for version 1.x.
+keywords: release notes, c++, 
+needGenerateH3Content: false
+permalink: /programming/cplusplus/release-notes/cpp-1.html
+---
+
+# Release Notes for C++ Edition - v1.x
+
+## 1.0.20 (02/02/2023)
+
+### Fixed
+
+- Fixed a bug that the colours of binarized images might be inverted when using `LEM_MARGIN_BASED` mode for `LineExtractionModes`.
+
+## 1.0.10 (09/29/2022)
+
+### New
+
+- Added a new method [`SaveToFile`](../api-reference/normalized-image-result.html#savetofile) in class `CNormalizedImageResult` to support saving the normalized image as a BMP/JPEG/PNG/PDF file.
+- Added PDF as a supported file format of method [`Normalize`](../api-reference/document-normalizer-normalizing.html#normalize) and [`DetectQuad`](../api-reference/document-normalizer-normalizing.html#detectquad).
+- Added a new method [`GetOrientation`](../api-reference/image-data.html#getorientation) in class `CImageData`.
+- Added error code `DMERR_IMAGE_ORIENTATION_INVALID`.
+
+### Changed
+
+- Updated `ErrorCode`
+  - Change the value of `DDNERR_CONTENT_NOT_FOUND` from -10056 to -50001.
+  - Renamed `DDNERR_QUADRILATERAL_INVALID` to `DMERR_QUADRILATERAL_INVALID`.
+
+### Removed
+
+- Removed method `SaveImageDataToFile` from class `CDocumentNormalizer`.
+
+## 1.0.0 (06/21/2022)
+
+### Highlights
+
+{%- include release-notes/product-highlight-1.0.0.md -%}

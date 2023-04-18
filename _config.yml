@@ -7,7 +7,7 @@ docHomePage: /document-normalizer/docs/core/introduction/
 c: /document-normalizer/docs/server/programming/c/
 c_api: /document-normalizer/docs/server/programming/c/api-reference/
 c_release_notes: /document-normalizer/docs/server/programming/c/release-notes/
-
+enumerations_v1: /document-normalizer/docs/server/programming/enumerations/
 cpp: /document-normalizer/docs/server/programming/cplusplus/
 cpp_api: /document-normalizer/docs/server/programming/cplusplus/api-reference/
 cpp_release_notes: /document-normalizer/docs/server/programming/cplusplus/release-notes/
