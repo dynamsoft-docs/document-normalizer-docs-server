@@ -2,7 +2,7 @@
 layout: default-layout
 title: CDetectedQuadResultItem Class
 description: This page shows CDetectedQuadResultItem class definition of Dynamsoft Document Normalizer SDK C++ Edition.
-keywords: GetLocation, GetConfidenceAsDocumentBoundary, GetRotatationTransformMatrix, CDetectedQuadResultItem, api reference
+keywords: GetLocation, GetConfidenceAsDocumentBoundary, GetRotationTransformMatrix, CDetectedQuadResultItem, api reference
 permalink: /programming/cplusplus/api-reference/detected-quad-result-item.html
 ---
 
@@ -26,7 +26,7 @@ class CDetectedQuadResultItem: CCapturedResultItem
 |--------|-------------|
 | [`GetLocation`](#getlocation) | Gets the location of current object. |
 | [`GetConfidenceAsDocumentBoundary`](#getconfidenceasdocumentboundary) | Gets the confidence of current object as a document boundary. |
-| [`GetRotatationTransformMatrix`](#getrotatationtransformmatrix) | Gets the transformation matrix to transform the location coordinates to image’s natural orientation. |
+| [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Gets the transformation matrix to transform the location coordinates to image’s natural orientation. |
 
 ### GetLocation
 
@@ -56,12 +56,12 @@ int GetConfidenceAsDocumentBoundary()
 
 The confidence as document boundary of the detected quad result.
 
-### GetRotatationTransformMatrix
+### GetRotationTransformMatrix
 
 Gets the transformation matrix to transform the location coordinates to image’s natural orientation.
 
 ```cpp
-void GetRotatationTransformMatrix(double matrix[9]) 
+void GetRotationTransformMatrix(double matrix[9]) 
 ```
 
 **Parameters**
