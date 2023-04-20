@@ -9,6 +9,16 @@ description: Dynamsoft Document Normalizer - User Guide for C++ Language
 
 In this guide, you will learn step by step on how to build a document normalization application with Dynamsoft Document Normalizer SDK using C++ language.
 
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Build Your First Application](#build-your-first-application)
+  - [Create a New Project](#create-a-new-project)
+  - [Include the Library](#include-the-library)
+  - [Initialize a Document Normalizer Instance](#initialize-a-document-normalizer-instance)
+  - [Detect and Save the Normalized Document](#detect-and-save-the-normalized-document)
+  - [Release Allocated Memory](#release-allocated-memory)
+  - [Build and Run the Project](#build-and-run-the-project)
+
 ## Requirements
 
 - Operating System:
@@ -22,7 +32,7 @@ In this guide, you will learn step by step on how to build a document normalizat
 
 ## Installation
 
-If you haven't downloaded the SDK yet, <a href="https://download2.dynamsoft.com/ddn/dynamsoft-document-normalizer-c_cpp-1.0.20.zip">download the `C/C++ Package`</a> now and unpack the package into the directory of your choice.
+If you haven't downloaded the SDK yet, <a href="https://download2.dynamsoft.com/ddn/dynamsoft-document-normalizer-c_cpp-2.0.0.zip">download the `C/C++ Package`</a> now and unpack the package into the directory of your choice.
 >For this tutorial, we unpack it to `[INSTALLATION FOLDER]`, change it to your unpacking path for the following content.
 
 ## Build Your First Application
