@@ -42,6 +42,11 @@ defaults:
       noTitleIndex: true
       needAutoGenerateSidebar: true
       needGenerateH3Content: true
+  - scope: 
+      path: "programming/cplusplus" 
+    values: 
+      docRootName: "Document Normalizer C++" 
+      docHomePage: "/document-normalizer/docs/server/programming/cplusplus/"
   - scope:
       path: "Hide_Tree_Page.html"
     values:
