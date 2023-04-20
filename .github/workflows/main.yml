@@ -35,7 +35,7 @@ jobs:
           [ -d Docs-Template-Repo ] && rm -rf Docs-Template-Repo
           [ ! -d DDNDocServer ] && mkdir -p DDNDocServer
           git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/document-normalizer-docs-server.git document-normalizer-docs-server
-          git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo
+          git clone --depth 1 --branch jenny-preview-branch https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo
           cp -rfp ./document-normalizer-docs-server/* ./DDNDocServer/
           cp -rfp ./Docs-Template-Repo/* ./DDNDocServer/
           cd DDNDocServer && bundle exec jekyll build --incremental
