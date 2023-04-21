@@ -12,11 +12,16 @@ cpp: /document-normalizer/docs/server/programming/cplusplus/
 cpp_api: /document-normalizer/docs/server/programming/cplusplus/api-reference/
 cpp_release_notes: /document-normalizer/docs/server/programming/cplusplus/release-notes/
 
+js: /document-normalizer/docs/js/programming/javascript/
+ios: /document-normalizer/docs/mobile/programming/ios/
+android: /document-normalizer/docs/mobile/programming/android/
+xamarin: /document-normalizer/docs/mobile/programming/xamarin/
+
 enumerations: /capture-vision/docs/core/enums/
-parameters_reference: /capture-vision/docs/core/parameters/reference/
+parameters_reference_ddn: /capture-vision/docs/core/parameters/reference/
 
 dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
-
+dcv_introduction: /capture-vision/docs/core/introduction/
 
 useVersionTree: true
 
@@ -47,6 +52,16 @@ defaults:
     values: 
       docRootName: "Document Normalizer C++" 
       docHomePage: "/document-normalizer/docs/server/programming/cplusplus/"
+  - scope: 
+      path: "programming-old/cplusplus" 
+    values: 
+      docRootName: "Document Normalizer C++" 
+      docHomePage: "/document-normalizer/docs/server/programming/cplusplus/"
+  - scope: 
+      path: "programming/c" 
+    values: 
+      docRootName: "Document Normalizer C" 
+      docHomePage: "/document-normalizer/docs/server/programming/c/"
   - scope:
       path: "Hide_Tree_Page.html"
     values:

@@ -21,4 +21,3 @@ This is the main page of Dynamsoft Document Normalizer SDK documentation for C L
 ## Release Notes
 
 - [Version 1.x](release-notes/c-1.md)
-****

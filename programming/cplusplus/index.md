@@ -6,19 +6,21 @@ needAutoGenerateSidebar: false
 permalink: /programming/cplusplus/index.html
 ---
 
-# Documentation - C++
+# Dynamsoft Document Normalizer Documentation for C++ Edition
 
-This is the main page of Dynamsoft Document Normalizer SDK documentation for C++ Language.
+Dynamsoft Document Normalizer (DDN) SDK C++ Edition is a document normalization tool designed specifically for C++ developers.
 
-## Getting Started
+Leveraging the efficiency and flexibility of the C++ language, DDN C++ Edition provides rich APIs for developers to easily integrate document normalization functionality into your c++ applications. Please take a look at [`API Reference`](api-reference/index.md) to see details.
 
-- [User Guide](user-guide/getting-started.md)
+In addition, DDN C++ Edition provides cross-platform support, running on multiple operating systems such as Windows, Linux, and Mac, to meet the needs of different development environments
 
-## API Reference
+As one of the functional products of the Dynamsoft Capture Vision (DCV) framework, DDN is also designed to seamlessly integrate with other DCV components and provide developers with a comprehensive set of image processing tools, which cover image capturing, content understanding, result parsing, and interactive workflow. If you are building such a document capturing and processing solution, take a look at [Introduction to Dynamsoft Capture Vision]({{site.dcv_introduction}}).
 
-- [API Reference](api-reference/index.md)
+Furthermore, DDN provides a powerful parameter system in order to cope with various scenarios. Read <a href="{{site.parameters_reference_ddn}}index.html" target="_blank">Parameter Reference</a> for details.
 
-## System Requirements
+## Getting Started with DDN C++ Edition
+
+The best way to start with the Dynamsoft Document Normalizer C++ Edition, is following the [`User Guide`](user-guide/getting-started.md) to build your first document normalization application. Please note that the system requirements is as below:
 
 - Operating System:
   - Windows 7, 8, 10, 11
@@ -28,8 +30,21 @@ This is the main page of Dynamsoft Document Normalizer SDK documentation for C++
 - Developing Tool
   - Visual Studio 2008 or above
   - G++ 5.4+  
-  - 
-## Release Notes
 
-- [Version 2.x](release-notes/cpp-2.md)
-- [Version 1.x](release-notes/cpp-1.md)
+## License Subscription
+
+To develop and run your application with Dynamsoft Document Normalizer SDK, you need an active license key:
+* <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=doc&product=ddn&package=desktop" target="_blank">Request a 30-day free trial license</a>
+
+### Background
+
+DDN is designed to provide document border detection and document normalization functionality for web, desktop and mobile applications. If you are developing with other programming languages, please checkout following editions:
+
+* <a href="{{ site.js }}" target="_blank">Dynamsoft Document Normalizer Documentation for Javascript</a>
+* <a href="{{ site.android }}" target="_blank">Dynamsoft Document Normalizer Documentation for Android</a>
+* <a href="{{ site.oc }}" target="_blank">Dynamsoft Document Normalizer Documentation for iOS</a>
+* <a href="{{ site.xamarin }}" target="_blank">Dynamsoft Document Normalizer Documentation for Xamarin.Forms</a>
+
+## Contact Us
+
+<a href="https://www.dynamsoft.com/company/customer-service/#contact" target="_blank">Feel free to contact us if you have any questions.</a>

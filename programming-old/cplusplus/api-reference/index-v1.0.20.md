@@ -4,7 +4,6 @@ title: Dynamsoft Document Normalizer C++ API Reference - Main Page
 description: This is the main page of Dynamsoft Document Normalizer SDK API Reference for C++ Language.
 keywords: CDocumentNormalizer, api reference, C++
 permalink: /programming/cplusplus/api-reference/index-v1.0.20.html
-permalink: /programming/cplusplus/api-reference/index-v1.0.20.html
 ---
 
 # API Reference - C++
