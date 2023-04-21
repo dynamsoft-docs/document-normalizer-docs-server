@@ -10,7 +10,7 @@ permalink: /programming/cplusplus/index.html
 
 Dynamsoft Document Normalizer (DDN) SDK C++ Edition is a document normalization tool designed specifically for C++ developers.
 
-Leveraging the efficiency and flexibility of the C++ language, DDN C++ Edition provides rich APIs for developers to easily integrate document normalization functionality into your c++ applications. Please take a look at [`API Reference`](api-reference/index.md) to see details.
+Leveraging the efficiency and flexibility of the C++ language, DDN C++ Edition provides rich APIs for developers to easily integrate document normalization functionality into your c++ applications. Please take a look at [API Reference](api-reference/index.md) to see details.
 
 In addition, DDN C++ Edition provides cross-platform support, running on multiple operating systems such as Windows, Linux, and Mac, to meet the needs of different development environments
 
@@ -36,7 +36,7 @@ The best way to start with the Dynamsoft Document Normalizer C++ Edition, is fol
 To develop and run your application with Dynamsoft Document Normalizer SDK, you need an active license key:
 * <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=doc&product=ddn&package=desktop" target="_blank">Request a 30-day free trial license</a>
 
-### Background
+## Other Edition
 
 DDN is designed to provide document border detection and document normalization functionality for web, desktop and mobile applications. If you are developing with other programming languages, please checkout following editions:
 
