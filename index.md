@@ -17,5 +17,5 @@ Coming soon:
 
 - Python
 - C
-- .NET]
-- Java]
+- .NET
+- Java

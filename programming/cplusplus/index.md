@@ -22,6 +22,8 @@ Furthermore, DDN provides a powerful parameter system in order to cope with vari
 
 The best way to start with the Dynamsoft Document Normalizer C++ Edition, is following the [`User Guide`](user-guide/getting-started.md) to build your first document normalization application. Please note that the system requirements is as below:
 
+### System Requirements
+
 - Operating System:
   - Windows 7, 8, 10, 11
   - Windows Server 2003, 2008, 2008 R2, 2012, 2016, 2019, 2022
