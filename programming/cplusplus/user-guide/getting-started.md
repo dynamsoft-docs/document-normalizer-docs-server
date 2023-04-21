@@ -22,7 +22,7 @@ In this guide, you will learn step by step on how to build a document normalizat
   - [Add an Image Source as the Input](#add-an-image-source-as-the-input)
   - [Add a Result Receiver as the Output](#add-a-result-receiver-as-the-output)
   - [Add an Object to Listener to the Status of the Image Source](#add-an-object-to-listener-to-the-status-of-the-image-source)
-  - [Starts the Process](#starts-the-process)
+  - [Start the Process](#start-the-process)
   - [Build and Run the Project Again](#build-and-run-the-project-again)
 
 ## Installation
@@ -274,12 +274,15 @@ The class `DirectoryFetcher` is capable of converting a local directory to an im
 	cvr.AddImageSourceAdapterStateListener(&listener);
     ```
 
-### Starts the Process
+### Start the Process
+
+Call the method `StartCapturing()` to start processing all the images in the specified folder.
 
     ```cpp
     char error2[512];
 	int ret2 = cvr.StartCapturing(PresetTemplate::PT_DETECT_AND_NORMALIZE_DOCUMENT, true, error2, 512);        
     ```
+During the process, the callback function `OnNormalizedImagesReceived()` is triggered each time an image finishes processing. After all images are processed, the listener function `OnImageSourceAdapterStateChanged()` will return the image source state as `ISS_EXHAUSTED` and the process is stopped with the method `StopCapturing()`.
 
 ### Build and Run the Project Again
 
