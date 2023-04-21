@@ -278,10 +278,10 @@ The class `DirectoryFetcher` is capable of converting a local directory to an im
 
 Call the method `StartCapturing()` to start processing all the images in the specified folder.
 
-    ```cpp
-    char error2[512];
-    int ret2 = cvr.StartCapturing(PresetTemplate::PT_DETECT_AND_NORMALIZE_DOCUMENT, true, error2, 512);        
-    ```
+```cpp
+char error2[512];
+int ret2 = cvr.StartCapturing(PresetTemplate::PT_DETECT_AND_NORMALIZE_DOCUMENT, true, error2, 512);        
+```
 
 During the process, the callback function `OnNormalizedImagesReceived()` is triggered each time an image finishes processing. After all images are processed, the listener function `OnImageSourceAdapterStateChanged()` will return the image source state as `ISS_EXHAUSTED` and the process is stopped with the method `StopCapturing()`.
 
