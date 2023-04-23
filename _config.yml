@@ -18,7 +18,7 @@ android: /document-normalizer/docs/mobile/programming/android/
 xamarin: /document-normalizer/docs/mobile/programming/xamarin/
 
 enumerations: /capture-vision/docs/core/enums/
-parameters_reference_ddn: /capture-vision/docs/core/parameters/reference/
+parameters_reference_ddn: /document-normalizer/docs/core/parameters/reference/
 
 dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
 dcv_introduction: /capture-vision/docs/core/introduction/
