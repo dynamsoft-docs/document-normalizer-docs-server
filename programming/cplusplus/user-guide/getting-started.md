@@ -75,7 +75,7 @@ Let's start by creating a console application which demonstrates how to use the 
         #else
             #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftLicensex86.lib")
             #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftCaptureVisionRouterx86.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftDocumentNormalizerx86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftDocumentNormalizerx86.lib")
         #endif
     #endif
     ```
@@ -85,8 +85,12 @@ Let's start by creating a console application which demonstrates how to use the 
 1. Initialize the license key.
 
     ```cpp
-    char errorMsg1[256];
-    CLicenseManager::InitLicense("DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9", errorMsg1, 256);
+    int main()
+    {
+        int errorCode = 0;
+        char errorMsg[256];
+        errorCode = CLicenseManager::InitLicense("DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9", errorMsg, 256);
+    }
     ```
 
     > The string "DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9" here is a free public trial license. Note that network connection is required for this license to work. When it expires, you can request a 30-day free trial license from the <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=guide&product=ddn&package=desktop" target="_blank">Customer Portal</a>.
@@ -102,47 +106,48 @@ Let's start by creating a console application which demonstrates how to use the 
 1. Apply normalization for an image file.
 
     ```cpp
-	CCapturedResultArray* results = cvr.Capture("[INSTALLATION FOLDER]/Images/sample-image.jpg", PresetTemplate::PT_DETECT_AND_NORMALIZE_DOCUMENT);
-	/*
-	* results is an Array of CCapturedResult objects, each object is the result of an image.
-	* In our case, there is only one image, so the first result is the result for it.
-	*/
-	const CCapturedResult* result = results->GetResult(0);
-	int count = result->GetCount();
-	const CNormalizedImageResultItem* normalizedImage = NULL;
-	/*
-	* There can be multiple types of result items per image.
-	* We check each of these items until we find the normalized image.
-	*/
-	for (int i = 0; i < count; i++) {
-		const CCapturedResultItem* item = result->GetItem(0);
-		CapturedResultItemType type = item->GetType();
-		if (type | CapturedResultItemType::CRIT_NORMALIZED_IMAGE) {
-			normalizedImage = dynamic_cast<const ddn::CNormalizedImageResultItem*>(item);
-		}
-	}
+    CCapturedResultArray* results = cvr.Capture("[INSTALLATION FOLDER]/Images/sample-image.jpg", PresetTemplate::PT_DETECT_AND_NORMALIZE_DOCUMENT);
+    /*
+    * results is an Array of CCapturedResult objects, each object is the result of an image.
+    * In our case, there is only one image, so the first result is the result for it.
+    */
+    const CCapturedResult* result = results->GetResult(0);
+    int count = result->GetCount();
+    const CNormalizedImageResultItem* normalizedImage = NULL;
+    /*
+    * There can be multiple types of result items per image.
+    * We check each of these items until we find the normalized image.
+    */
+    for (int i = 0; i < count; i++) {
+        const CCapturedResultItem* item = result->GetItem(0);
+        CapturedResultItemType type = item->GetType();
+        if (type | CapturedResultItemType::CRIT_NORMALIZED_IMAGE) {
+            normalizedImage = dynamic_cast<const ddn::CNormalizedImageResultItem*>(item);
+        }
+    }
     ```
 
 2. Save the normalized result as an image file.
 
     ```cpp
-	/*
-	* We check whether the normalized image exists.
-	* If yes, we save the image to the disk.
-	*/
-	if (normalizedImage != NULL)
-	{
-		const CImageData* img = normalizedImage->GetImageData();
-		string filePath = "[INSTALLATION FOLDER]/results/normalizedResult.png";
-		int saveReturnCode = normalizedImage->SaveToFile(filePath.c_str());
-		if (saveReturnCode == 0){
-			std::cout << "Normalized image saved!\n";
+    /*
+    * We check whether the normalized image exists.
+    * If yes, we save the image to the disk.
+    */
+    if (normalizedImage != NULL)
+    {
+        const CImageData* img = normalizedImage->GetImageData();
+        string filePath = "[INSTALLATION FOLDER]/results/normalizedResult.png";
+        int saveReturnCode = normalizedImage->SaveToFile(filePath.c_str());
+        if (saveReturnCode == 0){
+            std::cout << "Normalized image saved!\n";
             }
-	}
-	else {
-		std::cout << "Normalization failed!\n";
-	}    
+    }
+    else {
+        std::cout << "Normalization failed!\n";
+    }    
     ```
+
 > Note:
 > 
 > Please change all `[INSTALLATION FOLDER]` in above code snippet to your unpacking path.
@@ -205,9 +210,13 @@ The class `DirectoryFetcher` is capable of converting a local directory to an im
 2. Create a `DirectoryFetcher` object and use it as the image source.
 
     ```cpp
-	CDirectoryFetcher fetcher;
-	fetcher.SetDirectory("[THE DIRECTORY THAT HOLDS THE IMAGES]");
-	cvr.SetInput(&fetcher);
+    int main()
+    {
+        //...
+        CDirectoryFetcher fetcher;
+        fetcher.SetDirectory("[THE DIRECTORY THAT HOLDS THE IMAGES]");
+        cvr.SetInput(&fetcher);
+    }
     ```
 
 ### Add a Result Receiver as the Output
@@ -248,8 +257,12 @@ The class `DirectoryFetcher` is capable of converting a local directory to an im
 2. Create a receiver object and set it as the output.
 
     ```cpp
-	MyCapturedResultReceiver capturedReceiver;
-	cvr.AddResultReceiver(&capturedReceiver);
+    int main()
+    {
+        //...
+        MyCapturedResultReceiver capturedReceiver;
+        cvr.AddResultReceiver(&capturedReceiver);
+    }
     ```
 
 ### Add an Object to Listener to the Status of the Image Source
@@ -257,10 +270,10 @@ The class `DirectoryFetcher` is capable of converting a local directory to an im
 1. Define the listener class.
 
     ```cpp
-    class MyImageSourceAdapterStateListener : public virtual CImageSourceAdapterStateListener {
+    class MyImageSourceStateListener : public virtual CImageSourceStateListener {
     public:
         CCaptureVisionRouter* cvr = NULL;
-        void OnImageSourceAdapterStateChanged(ImageSourceState state) {
+        void OnImageSourceStateChanged(ImageSourceState state) {
             if (state == ISS_EXHAUSTED) {
                 cvr->StopCapturing();
             }
@@ -271,9 +284,13 @@ The class `DirectoryFetcher` is capable of converting a local directory to an im
 2. Create a listener object and connect it to the image source
 
     ```cpp
-    MyImageSourceAdapterStateListener listener;
-	listener.cvr = &cvr;
-	cvr.AddImageSourceAdapterStateListener(&listener);
+    int main()
+    {
+        //...
+        MyImageSourceStateListener listener;
+        listener.cvr = &cvr;
+        cvr.AddImageSourceStateListener(&listener);
+    }
     ```
 
 ### Start the Process
@@ -281,11 +298,15 @@ The class `DirectoryFetcher` is capable of converting a local directory to an im
 Call the method `StartCapturing()` to start processing all the images in the specified folder.
 
 ```cpp
-char error2[512];
-int ret2 = cvr.StartCapturing(PresetTemplate::PT_DETECT_AND_NORMALIZE_DOCUMENT, true, error2, 512);        
+int main()
+{
+    //...
+    errorCode = cvr.StartCapturing(PresetTemplate::PT_DETECT_AND_NORMALIZE_DOCUMENT, true, errorMsg, 256);
+    cout << "Start Capturing: " << errorCode << endl;
+}
 ```
 
-During the process, the callback function `OnNormalizedImagesReceived()` is triggered each time an image finishes processing. After all images are processed, the listener function `OnImageSourceAdapterStateChanged()` will return the image source state as `ISS_EXHAUSTED` and the process is stopped with the method `StopCapturing()`.
+During the process, the callback function `OnNormalizedImagesReceived()` is triggered each time an image finishes processing. After all images are processed, the listener function `OnImageSourceStateChanged()` will return the image source state as `ISS_EXHAUSTED` and the process is stopped with the method `StopCapturing()`.
 
 ### Build and Run the Project Again
 
