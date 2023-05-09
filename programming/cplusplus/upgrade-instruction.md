@@ -41,16 +41,23 @@ using namespace dynamsoft::ddn;
 
 Put the following **.dll** files in your lib:
 
-* DynamsoftBarcodeReaderx64.dll
+x64:
+
 * DynamsoftCaptureVisionRouterx64.dll
-* DynamsoftCodeParserDedicatorx64.dll
-* DynamsoftCodeParserx64.dll
 * DynamsoftCorex64.dll
 * DynamsoftDocumentNormalizerx64.dll
 * DynamsoftImageProcessingx64.dll
-* DynamsoftLabelRecognizerx64.dll
 * DynamsoftLicensex64.dll
 * DynamsoftUtilityx64.dll
+
+x86:
+
+* DynamsoftCaptureVisionRouterx86.dll
+* DynamsoftCorex86.dll
+* DynamsoftDocumentNormalizerx86.dll
+* DynamsoftImageProcessingx86.dll
+* DynamsoftLicensex86.dll
+* DynamsoftUtilityx86.dll
 
 ### Migrate from Class CDocumentNormalizer to Class CCaptureVisionRouter
 
