@@ -24,7 +24,7 @@ class CNormalizedImagesUnit: CIntermediateResultUnit
 
 | Method | Description |
 |--------|-------------|
-| [`GetCount`](#getcount) | Gets a NormalizedImage object from current object. |
+| [`GetCount`](#getcount) | Gets the count of `CNormalizedImageElement` objects in current object. |
 | [`GetNormalizedImage`](#getnormalizedimage) | Gets a NormalizedImage object from current object. |
 
 ### GetCount
