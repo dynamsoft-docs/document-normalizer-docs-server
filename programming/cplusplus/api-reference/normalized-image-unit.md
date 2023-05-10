@@ -1,12 +1,12 @@
 ---
 layout: default-layout
-title: CNormalizedImageUnit Class
-description: This page shows CNormalizedImageUnit class definition of Dynamsoft Document Normalizer SDK C++ Edition.
-keywords: GetNormalizedImage, CNormalizedImageUnit, api reference
+title: CNormalizedImagesUnit Class
+description: This page shows CNormalizedImagesUnit class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+keywords: GetNormalizedImage, CNormalizedImagesUnit, api reference
 permalink: /programming/cplusplus/api-reference/normalized-image-unit.html
 ---
 
-# CNormalizedImageUnit Class
+# CNormalizedImagesUnit Class
 
 ## Definition
 
@@ -15,23 +15,36 @@ permalink: /programming/cplusplus/api-reference/normalized-image-unit.html
 *Assembly:* DynamsoftDocumentNormalizer.dll
 
 ```cpp
-class CNormalizedImageUnit: CIntermediateResultUnit
+class CNormalizedImagesUnit: CIntermediateResultUnit
 ```
 
-*Inheritance:* [CIntermediateResultUnit]() -> CNormalizedImageUnit
+*Inheritance:* [CIntermediateResultUnit]() -> CNormalizedImagesUnit
 
 ## Methods
 
 | Method | Description |
 |--------|-------------|
+| [`GetCount`](#getcount) | Gets a NormalizedImage object from current object. |
 | [`GetNormalizedImage`](#getnormalizedimage) | Gets a NormalizedImage object from current object. |
+
+### GetCount
+
+Gets the count of `CNormalizedImageElement` objects in current object.
+
+```cpp
+int GetCount() 
+```
+
+**Return Value**
+
+The count of `CNormalizedImageElement` objects in current object.
 
 ### GetNormalizedImage
 
 Gets a NormalizedImage object from current object.
 
 ```cpp
-const CNormalizedImageElement* GetNormalizedImage()
+const CNormalizedImageElement* GetNormalizedImage(int index)
 ```
 
 **Return Value**

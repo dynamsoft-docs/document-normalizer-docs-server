@@ -56,7 +56,7 @@ permalink: /programming/cplusplus/api-reference/index.html
 - [`CDetectedQuadsUnit`]({{ site.cpp_api }}detected-quads-unit.html)
 - [`CLongLinesUnit`]({{ site.cpp_api }}long-lines-unit.html)
 - [`CNormalizedImageElement`]({{ site.cpp_api }}normalized-image-element.html)
-- [`CNormalizedImageUnit`]({{ site.cpp_api }}normalized-image-unit.html)
+- [`CNormalizedImagesUnit`]({{ site.cpp_api }}normalized-image-unit.html)
 
 ## State Listener
 
