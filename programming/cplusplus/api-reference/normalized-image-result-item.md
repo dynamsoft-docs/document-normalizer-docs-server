@@ -25,7 +25,8 @@ class CNormalizedImageResultItem: CCapturedResultItem
 | Method | Description |
 |--------|-------------|
 | [`GetImageData`](#getimagedata) | Gets the ImageData of current object. |
-| [`SaveToFile`](#savetofile) | Save the ImageData to a file. |
+| [`GetLocation`](#getlocation) | Gets the location of current object. |
+| [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Get the rotation transformation matrix. |
 
 ## GetImageData
 
@@ -41,24 +42,28 @@ The image data.
 
 **See Also**
 
-* [CImageData]()
+* [CImageData]({{ site.dcv_cpp_api }}core/basic-structures/image-data.html)
 
-## SaveToFile
+### GetLocation
 
-Save the ImageData to a file.
+Gets the location of current object.
 
 ```cpp
-int SaveToFile(const char* filePath)
+const CQuadrilateral GetLocation() 
 ```
-
-**Parameters**
-
-`[in] filePath` The path of the output image file with the extension specifying the image format. It supports BMP, PNG, JPEG and PDF file types. If the target file exists, the image will be appended to the last page of the PDF file while the BMP, PNG and JPEG file will be replaced.
 
 **Return Value**
 
-Returns the error code.
+The location of current object.
 
 **See Also**
 
-* [ErrorCode]()
+* [CQuadrilateral]({{ site.dcv_cpp_api }}core/basic-structures/quadrilateral.html)
+
+### GetRotationTransformMatrix
+
+Get the rotation transformation matrix.
+
+```cpp
+void GetRotationTransformMatrix(double matrix[9])
+```

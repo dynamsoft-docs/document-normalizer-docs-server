@@ -23,7 +23,6 @@ class CNormalizedImageElement
 | Method | Description |
 |--------|-------------|
 | [`GetImageData`](#getimagedata) | Gets the ImageData of current object. |
-| [`GetReferencedElement`](#getreferencedelement) | Gets the referenced RegionObjectElement object of current object. |
 
 ## GetImageData
 
@@ -39,20 +38,4 @@ The image data.
 
 **See Also**
 
-* [CImageData]()
-
-### GetReferencedElement
-
-Gets the referenced RegionObjectElement object of current object.
-
-```cpp
-const CRegionObjectElement* GetReferencedElement()
-```
-
-**Return Value**
-
-Returns the referenced RegionObjectElement object.
-
-**See Also**
-
-* [CRegionObjectElement]()
+* [CImageData]({{ site.dcv_cpp_api }}core/basic-structures/image-data.html)
