@@ -49,4 +49,4 @@ Returns a pointer to a CDetectedQuadsResult object that represents the result at
 
 **See Also**
 
-* [CDetectedQuadsResult]()
+* [CDetectedQuadsResult](detected-quads-result.md)

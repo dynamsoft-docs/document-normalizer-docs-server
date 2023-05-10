@@ -18,7 +18,7 @@ permalink: /programming/cplusplus/api-reference/corners-unit.html
 class CCornersUnit: CIntermediateResultUnit
 ```
 
-*Inheritance:* [CIntermediateResultUnit]() -> CCornersUnit
+*Inheritance:* [CIntermediateResultUnit]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CCornersUnit
 
 ## Methods
 
@@ -59,5 +59,5 @@ Returns the error code.
 
 **See Also**
 
-* [CCorner]()
-* [ErrorCode]()
+* [CCorner]({{ site.dcv_cpp_api }}core/basic-structures/corner.html)
+* [ErrorCode]({{ site.enumerations }}core/error-code.html?src=cpp&&lang=cpp)

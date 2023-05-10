@@ -18,7 +18,7 @@ permalink: /programming/cplusplus/api-reference/detected-quad-element.html
 class CDetectedQuadElement: CRegionObjectElement
 ```
 
-*Inheritance:* [CRegionObjectElement]() -> CDetectedQuadElement
+*Inheritance:* [CRegionObjectElement]({{ site.dcv_cpp_api }}core/intermediate-results/region-object-element.html) -> CDetectedQuadElement
 
 ## Methods
 

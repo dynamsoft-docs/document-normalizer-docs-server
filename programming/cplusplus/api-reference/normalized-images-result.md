@@ -57,7 +57,7 @@ Returns the error code of the operation. A non-zero value indicates an error occ
 
 **See Also**
 
-* [ErrorCode]()
+* [ErrorCode]({{ site.enumerations }}core/error-code.html?src=cpp&&lang=cpp)
 
 ### GetErrorString
 
@@ -89,7 +89,7 @@ Returns a pointer to the normalized image at the specified index. If the index i
 
 **See Also**
 
-* [CNormalizedImageResultItem]()
+* [CNormalizedImageResultItem](normalized-image-result-item.md)
 
 ### GetSourceImageHashId
 
@@ -117,4 +117,4 @@ Returns a pointer to the tag of the source image that was normalized.
 
 **See Also**
 
-* [CImageTag]()
+* [CImageTag]({{ site.dcv_cpp_api }}core/basic-structures/image-tag.html)

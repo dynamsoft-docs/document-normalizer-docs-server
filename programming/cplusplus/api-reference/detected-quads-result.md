@@ -55,7 +55,7 @@ Returns the error code.
 
 **See Also**
 
-* [ErrorCode]()
+* [ErrorCode]({{ site.enumerations }}core/error-code.html?src=cpp&&lang=cpp)
 
 ### GetErrorString
 
@@ -87,7 +87,7 @@ Returns a pointer to a CDetectedQuadResultItem object that represents the detect
 
 **See Also**
 
-* [CDetectedQuadResultItem]()
+* [CDetectedQuadResultItem](detected-quad-result-item.md)
 
 ### GetSourceImageHashId
 
@@ -115,4 +115,4 @@ Returns a pointer to a CImageTag object that represents the tag of the source im
 
 **See Also**
 
-* [CImageTag]()
+* [CImageTag]({{ site.dcv_cpp_api }}core/basic-structures/image-tag.html)

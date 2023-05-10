@@ -18,7 +18,7 @@ permalink: /programming/cplusplus/api-reference/candidate-quad-edges-unit.html
 class CCandidateQuadEdgesUnit: CIntermediateResultUnit
 ```
 
-*Inheritance:* [CIntermediateResultUnit]() -> CCandidateQuadEdgesUnit
+*Inheritance:* [CIntermediateResultUnit]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CCandidateQuadEdgesUnit
 
 ## Methods
 
@@ -59,5 +59,5 @@ Returns the error code.
 
 **See Also**
 
-* [CEdge]()
-* [ErrorCode]()
+* [CEdge]({{ site.dcv_cpp_api }}core/basic-structures/edge.html)
+* [ErrorCode]({{ site.enumerations }}core/error-code.html?src=cpp&&lang=cpp)

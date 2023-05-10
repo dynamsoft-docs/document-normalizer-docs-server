@@ -18,7 +18,7 @@ permalink: /programming/cplusplus/api-reference/detected-quad-result-item.html
 class CDetectedQuadResultItem: CCapturedResultItem
 ```
 
-*Inheritance:* [CCapturedResultItem]() -> CDetectedQuadResultItem
+*Inheritance:* [CCapturedResultItem]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html) -> CDetectedQuadResultItem
 
 ## Methods
 
@@ -42,7 +42,7 @@ The location of current object.
 
 **See Also**
 
-* [CQuadrilateral]()
+* [CQuadrilateral]({{ site.dcv_cpp_api }}core/basic-structures/quadrilateral.html)
 
 ### GetConfidenceAsDocumentBoundary
 

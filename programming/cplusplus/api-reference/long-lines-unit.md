@@ -18,7 +18,7 @@ permalink: /programming/cplusplus/api-reference/long-line-unit.html
 class CLongLinesUnit: CIntermediateResultUnit
 ```
 
-*Inheritance:* [CIntermediateResultUnit]() -> CLongLinesUnit
+*Inheritance:* [CIntermediateResultUnit]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CLongLinesUnit
 
 ## Methods
 
@@ -59,5 +59,5 @@ Returns the error code.
 
 **See Also**
 
-* [CLineSegment]()
-* [ErrorCode]()
+* [CLineSegment]({{ site.dcv_cpp_api }}core/basic-structures/line-segment.html)
+* [ErrorCode]({{ site.enumerations }}core/error-code.html?src=cpp&&lang=cpp)

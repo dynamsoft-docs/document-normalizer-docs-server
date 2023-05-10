@@ -18,7 +18,7 @@ permalink: /programming/cplusplus/api-reference/normalized-image-result-item.htm
 class CNormalizedImageResultItem: CCapturedResultItem
 ```
 
-*Inheritance:* [CCapturedResultItem]() -> CNormalizedImageResultItem
+*Inheritance:* [CCapturedResultItem]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html) -> CNormalizedImageResultItem
 
 ## Methods
 

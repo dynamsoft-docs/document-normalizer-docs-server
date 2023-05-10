@@ -18,7 +18,7 @@ permalink: /programming/cplusplus/api-reference/normalized-image-unit.html
 class CNormalizedImagesUnit: CIntermediateResultUnit
 ```
 
-*Inheritance:* [CIntermediateResultUnit]() -> CNormalizedImagesUnit
+*Inheritance:* [CIntermediateResultUnit]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CNormalizedImagesUnit
 
 ## Methods
 

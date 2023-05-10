@@ -18,7 +18,7 @@ permalink: /programming/cplusplus/api-reference/detected-quads-unit.html
 class CDetectedQuadsUnit: CIntermediateResultUnit
 ```
 
-*Inheritance:* [CIntermediateResultUnit]() -> CDetectedQuadsUnit
+*Inheritance:* [CIntermediateResultUnit]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CDetectedQuadsUnit
 
 ## Methods
 

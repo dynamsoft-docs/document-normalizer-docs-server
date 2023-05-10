@@ -49,4 +49,4 @@ Returns a pointer to a CNormalizedImagesResult object that represents the result
 
 **See Also**
 
-* [CNormalizedImagesResult]()
+* [CNormalizedImagesResult](normalized-images-result.md)
