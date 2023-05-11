@@ -10,8 +10,14 @@ permalink: /programming/cplusplus/api-reference/detected-quads-result-array.html
 
 An array storing detected quads results.
 
+## Definition
+
+*Namespace:* dynamsoft::ddn
+
+*Assembly:* DynamsoftDocumentNormalizer.dll
+
 ```cpp
-class dynamsoft::ddn::CDetectedQuadsResultArray
+class CDetectedQuadsResult
 ```
 
 | Method | Description |

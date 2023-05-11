@@ -8,6 +8,8 @@ permalink: /programming/cplusplus/api-reference/normalized-image-unit.html
 
 # CNormalizedImagesUnit Class
 
+A unit of `CNormalizedImageElement` objects.
+
 ## Definition
 
 *Namespace:* dynamsoft::ddn::intermediate_results

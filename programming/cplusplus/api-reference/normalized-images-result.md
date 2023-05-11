@@ -8,7 +8,7 @@ permalink: /programming/cplusplus/api-reference/normalized-images-result.html
 
 # CNormalizedImagesResult
 
-The CNormalizedImagesResult class represents the result of a normalization process on a set of images. It provides information about the source image, the number of items in the result, and access to individual normalized image result items.
+The `CNormalizedImagesResult` class represents the result of a normalization process on a set of images. It provides information about the source image, the number of items in the result, and access to individual normalized image result items.
 
 ## Definition
 

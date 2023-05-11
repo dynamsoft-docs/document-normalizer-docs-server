@@ -8,10 +8,16 @@ permalink: /programming/cplusplus/api-reference/normalized-images-result-array.h
 
 # CNormalizedImagesResultArray Class
 
-An array storing normalized images results.
+An array storing `CNormalizedImagesResult` objects.
+
+## Definition
+
+*Namespace:* dynamsoft::ddn
+
+*Assembly:* DynamsoftDocumentNormalizer.dll
 
 ```cpp
-class dynamsoft::ddn::CNormalizedImagesResultArray
+class CNormalizedImagesResultArray
 ```
 
 | Method | Description |
