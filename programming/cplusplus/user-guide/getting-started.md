@@ -273,7 +273,7 @@ The class `DirectoryFetcher` is capable of converting a local directory to an im
     class MyImageSourceStateListener : public virtual CImageSourceStateListener {
     public:
         CCaptureVisionRouter* cvr = NULL;
-        void OnImageSourceStateChanged(ImageSourceState state) {
+        void OnImageSourceStateReceived(ImageSourceState state) {
             if (state == ISS_EXHAUSTED) {
                 cvr->StopCapturing();
             }
@@ -306,7 +306,7 @@ int main()
 }
 ```
 
-During the process, the callback function `OnNormalizedImagesReceived()` is triggered each time an image finishes processing. After all images are processed, the listener function `OnImageSourceStateChanged()` will return the image source state as `ISS_EXHAUSTED` and the process is stopped with the method `StopCapturing()`.
+During the process, the callback function `OnNormalizedImagesReceived()` is triggered each time an image finishes processing. After all images are processed, the listener function `OnImageSourceStateReceived()` will return the image source state as `ISS_EXHAUSTED` and the process is stopped with the method `StopCapturing()`.
 
 ### Build and Run the Project Again
 
