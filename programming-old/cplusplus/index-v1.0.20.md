@@ -12,12 +12,12 @@ This is the main page of Dynamsoft Document Normalizer SDK documentation for C++
 
 ## Getting Started
 
-- [User Guide](user-guide/getting-started.md)
+- [User Guide]({{ site.cpp }}user-guide/getting-started.html)
 
 ## API Reference
 
-- [API Reference](api-reference/index.md)
+- [API Reference]({{ site.cpp }}api-reference/index.html)
 
 ## Release Notes
 
-- [Version 1.x](release-notes/cpp-1.md)
+- [Version 1.x]({{ site.cpp }}release-notes/cpp-1.html)
