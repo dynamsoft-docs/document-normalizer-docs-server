@@ -8,11 +8,13 @@ permalink: /programming/cplusplus/api-reference/detected-quad-element.html
 
 # CDetectedQuadElement Class
 
+The CDetectedQuadElement class stores an intermediate result whose type is detected quad.
+
 ## Definition
 
 *Namespace:* dynamsoft::ddn::intermediate_results
 
-*Assembly:* DynamsoftDocumentNormalizer.dll
+*Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
 class CDetectedQuadElement: CRegionObjectElement

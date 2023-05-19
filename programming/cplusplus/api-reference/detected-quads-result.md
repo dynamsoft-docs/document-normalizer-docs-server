@@ -8,11 +8,13 @@ permalink: /programming/cplusplus/api-reference/detected-quads-result.html
 
 # CDetectedQuadsResult Class
 
+The CDetectedQuadsResult class stores a captured result whose type is detected quads.
+
 ## Definition
 
 *Namespace:* dynamsoft::ddn
 
-*Assembly:* DynamsoftDocumentNormalizer.dll
+*Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
 class CDetectedQuadsResult

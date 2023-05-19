@@ -8,11 +8,13 @@ permalink: /programming/cplusplus/api-reference/detected-quad-result-item.html
 
 # CDetectedQuadResultItem Class
 
+The CDetectedQuadResultItem class stores a captured result whose type is detected quad.
+
 ## Definition
 
 *Namespace:* dynamsoft::ddn
 
-*Assembly:* DynamsoftDocumentNormalizer.dll
+*Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
 class CDetectedQuadResultItem: CCapturedResultItem

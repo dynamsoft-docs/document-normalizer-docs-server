@@ -14,7 +14,7 @@ An array storing `CNormalizedImagesResult` objects.
 
 *Namespace:* dynamsoft::ddn
 
-*Assembly:* DynamsoftDocumentNormalizer.dll
+*Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
 class CNormalizedImagesResultArray

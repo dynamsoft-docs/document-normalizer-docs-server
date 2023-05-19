@@ -8,11 +8,13 @@ permalink: /programming/cplusplus/api-reference/detected-quads-unit.html
 
 # CDetectedQuadsUnit Class
 
+The CDetectedQuadsUnit class represents an intermediate result unit whose type is detected quads.
+
 ## Definition
 
 *Namespace:* dynamsoft::ddn::intermediate_results
 
-*Assembly:* DynamsoftDocumentNormalizer.dll
+*Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
 class CDetectedQuadsUnit: CIntermediateResultUnit

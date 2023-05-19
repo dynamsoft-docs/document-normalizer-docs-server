@@ -8,11 +8,13 @@ permalink: /programming/cplusplus/api-reference/candidate-quad-edges-unit.html
 
 # CCandidateQuadEdgesUnit Class
 
+The CCandidateQuadEdgesUnit class represents an intermediate result unit whose type is candidate quad edges.
+
 ## Definition
 
 *Namespace:* dynamsoft::ddn::intermediate_results
 
-*Assembly:* DynamsoftDocumentNormalizer.dll
+*Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
 class CCandidateQuadEdgesUnit: CIntermediateResultUnit

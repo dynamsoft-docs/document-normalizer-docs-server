@@ -8,13 +8,13 @@ permalink: /programming/cplusplus/api-reference/normalized-image-unit.html
 
 # CNormalizedImagesUnit Class
 
-A unit of `CNormalizedImageElement` objects.
+The CNormalizedImagesUnit class represents an intermediate result unit whose type is normalized images.
 
 ## Definition
 
 *Namespace:* dynamsoft::ddn::intermediate_results
 
-*Assembly:* DynamsoftDocumentNormalizer.dll
+*Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
 class CNormalizedImagesUnit: CIntermediateResultUnit

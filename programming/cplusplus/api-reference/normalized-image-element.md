@@ -8,11 +8,13 @@ permalink: /programming/cplusplus/api-reference/normalized-image-element.html
 
 # CNormalizedImageElement Class
 
+The CNormalizedImageElement class stores an intermediate result whose type is normalized image.
+
 ## Definition
 
 *Namespace:* dynamsoft::ddn::intermediate_results
 
-*Assembly:* DynamsoftDocumentNormalizer.dll
+*Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
 class CNormalizedImageElement

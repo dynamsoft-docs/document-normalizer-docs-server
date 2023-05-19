@@ -8,11 +8,13 @@ permalink: /programming/cplusplus/api-reference/long-line-unit.html
 
 # CLongLinesUnit Class
 
+The CLongLinesUnit class represents an intermediate result unit whose type is long lines.
+
 ## Definition
 
 *Namespace:* dynamsoft::ddn::intermediate_results
 
-*Assembly:* DynamsoftDocumentNormalizer.dll
+*Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
 class CLongLinesUnit: CIntermediateResultUnit

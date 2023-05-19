@@ -8,11 +8,13 @@ permalink: /programming/cplusplus/api-reference/corners-unit.html
 
 # CCornersUnit Class
 
+The CCornersUnit class represents an intermediate result unit whose type is corners.
+
 ## Definition
 
 *Namespace:* dynamsoft::ddn::intermediate_results
 
-*Assembly:* DynamsoftDocumentNormalizer.dll
+*Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
 class CCornersUnit: CIntermediateResultUnit

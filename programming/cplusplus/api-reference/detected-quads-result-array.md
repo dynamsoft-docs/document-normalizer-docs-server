@@ -8,13 +8,13 @@ permalink: /programming/cplusplus/api-reference/detected-quads-result-array.html
 
 # CDetectedQuadsResultArray Class
 
-An array storing detected quads results.
+An array storing `CDetectedQuadsResult` objects.
 
 ## Definition
 
 *Namespace:* dynamsoft::ddn
 
-*Assembly:* DynamsoftDocumentNormalizer.dll
+*Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
 class CDetectedQuadsResult
