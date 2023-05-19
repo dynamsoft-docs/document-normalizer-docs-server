@@ -26,7 +26,7 @@ class CNormalizedImageElement
 |--------|-------------|
 | [`GetImageData`](#getimagedata) | Gets the ImageData of current object. |
 
-## GetImageData
+### GetImageData
 
 Gets the ImageData of current object.
 

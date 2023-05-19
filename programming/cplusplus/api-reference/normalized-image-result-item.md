@@ -30,7 +30,7 @@ class CNormalizedImageResultItem: CCapturedResultItem
 | [`GetLocation`](#getlocation) | Gets the location of current object. |
 | [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Get the rotation transformation matrix. |
 
-## GetImageData
+### GetImageData
 
 Gets the ImageData of current object.
 

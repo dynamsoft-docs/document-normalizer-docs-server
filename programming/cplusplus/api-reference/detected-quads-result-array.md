@@ -17,15 +17,17 @@ An array storing `CDetectedQuadsResult` objects.
 *Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
-class CDetectedQuadsResult
+class CDetectedQuadsResultArray
 ```
+
+## Methods
 
 | Method | Description |
 |--------|-------------|
 | [`GetCount`](#getcount) | Gets the count of detected quads results in the array.|
 | [`GetResult`](#getresult) | Gets a detected quads result at a specified index.|
 
-## GetCount
+### GetCount
 
 Gets the count of detected quads results in the array.
 
@@ -37,7 +39,7 @@ int GetCount()
 
 The count of detected quads results in the array.
 
-## GetResult
+### GetResult
 
 Gets a detected quads result at a specified index.
 

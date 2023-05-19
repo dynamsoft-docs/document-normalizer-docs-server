@@ -28,7 +28,7 @@ class CDetectedQuadElement: CRegionObjectElement
 |--------|-------------|
 | [`GetConfidenceAsDocumentBoundary`](#getconfidenceasdocumentboundary) | Gets the confidence as document boundary of current object. |
 
-## GetConfidenceAsDocumentBoundary
+### GetConfidenceAsDocumentBoundary
 
 Gets the confidence as document boundary of current object.
 

@@ -20,12 +20,14 @@ An array storing `CNormalizedImagesResult` objects.
 class CNormalizedImagesResultArray
 ```
 
+## Methods
+
 | Method | Description |
 |--------|-------------|
 | [`GetCount`](#getcount) | Gets the count of normalized images results in the array.|
 | [`GetResult`](#getresult) | Gets a normalized images result at a specified index.|
 
-## GetCount
+### GetCount
 
 Gets the count of normalized images results in the array.
 
@@ -37,7 +39,7 @@ int GetCount()
 
 The count of normalized images results in the array.
 
-## GetResult
+### GetResult
 
 Gets a normalized images result at a specified index.
 

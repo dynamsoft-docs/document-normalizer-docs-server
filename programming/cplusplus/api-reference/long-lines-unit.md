@@ -3,7 +3,7 @@ layout: default-layout
 title: CLongLinesUnit Class
 description: This page shows CLongLinesUnit class definition of Dynamsoft Document Normalizer SDK C++ Edition.
 keywords: GetCount, GetLongLine, CLongLinesUnit, api reference
-permalink: /programming/cplusplus/api-reference/long-line-unit.html
+permalink: /programming/cplusplus/api-reference/long-lines-unit.html
 ---
 
 # CLongLinesUnit Class
