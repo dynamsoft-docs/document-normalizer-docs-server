@@ -43,9 +43,9 @@ Class `CCaptureVisionRouter` is added to replace class `CDocumentNormalizer`. Th
 | v1.x API | v2.x API |
 | --- | --- |
 | class dynamsoft::ddn::CDocumentNormalizer | class dynamsoft::cvr::CCaptureVisionRouter |
-| DetectQuad<br>Normalize | [`Capture`]({{ site.dcv_cpp_api }}capture-vision-router/single-file-processing.md#capture) |
-| InitRuntimeSettingsFromFile<br>InitRuntimeSettingsFromString<br>OutputRuntimeSettingsToFile<br>OutputRuntimeSettingsToString | [`InitSettings`]({{ site.dcv_cpp_api }}capture-vision-router/settings.html#initsettings)<br>[`InitSettingsFromFile`]({{ site.dcv_cpp_api }}capture-vision-router/settings.html#initsettingsfromfile)<br>[`OutputSettings`]({{ site.dcv_cpp_api }}capture-vision-router/settings.html#outputsettings)<br>[`OutputSettingsToFile`]({{ site.dcv_cpp_api }}capture-vision-router/settings.html#outputsettingstofile) |
-| CDetectedQuadResultArray<br>CNormalizedImageResult | [`CCapturedResultArray`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-array.html) |
+| DetectQuad()<br>Normalize() | [`Capture()`]({{ site.dcv_cpp_api }}capture-vision-router/single-file-processing.md#capture) |
+| InitRuntimeSettingsFromString()<br>InitRuntimeSettingsFromFile()<br>OutputRuntimeSettingsToString()<br>OutputRuntimeSettingsToFile() | [`InitSettings()`]({{ site.dcv_cpp_api }}capture-vision-router/settings.html#initsettings)<br>[`InitSettingsFromFile()`]({{ site.dcv_cpp_api }}capture-vision-router/settings.html#initsettingsfromfile)<br>[`OutputSettings()`]({{ site.dcv_cpp_api }}capture-vision-router/settings.html#outputsettings)<br>[`OutputSettingsToFile()`]({{ site.dcv_cpp_api }}capture-vision-router/settings.html#outputsettingstofile) |
+| class dynamsoft::ddn::CDetectedQuadResultArray<br>class dynamsoft::ddn::CNormalizedImageResult | [`class dynamsoft::basic_structures::CCapturedResultArray`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-array.html) |
 
 ### Convert Parameter Templates
 

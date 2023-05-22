@@ -14,7 +14,7 @@ Leveraging the efficiency and flexibility of the C++ language, DDN C++ Edition p
 
 In addition, DDN C++ Edition provides cross-platform support, running on multiple operating systems such as Windows, Linux, and Mac, to meet the needs of different development environments
 
-As one of the functional products of the Dynamsoft Capture Vision (DCV) framework, DDN is also designed to seamlessly integrate with other DCV components and provide developers with a comprehensive set of image processing tools, which cover image capturing, content understanding, result parsing, and interactive workflow. If you are building such a document capturing and processing solution, take a look at [Introduction to Dynamsoft Capture Vision]({{site.dcv_introduction}}).
+As one of the functional products of the Dynamsoft Capture Vision (DCV) framework, DDN is also designed to seamlessly integrate with other DCV components and provide developers with a comprehensive set of image processing tools, which cover image capturing, content understanding, result parsing, and interactive workflow. If you are building such a document capturing and processing solution, take a look at <a href="{{site.dcv_introduction}}" target="_blank">Introduction to Dynamsoft Capture Vision</a>.
 
 Furthermore, DDN provides a powerful parameter system in order to cope with various scenarios. Read <a href="{{site.parameters_reference_ddn}}index.html" target="_blank">Parameter Reference</a> for details.
 
