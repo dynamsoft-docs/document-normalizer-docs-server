@@ -44,7 +44,7 @@ DDN is designed to provide document border detection and document normalization 
 
 * <a href="{{ site.js }}" target="_blank">Dynamsoft Document Normalizer Documentation for Javascript</a>
 * <a href="{{ site.android }}" target="_blank">Dynamsoft Document Normalizer Documentation for Android</a>
-* <a href="{{ site.oc }}" target="_blank">Dynamsoft Document Normalizer Documentation for iOS</a>
+* <a href="{{ site.ios }}" target="_blank">Dynamsoft Document Normalizer Documentation for iOS</a>
 * <a href="{{ site.xamarin }}" target="_blank">Dynamsoft Document Normalizer Documentation for Xamarin.Forms</a>
 
 ## Contact Us

@@ -3,7 +3,7 @@ layout: default-layout
 title: User Guide for C Language
 keywords: user guide, hello world
 description: Dynamsoft Document Normalizer - User Guide for C Language
-permalink: /programming/c/user-guide/getting-started-v1.0.20.html
+permalink: /programming/c/user-guide/getting-started.html
 ---
 
 # User Guide for C Language
