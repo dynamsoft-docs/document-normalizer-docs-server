@@ -12,7 +12,7 @@ cpp: /document-normalizer/docs/server/programming/cplusplus/
 cpp_api: /document-normalizer/docs/server/programming/cplusplus/api-reference/
 cpp_release_notes: /document-normalizer/docs/server/programming/cplusplus/release-notes/
 
-js: /document-normalizer/docs/js/programming/javascript/
+js: /document-normalizer/docs/web/programming/javascript/
 ios: /document-normalizer/docs/mobile/programming/ios/
 android: /document-normalizer/docs/mobile/programming/android/
 xamarin: /document-normalizer/docs/mobile/programming/xamarin/
