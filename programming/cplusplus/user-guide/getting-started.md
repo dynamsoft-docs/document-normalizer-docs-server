@@ -98,7 +98,7 @@ Let's start by creating a console application which demonstrates how to use the 
 2. Create an instance of Capture Vision Router.
 
     ```cpp
-    CCaptureVisionRouter cvr;
+    CCaptureVisionRouter* cvr = new CCaptureVisionRouter();
     ```
 
 ### Detect and Save the Normalized Document
@@ -213,7 +213,7 @@ The class `DirectoryFetcher` is capable of converting a local directory to an im
     int main()
     {
         //...
-        CDirectoryFetcher fetcher;
+        CDirectoryFetcher *fetcher = new CDirectoryFetcher;
         fetcher.SetDirectory("[THE DIRECTORY THAT HOLDS THE IMAGES]");
         cvr.SetInput(&fetcher);
     }
