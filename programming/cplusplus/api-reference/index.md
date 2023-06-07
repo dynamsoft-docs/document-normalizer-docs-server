@@ -20,7 +20,7 @@ permalink: /programming/cplusplus/api-reference/index.html
 
 ## Final Results
 
-- [`CCapturedResultReceiver`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/captured-result-receiver.html)
+- [`CCapturedResultReceiver`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-receiver.html)
 - [`CCapturedResult`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result.html)
 - [`CCapturedResultArray`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-array.html)
 - [`CCapturedResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html)
@@ -30,7 +30,9 @@ permalink: /programming/cplusplus/api-reference/index.html
 - [`CNormalizedImageResultItem`]({{ site.cpp_api }}normalized-image-result-item.html)
 - [`CNormalizedImagesResult`]({{ site.cpp_api }}normalized-images-result.html)
 - [`CNormalizedImagesResultArray`]({{ site.cpp_api }}normalized-images-result-array.html)
-- [`CRawImageResultItem`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/raw-image-result-item.html)
+- [`CRawImageResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/raw-image-result-item.html)
+- [`CCapturedResultFilter`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-filter.html)
+- [`CMultiFrameResultCrossFilter`]({{ site.dcv_cpp_api }}utility/multi-frame-result-cross-filter.html)
 
 ## Intermediate Results
 

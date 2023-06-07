@@ -28,6 +28,9 @@ class CNormalizedImagesResult
 | [`GetErrorCode`](#geterrorcode) | Gets the error code of the operation. |
 | [`GetErrorString`](#geterrorstring) | Gets the error message of the operation. |
 | [`GetItem`](#getitem) | Gets a specific normalized image from the result. |
+| [`HasItem`](#hasitem) | Check if the item is present in the array.|
+| [`RemoveItem`](#removeitem) | Remove a specific item from the array in the normalized images.|
+| [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Get the rotation transformation matrix of the original image relative to the rotated image.|
 | [`GetSourceImageHashId`](#getsourceimagehashid) | Gets the hash ID of the source image that was normalized. |
 | [`GetSourceImageTag`](#getsourceimagetag) | Gets the tag of the source image that was normalized. |
 
@@ -90,6 +93,51 @@ Returns a pointer to the normalized image at the specified index. If the index i
 **See Also**
 
 * [CNormalizedImageResultItem](normalized-image-result-item.md)
+
+### HasItem
+
+Check if the item is present in the array.
+
+```cpp
+bool HasItem(const CNormalizedImageResultItem* item) const
+```
+
+**Parameters**
+
+`[in] item` The specific item to check.
+
+**Return value**
+
+Returns a bool value indicating whether the item is present in the array or not.
+
+### RemoveItem
+
+Remove a specific item from the array in the normalized images.
+
+```cpp
+int RemoveItem(const CNormalizedImageResultItem* item)
+```
+
+**Parameters**
+
+`[in] item` The specific item to remove.
+
+**Return value**
+
+Return value indicating whether the deletion was successful or not.
+
+### GetRotationTransformMatrix
+
+Get the rotation transformation matrix of the original image relative to the rotated image.
+
+```cpp
+void GetRotationTransformMatrix(double matrix[9]) const;
+```
+
+**Parameters**
+
+`[out] matrix` A double array which represents the rotation transform matrix.
+
 
 ### GetSourceImageHashId
 

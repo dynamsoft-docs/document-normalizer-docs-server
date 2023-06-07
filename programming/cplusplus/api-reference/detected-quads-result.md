@@ -28,6 +28,9 @@ class CDetectedQuadsResult
 | [`GetErrorCode`](#geterrorcode) | Gets the error code of the detection operation. |
 | [`GetErrorString`](#geterrorstring) | Gets the error message of the detection operation. |
 | [`GetItem`](#getitem) | Gets the detected quadrilateral item at a specified index. |
+| [`HasItem`](#hasitem) | Check if the item is present in the array.|
+| [`RemoveItem`](#removeitem) | Remove a specific item from the array in the detected quads.|
+| [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Get the rotation transformation matrix of the original image relative to the rotated image.|
 | [`GetSourceImageHashId`](#getsourceimagehashid) | Gets the hash ID of the source image. |
 | [`GetSourceImageTag`](#getsourceimagetag) | Gets the tag of the source image. |
 
@@ -76,7 +79,7 @@ Returns a pointer to a null-terminated string that represents the error message.
 Gets the detected quadrilateral item at a specified index.
 
 ```cpp
-const CDetectedQuadResultItem* GetItem(int index)
+const CDetectedQuadResultItem* GetItem(int index) const
 ```
 
 **Parameters**
@@ -90,6 +93,51 @@ Returns a pointer to a CDetectedQuadResultItem object that represents the detect
 **See Also**
 
 * [CDetectedQuadResultItem](detected-quad-result-item.md)
+
+### HasItem
+
+Check if the item is present in the array.
+
+```cpp
+bool HasItem(const CDetectedQuadResultItem* item) const
+```
+
+**Parameters**
+
+`[in] item` The specific item to check.
+
+**Return value**
+
+Returns a bool value indicating whether the item is present in the array or not.
+
+### RemoveItem
+
+Remove a specific item from the array in the detected quads.
+
+```cpp
+int RemoveItem(const CDetectedQuadResultItem* item)
+```
+
+**Parameters**
+
+`[in] item` The specific item to remove.
+
+**Return value**
+
+Return value indicating whether the deletion was successful or not.
+
+### GetRotationTransformMatrix
+
+Get the rotation transformation matrix of the original image relative to the rotated image.
+
+```cpp
+void GetRotationTransformMatrix(double matrix[9]) const;
+```
+
+**Parameters**
+
+`[out] matrix` A double array which represents the rotation transform matrix.
+
 
 ### GetSourceImageHashId
 
