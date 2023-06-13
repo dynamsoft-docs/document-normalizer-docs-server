@@ -14,7 +14,7 @@ The CNormalizedImagesUnit class represents an intermediate result unit whose typ
 
 *Namespace:* dynamsoft::ddn::intermediate_results
 
-*Assembly:* DynamsoftDocumentNormalizer
+*Assembly:* DynamsoftDocumentNormalizer.dll
 
 ```cpp
 class CNormalizedImagesUnit: CIntermediateResultUnit

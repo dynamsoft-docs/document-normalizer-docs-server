@@ -14,7 +14,7 @@ The CLongLinesUnit class represents an intermediate result unit whose type is lo
 
 *Namespace:* dynamsoft::ddn::intermediate_results
 
-*Assembly:* DynamsoftDocumentNormalizer
+*Assembly:* DynamsoftDocumentNormalizer.dll
 
 ```cpp
 class CLongLinesUnit: CIntermediateResultUnit

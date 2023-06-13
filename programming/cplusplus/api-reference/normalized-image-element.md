@@ -14,7 +14,7 @@ The CNormalizedImageElement class stores an intermediate result whose type is no
 
 *Namespace:* dynamsoft::ddn::intermediate_results
 
-*Assembly:* DynamsoftDocumentNormalizer
+*Assembly:* DynamsoftDocumentNormalizer.dll
 
 ```cpp
 class CNormalizedImageElement

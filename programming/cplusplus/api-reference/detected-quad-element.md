@@ -14,7 +14,7 @@ The CDetectedQuadElement class stores an intermediate result whose type is detec
 
 *Namespace:* dynamsoft::ddn::intermediate_results
 
-*Assembly:* DynamsoftDocumentNormalizer
+*Assembly:* DynamsoftDocumentNormalizer.dll
 
 ```cpp
 class CDetectedQuadElement: CRegionObjectElement

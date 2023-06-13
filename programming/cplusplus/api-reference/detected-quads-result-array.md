@@ -14,7 +14,7 @@ An array storing `CDetectedQuadsResult` objects.
 
 *Namespace:* dynamsoft::ddn
 
-*Assembly:* DynamsoftDocumentNormalizer
+*Assembly:* DynamsoftDocumentNormalizer.dll
 
 ```cpp
 class CDetectedQuadsResultArray

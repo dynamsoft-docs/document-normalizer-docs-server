@@ -14,7 +14,7 @@ The CDetectedQuadsUnit class represents an intermediate result unit whose type i
 
 *Namespace:* dynamsoft::ddn::intermediate_results
 
-*Assembly:* DynamsoftDocumentNormalizer
+*Assembly:* DynamsoftDocumentNormalizer.dll
 
 ```cpp
 class CDetectedQuadsUnit: CIntermediateResultUnit
