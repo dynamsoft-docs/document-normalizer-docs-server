@@ -8,7 +8,7 @@ permalink: /programming/cplusplus/api-reference/normalized-image-result-item.htm
 
 # CNormalizedImageResultItem Class
 
-The CNormalizedImageResultItem class stores a captured result whose type is normalized image.
+The CNormalizedImageResultItem class stores a captured result item whose type is normalized image.
 
 ## Definition
 

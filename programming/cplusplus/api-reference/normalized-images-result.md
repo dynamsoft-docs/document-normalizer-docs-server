@@ -8,7 +8,7 @@ permalink: /programming/cplusplus/api-reference/normalized-images-result.html
 
 # CNormalizedImagesResult
 
-The CNormalizedImagesResult class stores a captured result whose type is normalized images.
+The CNormalizedImagesResult class stores a collection of captured result items whose type are normalized images.
 
 ## Definition
 
