@@ -107,4 +107,4 @@ ImagePixelFormat GetImagePixelFormat()
 
 **See Also**
 
-[ImagePixelFormat]({{ site.enumerations }}image-pixel-format.html?src=cpp)
+[ImagePixelFormat]({{ site.enumerations_v1 }}image-pixel-format.html?src=cpp)

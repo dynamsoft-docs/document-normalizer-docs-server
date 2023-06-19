@@ -94,7 +94,7 @@ Let's start by creating a console application which demonstrates how to use the 
         cout << DC_GetErrorString(errorCode) << endl;
     ```
 
-    >For the error handling mechanism, the SDK returns Error Code for each function and provides a function `DC_GetErrorString` to get the readable message. You should add codes for error handling based on your needs. Check out [Error Code]({{site.enumerations}}error-code.html) for full supported error codes.
+    >For the error handling mechanism, the SDK returns Error Code for each function and provides a function `DC_GetErrorString` to get the readable message. You should add codes for error handling based on your needs. Check out [Error Code]({{site.enumerations}}error-code-v1.0.0.html) for full supported error codes.
 
 2. Save the normalized result as an image file.
 
