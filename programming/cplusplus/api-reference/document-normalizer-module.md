@@ -6,7 +6,7 @@ keywords: document normalizer module, c++
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 breadcrumbText: C++ CDocumentNormalizerModule Class
-permalink: /programming/c-cplusplus/api-reference/document-normalizer-module.html
+permalink: /programming/cplusplus/api-reference/document-normalizer-module.html
 ---
 
 # CDocumentNormalizerModule
