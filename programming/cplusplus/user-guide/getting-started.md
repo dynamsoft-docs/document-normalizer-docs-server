@@ -9,7 +9,7 @@ description: Dynamsoft Document Normalizer - User Guide for C++ Language
 
 In this guide, you will learn step by step on how to build a document normalization application with Dynamsoft Document Normalizer SDK using C++ language.
 
-> Read more on [Dynamsoft Document Normalizer Features](https://www.dynamsoft.com/document-normalizer/docs/introduction/index.html)
+> Read more on [Dynamsoft Document Normalizer Features](https://www.dynamsoft.com/document-normalizer/docs/core/introduction/index.html)
 
 - [Document Normalizer in C++ - User Guide](#document-normalizer-in-c---user-guide)
   - [Installation](#installation)
@@ -29,7 +29,7 @@ In this guide, you will learn step by step on how to build a document normalizat
 
 ## Installation
 
-If you haven't downloaded the SDK yet, <a href="https://download2.dynamsoft.com/ddn/dynamsoft-document-normalizer-cpp-2.0.0.zip">download the `C/C++ Package`</a> now and unpack the package into a directory of your choice.
+If you haven't downloaded the SDK yet, <a href="https://download2.dynamsoft.com/ddn/dynamsoft-document-normalizer-cpp-2.0.0.zip">download the `C++ Package`</a> now and unpack the package into a directory of your choice.
 
 > For this tutorial, we unpack it to a pseudo directory `[INSTALLATION FOLDER]`, change it to your unpacking path for the following content.
 
@@ -51,7 +51,7 @@ Let's start by creating a console application which demonstrates how to use the 
 
 - For Linux
 
-1. Create a new source file named `NormalizeAnImage.cpp` and place it into the folder `[INSTALLATION FOLDER]/Samples/HelloWorld/NormalizeAnImage`.
+1. Create a new source file named `NormalizeAnImage.cpp` and place it into the folder `[INSTALLATION FOLDER]/Resources/DocumentNormalizer/Samples/HelloWorld/NormalizeAnImage`.
 
 ### Include the Library
 
@@ -104,7 +104,7 @@ Let's start by creating a console application which demonstrates how to use the 
 1. Apply normalization for an image file.
 
     ```cpp
-    CCapturedResultArray* results = router->Capture("[INSTALLATION FOLDER]/Images/sample-image.png", CPresetTemplate::PT_DETECT_AND_NORMALIZE_DOCUMENT);
+    CCapturedResultArray* results = router->Capture("[INSTALLATION FOLDER]/Resources/DocumentNormalizer/Images/sample-image.png", CPresetTemplate::PT_DETECT_AND_NORMALIZE_DOCUMENT);
     ```
 
     > Note:
@@ -304,6 +304,7 @@ delete router, router = NULL;
 delete dirFetcher, dirFetcher = NULL;
 delete listener, listener = NULL;
 delete recv, recv = NULL;
+```
 
 ### Build and Run the Project Again
 

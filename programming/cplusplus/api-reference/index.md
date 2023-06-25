@@ -21,9 +21,9 @@ permalink: /programming/cplusplus/api-reference/index.html
 ## Final Results
 
 - [`CCapturedResultReceiver`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-receiver.html)
+- [`CCapturedResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html)
 - [`CCapturedResult`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result.html)
 - [`CCapturedResultArray`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-array.html)
-- [`CCapturedResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html)
 - [`CDetectedQuadResultItem`]({{ site.cpp_api }}detected-quad-result-item.html)
 - [`CDetectedQuadsResult`]({{ site.cpp_api }}detected-quads-result.html)
 - [`CDetectedQuadsResultArray`]({{ site.cpp_api }}detected-quads-result-array.html)
@@ -31,6 +31,9 @@ permalink: /programming/cplusplus/api-reference/index.html
 - [`CNormalizedImagesResult`]({{ site.cpp_api }}normalized-images-result.html)
 - [`CNormalizedImagesResultArray`]({{ site.cpp_api }}normalized-images-result-array.html)
 - [`CRawImageResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/raw-image-result-item.html)
+
+## Final Results Filters
+
 - [`CCapturedResultFilter`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-filter.html)
 - [`CMultiFrameResultCrossFilter`]({{ site.dcv_cpp_api }}utility/multi-frame-result-cross-filter.html)
 
@@ -38,15 +41,17 @@ permalink: /programming/cplusplus/api-reference/index.html
 
 - [`CIntermediateResultManager`]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-manager.html)
 - [`CIntermediateResultReceiver`]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-receiver.html)
+- [`CObservationParameters`]({{ site.dcv_cpp_api }}core/intermediate-results/observed-parameters.html)
+- [`IntermediateResultExtraInfo`]({{ site.dcv_cpp_api }}core/structs/intermediate-result-extra-info.html)
 - [`CIntermediateResult`]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result.html)
 - [`CIntermediateResultUnit`]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-unit.html)
+- [`CPredetectedRegionsUnit`]({{ site.dcv_cpp_api }}core/intermediate-results/predetected-regions-unit.html)
 - [`CDetectedQuadsUnit`]({{ site.cpp_api }}detected-quads-unit.html)
 - [`CNormalizedImagesUnit`]({{ site.cpp_api }}normalized-image-unit.html)
-- [`CPredetectedRegionsUnit`]({{ site.dcv_cpp_api }}core/intermediate-results/predetected-regions-unit.html)
+- [`CRegionObjectElement`]({{ site.dcv_cpp_api }}core/intermediate-results/region-object-element.html)
+- [`CPredetectedRegionElement`]({{ site.dcv_cpp_api }}core/intermediate-results/predetected-region-element.html)
 - [`CDetectedQuadElement`]({{ site.cpp_api }}detected-quad-element.html)
 - [`CNormalizedImageElement`]({{ site.cpp_api }}normalized-image-element.html)
-- [`CPredetectedRegionElement`]({{ site.dcv_cpp_api }}core/intermediate-results/predetected-region-element.html)
-- [`CRegionObjectElement`]({{ site.dcv_cpp_api }}core/intermediate-results/region-object-element.html)
 - [`CBinaryImageUnit`]({{ site.dcv_cpp_api }}core/intermediate-results/binary-image-unit.html)
 - [`CCandidateQuadEdgesUnit`]({{ site.cpp_api }}candidate-quad-edges-unit.html)
 - [`CColourImageUnit`]({{ site.dcv_cpp_api }}core/intermediate-results/colour-image-unit.html)
@@ -63,6 +68,11 @@ permalink: /programming/cplusplus/api-reference/index.html
 - [`CTextureRemovedBinaryImageUnit`]({{ site.dcv_cpp_api }}core/intermediate-results/texture-removed-binary-image-unit.html)
 - [`CTextureRemovedGrayscaleImageUnit`]({{ site.dcv_cpp_api }}core/intermediate-results/texture-removed-grayscale-image-unit.html)
 - [`CTransformedGrayscaleImageUnit`]({{ site.dcv_cpp_api }}core/intermediate-results/transformed-grayscale-image-unit.html)
+
+## Settings
+
+- [`SimplifiedCaptureVisionSettings`]({{ site.dcv_cpp_api }}capture-vision-router/structs/simplified-capture-vision-settings.html)
+- [`CPresetTemplate`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/preset-template.html)
 
 ## State Listener
 
@@ -86,6 +96,15 @@ permalink: /programming/cplusplus/api-reference/index.html
 - [`CRect`]({{ site.dcv_cpp_api }}core/basic-structures/rect.html)
 - [`CVideoFrameTag`]({{ site.dcv_cpp_api }}core/basic-structures/video-frame-tag.html)
 
+## Modules
+
+- [`CCaptureVisionRouterModule`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/capture-vision-router-module.html)
+- [`CDocumentNormalizerModule`]({{ site.cpp_api }}document-normalizer-module.html)
+- [`CCoreModule`]({{ site.dcv_cpp_api }}core/basic-structures/core-module.html)
+- [`CLicenseModule`]({{ site.dcv_cpp_api }}license/license-module.html)
+- [`CUtilityModule`]({{ site.dcv_cpp_api }}utility/utility-module.html)
+- [`CImageProcessingModule`]({{ site.dcv_cpp_api }}image-processing/image-processing-module.html)
+
 ## Enumerations
 
 - [`BufferOverflowProtectionMode`]({{ site.enumerations }}core/buffer-overflow-protection-mode.html?src=cpp&&lang=cpp)
@@ -103,3 +122,4 @@ permalink: /programming/cplusplus/api-reference/index.html
 - [`SectionType`]({{ site.enumerations }}core/section-type.html?src=cpp&&lang=cpp)
 - [`TargetType`]({{ site.enumerations }}core/target-type.html?src=cpp&&lang=cpp)
 - [`VideoFrameQuality`]({{ site.enumerations }}core/video-frame-quality.html?src=cpp&&lang=cpp)
+- [`ColourChannelUsageType`]({{ site.enumerations}}core/colour-channel-usage-type.html?src=cpp&&lang=cpp)
