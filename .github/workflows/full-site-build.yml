@@ -31,9 +31,9 @@ jobs:
           [ -d DDNDoc ] && rm -rf DDNDoc
           [ ! -d DDNDoc ] && mkdir -p DDNDoc
           [ ! -d document-normalizer-docs ] && git clone --depth 1 https://github.com/dynamsoft-docs/document-normalizer-docs.git document-normalizer-docs
-          [ ! -d Docs-Template-Repo-Preview ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo-Preview
+          [ ! -d Docs-Template-Repo-DCV2 ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo-DCV2
           cd document-normalizer-docs && git pull && cd .. && cp -rfp ./document-normalizer-docs/* ./DDNDoc/
-          cd Docs-Template-Repo-Preview && git pull && cd .. && cp -rfp ./Docs-Template-Repo-Preview/* ./DDNDoc/
+          cd Docs-Template-Repo-DCV2 && git pull && cd .. && cp -rfp ./Docs-Template-Repo-DCV2/* ./DDNDoc/
           cd DDNDoc && bundle exec jekyll build
           #python3 /home/ubuntu/ftp.py /home/ubuntu/DDNDoc/_site/ ./www.dynamsoft.com/document-normalizer/docs/ prod
 
@@ -45,7 +45,7 @@ jobs:
           password: ${{ secrets.FTP_DYNAMSOFT_LOCAL_PASSWORD }}
           port: 21 
           local-dir: /home/ubuntu/DDNDoc/_site/
-          server-dir: /www.dynamsoft.com/document-normalizer/docs/        
+          server-dir: /www.dynamsoft.com/document-normalizer/docs/server/        
 
 
   Build-Preview:
@@ -81,5 +81,5 @@ jobs:
           password: ${{ secrets.FTP_TEST_SITE_PASSWORD }}
           port: 7500 
           local-dir: /home/ubuntu/DDNDocPreview/_site/
-          server-dir: /www.dynamsoft.com/document-normalizer/docs/
+          server-dir: /www.dynamsoft.com/document-normalizer/docs/server/
 
