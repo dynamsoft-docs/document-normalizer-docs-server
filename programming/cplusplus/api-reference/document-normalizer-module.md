@@ -17,7 +17,7 @@ The `CDocumentNormalizerModule` class defines general functions in the document 
 
 *Namespace:* dynamsoft::ddn
 
-*Assembly:* DynamsoftDocumentNormalizer.dll
+*Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
 class CDocumentNormalizerModule 

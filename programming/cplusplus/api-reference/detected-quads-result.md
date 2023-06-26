@@ -14,7 +14,7 @@ The CDetectedQuadsResult class stores a captured result whose type is detected q
 
 *Namespace:* dynamsoft::ddn
 
-*Assembly:* DynamsoftDocumentNormalizer.dll
+*Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
 class CDetectedQuadsResult

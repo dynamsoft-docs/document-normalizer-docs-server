@@ -14,7 +14,7 @@ The CNormalizedImagesResult class stores a collection of captured result items w
 
 *Namespace:* dynamsoft::ddn
 
-*Assembly:* DynamsoftDocumentNormalizer.dll
+*Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
 class CNormalizedImagesResult
