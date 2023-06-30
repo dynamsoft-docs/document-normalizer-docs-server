@@ -23,13 +23,10 @@ permalink: /programming/cplusplus/api-reference/index.html
 - [`CCapturedResultReceiver`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-receiver.html)
 - [`CCapturedResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html)
 - [`CCapturedResult`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result.html)
-- [`CCapturedResultArray`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-array.html)
 - [`CDetectedQuadResultItem`]({{ site.cpp_api }}detected-quad-result-item.html)
 - [`CDetectedQuadsResult`]({{ site.cpp_api }}detected-quads-result.html)
-- [`CDetectedQuadsResultArray`]({{ site.cpp_api }}detected-quads-result-array.html)
 - [`CNormalizedImageResultItem`]({{ site.cpp_api }}normalized-image-result-item.html)
 - [`CNormalizedImagesResult`]({{ site.cpp_api }}normalized-images-result.html)
-- [`CNormalizedImagesResultArray`]({{ site.cpp_api }}normalized-images-result-array.html)
 - [`CRawImageResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/raw-image-result-item.html)
 
 ## Final Results Filters
