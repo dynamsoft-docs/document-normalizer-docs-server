@@ -14,7 +14,7 @@ The CCornersUnit class represents an intermediate result unit whose type is corn
 
 *Namespace:* dynamsoft::ddn::intermediate_results
 
-*Assembly:* DynamsoftDocumentNormalizer.dll
+*Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
 class CCornersUnit: CIntermediateResultUnit

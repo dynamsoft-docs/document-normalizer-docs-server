@@ -14,7 +14,7 @@ The CCandidateQuadEdgesUnit class represents an intermediate result unit whose t
 
 *Namespace:* dynamsoft::ddn::intermediate_results
 
-*Assembly:* DynamsoftDocumentNormalizer.dll
+*Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
 class CCandidateQuadEdgesUnit: CIntermediateResultUnit

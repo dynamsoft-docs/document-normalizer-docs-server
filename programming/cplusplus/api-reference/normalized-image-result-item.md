@@ -14,7 +14,7 @@ The CNormalizedImageResultItem class stores a captured result item whose type is
 
 *Namespace:* dynamsoft::ddn
 
-*Assembly:* DynamsoftDocumentNormalizer.dll
+*Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
 class CNormalizedImageResultItem: CCapturedResultItem
