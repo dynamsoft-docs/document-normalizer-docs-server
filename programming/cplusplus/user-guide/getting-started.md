@@ -104,12 +104,9 @@ Let's start by creating a console application which demonstrates how to use the 
 1. Apply normalization for an image file.
 
     ```cpp
-    CCapturedResultArray* results = router->Capture("[INSTALLATION FOLDER]/Resources/DocumentNormalizer/Images/sample-image.png", CPresetTemplate::PT_DETECT_AND_NORMALIZE_DOCUMENT);
+    string imageFile = "../../../Images/sample-image.png";
+	CCapturedResult* result = router->Capture(imageFile.c_str(), CPresetTemplate::PT_DETECT_AND_NORMALIZE_DOCUMENT);
     ```
-
-    > Note:
-    >
-    > Please change all `[INSTALLATION FOLDER]` in above code snippet to your unpacking path.
 
 2. Save the normalized result as an image file.
 
@@ -119,41 +116,38 @@ Let's start by creating a console application which demonstrates how to use the 
     /*
     * results is an Array of CCapturedResult objects, each object is the result of an image.
     */
-    for (int arrayIndex = 0; arrayIndex < results->GetCount(); arrayIndex++)
-    {
-        const CCapturedResult* result = results->GetResult(arrayIndex);
 
-        if (result->GetErrorCode() != 0) {
-            cout << "Error: " << result->GetErrorCode() << "," << result->GetErrorString() << endl;
-            continue;
-        }
-
-        /*
-        * There can be multiple types of result items per image.
-        * We check each of these items until we find the normalized image.
-        */
-        int count = result->GetCount();
-        cout << "Normalized " << count << " documents" << endl;
-        for (int i = 0; i < count; i++) {
-            const CCapturedResultItem* item = result->GetItem(i);
-
-            CapturedResultItemType type = item->GetType();
-            if (type == CapturedResultItemType::CRIT_NORMALIZED_IMAGE) {
-                const CNormalizedImageResultItem* normalizedImage = dynamic_cast<const CNormalizedImageResultItem*>(item);
-
-                string outPath = "normalizedResult_";
-                outPath += to_string(i) + ".png";
-
-                CImageManager manager;
-
-                // 4.Save normalized iamge to file.
-                errorcode = manager.SaveToFile(normalizedImage->GetImageData(), outPath.c_str());
-                if (errorcode == 0) {
-                    cout << "Document " << i << " file: " << outPath << endl;
-                }
+    if (result->GetErrorCode() != 0) {
+        cout << "Error: " << result->GetErrorCode() << "," << result->GetErrorString() << endl;
+    }
+    /*
+    * There can be multiple types of result items per image.
+    * We check each of these items until we find the normalized image.
+    */
+    int count = result->GetCount();
+    cout << "Normalized " << count << " documents" << endl;
+    for (int i = 0; i < count; i++) {
+        const CCapturedResultItem* item = result->GetItem(i);
+        CapturedResultItemType type = item->GetType();
+        if (type == CapturedResultItemType::CRIT_NORMALIZED_IMAGE) {
+            const CNormalizedImageResultItem* normalizedImage = dynamic_cast<const CNormalizedImageResultItem*>(item);
+            string outPath = "normalizedResult_";
+            outPath += to_string(i) + ".png";
+            CImageManager manager;
+            // Save normalized image to file.
+            errorcode = manager.SaveToFile(normalizedImage->GetImageData(), outPath.c_str());
+            if (errorcode == 0) {
+                cout << "Document " << i << " file: " << outPath << endl;
             }
         }
-    } 
+    }
+    ```
+
+3. Release the allocated memory.
+
+    ```cpp
+    delete router, router = NULL;
+	delete result, result = NULL;
     ```
 
 ### Build and Run the Project
