@@ -9,7 +9,7 @@ permalink: /programming/cplusplus/release-notes/cpp-2.html
 
 # Release Notes for C++ Edition - v2.x
 
-## 2.0.0 (05/18/2023)
+## 2.0.0 (07/04/2023)
 
 ### Highlights
 
