@@ -80,7 +80,7 @@ Class `CCaptureVisionRouter` is added to replace class `CDocumentNormalizer`. Th
 
 ### Convert Parameter Templates
 
-The parameter system is restructured and the template you used for v1.x can't be directly recognized by the new version. Please [download the parameter upgrading tool](https://download2.dynamsoft.com/dcv/TemplateConverter.zip) or <a href="https://www.dynamsoft.com/company/customer-service/#contact" target="_blank">contact us</a> to upgrade your parameter template.
+The parameter system is restructured and the template you used for v1.x can't be directly recognized by the new version. Please <a href="https://www.dynamsoft.com/company/customer-service/#contact" target="_blank">contact us</a> to upgrade your parameter template.
 
 ### Update Your Codes
 
