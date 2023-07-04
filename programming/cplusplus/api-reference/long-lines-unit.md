@@ -8,7 +8,7 @@ permalink: /programming/cplusplus/api-reference/long-lines-unit.html
 
 # CLongLinesUnit Class
 
-The CLongLinesUnit class represents an intermediate result unit whose type is long lines.
+The CLongLinesUnit class represents an intermediate result unit whose type is long lines. Short line segments that are located in the same line are extended and merged to form a long line segment.
 
 ## Definition
 
