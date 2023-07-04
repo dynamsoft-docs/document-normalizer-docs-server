@@ -138,7 +138,6 @@ void GetRotationTransformMatrix(double matrix[9]) const;
 
 `[out] matrix` A double array which represents the rotation transform matrix.
 
-
 ### GetSourceImageHashId
 
 Gets the hash ID of the source image.

@@ -28,7 +28,6 @@ class CDetectedQuadResultItem: CCapturedResultItem
 |--------|-------------|
 | [`GetLocation`](#getlocation) | Gets the location of current object. |
 | [`GetConfidenceAsDocumentBoundary`](#getconfidenceasdocumentboundary) | Gets the confidence of current object as a document boundary. |
-| [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Gets the transformation matrix to transform the location coordinates to image’s natural orientation. |
 
 ### GetLocation
 
@@ -57,15 +56,3 @@ int GetConfidenceAsDocumentBoundary()
 **Return Value**
 
 The confidence as document boundary of the detected quad result.
-
-### GetRotationTransformMatrix
-
-Gets the transformation matrix to transform the location coordinates to image’s natural orientation.
-
-```cpp
-void GetRotationTransformMatrix(double matrix[9]) 
-```
-
-**Parameters**
-
-`[in] matrix` The transformation matrix.
