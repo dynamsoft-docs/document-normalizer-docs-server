@@ -1,0 +1,70 @@
+repository: dynamsoft-docs/document-normalizer-docs-server
+repositoryUrl: https://github.com/dynamsoft-docs/document-normalizer-docs-server/blob/main
+docFullPath: https://www.dynamsoft.com/document-normalizer/docs/server
+firstLevelUrl: /document-normalizer/docs/server
+docHomePage: /document-normalizer/docs/core/introduction/
+
+c: /document-normalizer/docs/server/programming/c/
+c_api: /document-normalizer/docs/server/programming/c/api-reference/
+c_release_notes: /document-normalizer/docs/server/programming/c/release-notes/
+enumerations_v1: /document-normalizer/docs/server/programming/enumerations/
+cpp: /document-normalizer/docs/server/programming/cplusplus/
+cpp_api: /document-normalizer/docs/server/programming/cplusplus/api-reference/
+cpp_release_notes: /document-normalizer/docs/server/programming/cplusplus/release-notes/
+
+js: /document-normalizer/docs/web/programming/javascript/
+ios: /document-normalizer/docs/mobile/programming/ios/
+android: /document-normalizer/docs/mobile/programming/android/
+xamarin: /document-normalizer/docs/mobile/programming/xamarin/
+
+enumerations: /capture-vision/docs/core/enums/
+parameters_reference_ddn: /document-normalizer/docs/core/parameters/reference/
+
+dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
+dcv_introduction: /capture-vision/docs/core/introduction/
+
+useVersionTree: true
+
+assets: /document-normalizer/docs/server/assets/
+edit_icon: /document-normalizer/docs/server/assets/img-icon/edit-icon.png
+smile_icon: /document-normalizer/docs/server/assets/img-icon/icon-smile.png
+sad_icon: /document-normalizer/docs/server/assets/img-icon/icon-sad.png
+
+baseurl: "/document-normalizer/docs/server"
+
+download: "/document-normalizer/downloads/1000023-confirmation/"
+
+plugins:
+  - jemoji
+  - jekyll-sitemap
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default-layout"
+      noTitleIndex: true
+      needAutoGenerateSidebar: true
+      needGenerateH3Content: true
+  - scope: 
+      path: "programming/cplusplus" 
+    values: 
+      docRootName: "Document Normalizer C++" 
+      docHomePage: "/document-normalizer/docs/server/programming/cplusplus/"
+  - scope: 
+      path: "programming-old/cplusplus" 
+    values: 
+      docRootName: "Document Normalizer C++" 
+      docHomePage: "/document-normalizer/docs/server/programming/cplusplus/"
+  - scope: 
+      path: "programming/c" 
+    values: 
+      docRootName: "Document Normalizer C" 
+      docHomePage: "/document-normalizer/docs/server/programming/c/"
+  - scope:
+      path: "Hide_Tree_Page.html"
+    values:
+      sitemap: false
+
+url: "https://www.dynamsoft.com" # sitemap root
