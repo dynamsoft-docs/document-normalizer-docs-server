@@ -17,7 +17,7 @@ The CNormalizedImagesResult class stores a collection of captured result items w
 *Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
-class CNormalizedImagesResult
+class CNormalizedImagesResult: public CRegionObjectElement
 ```
 
 ## Methods
@@ -31,8 +31,8 @@ class CNormalizedImagesResult
 | [`HasItem`](#hasitem) | Check if the item is present in the array.|
 | [`RemoveItem`](#removeitem) | Remove a specific item from the array in the normalized images.|
 | [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Get the rotation transformation matrix of the original image relative to the rotated image.|
-| [`GetSourceImageHashId`](#getsourceimagehashid) | Gets the hash ID of the source image that was normalized. |
-| [`GetSourceImageTag`](#getsourceimagetag) | Gets the tag of the source image that was normalized. |
+| [`GetSourceImageHashId`](#getsourceimagehashid) | Gets the hash ID of the original image, from which you get the normalized image. |
+| [`GetSourceImageTag`](#getsourceimagetag) | Gets the tag of the original image, from which you get the normalized image. |
 
 ### GetCount
 

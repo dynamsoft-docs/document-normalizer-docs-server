@@ -27,7 +27,7 @@ class CNormalizedImageResultItem: CCapturedResultItem
 | Method | Description |
 |--------|-------------|
 | [`GetImageData`](#getimagedata) | Gets the ImageData of current object. |
-| [`GetLocation`](#getlocation) | Gets the location of current object. |
+| [`GetLocation`](#getlocation) | Get the quadrilateral from which you get the normalized image result item. |
 | [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Get the rotation transformation matrix. |
 
 ### GetImageData
