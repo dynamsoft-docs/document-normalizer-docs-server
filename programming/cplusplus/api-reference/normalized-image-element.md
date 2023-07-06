@@ -17,9 +17,10 @@ The CNormalizedImageElement class stores an intermediate result whose type is no
 *Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
-class CNormalizedImageElement
+class CNormalizedImageElement: public CRegionObjectElement
 ```
 
+*Inheritance:* [CRegionObjectElement]({{ site.dcv_cpp_api }}core/intermediate-results/region-object-element.html) -> CNormalizedImageElement
 ## Methods
 
 | Method | Description |
