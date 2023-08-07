@@ -124,7 +124,7 @@ Let's start by creating a console application which demonstrates how to use the 
     * There can be multiple types of result items per image.
     * We check each of these items until we find the normalized image.
     */
-    int count = result->GetItemsCount();
+    int count = result->GetCount();
     cout << "Normalized " << count << " documents" << endl;
     for (int i = 0; i < count; i++) {
         const CCapturedResultItem* item = result->GetItem(i);
@@ -252,7 +252,7 @@ The class `CDirectoryFetcher` is capable of converting a local directory to an i
             else
             {
                 CImageManager manager;
-                int lCount = pResult->GetItemsCount();
+                int lCount = pResult->GetCount();
                 cout << "Normalized " << lCount << " documents" << endl;
                 for (int li = 0; li < lCount; ++li)
                 {

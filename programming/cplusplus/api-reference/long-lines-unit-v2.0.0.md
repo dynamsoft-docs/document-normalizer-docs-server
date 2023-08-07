@@ -46,16 +46,18 @@ The count of LongLine objects in current object.
 Gets a LongLine object from current object by specifying a index.
 
 ```cpp
-const CLineSegment* GetLongLine(int index) const = 0;
+int GetLongLine(int index, CLineSegment* line)
 ```
 
 **Parameters**
 
 `[in] index` The index of the LongLine object.
 
+`[in, out] line` The LongLine object got by the specific index.
+
 **Return Value**
 
-Returns the LongLine object.
+Returns the error code.
 
 **See Also**
 
