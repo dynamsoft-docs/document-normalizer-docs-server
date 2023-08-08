@@ -29,7 +29,7 @@ In this guide, you will learn step by step on how to build a document normalizat
 
 ## Installation
 
-If you haven't downloaded the SDK yet, <a href="https://download2.dynamsoft.com/ddn/dynamsoft-document-normalizer-cpp-2.0.10.zip">download the `C++ Package`</a> now and unpack the package into a directory of your choice.
+If you haven't downloaded the SDK yet, <a href="https://download2.dynamsoft.com/ddn/dynamsoft-document-normalizer-cpp-2.0.0.zip">download the `C++ Package`</a> now and unpack the package into a directory of your choice.
 
 > For this tutorial, we unpack it to a pseudo directory `[INSTALLATION FOLDER]`, change it to your unpacking path for the following content.
 
@@ -39,7 +39,7 @@ If you haven't downloaded the SDK yet, <a href="https://download2.dynamsoft.com/
 
 Let's start by creating a console application which demonstrates how to use the minimum code to detect and normalize a document from an picture of it.
 
-> You can <a href="https://github.com/Dynamsoft/document-normalizer-c-cpp-samples/blob/main/Samples/HelloWorld/NormalizeMultipleImages" target="_blank">download the entire source code from here</a>.
+> You can <a href="https://github.com/Dynamsoft/document-normalizer-c-cpp-samples/tree/main/Samples/HelloWorld/NormalizeAnImage" target="_blank">download the entire source code from here</a>.
 
 ### Create a New Project
 
@@ -124,7 +124,7 @@ Let's start by creating a console application which demonstrates how to use the 
     * There can be multiple types of result items per image.
     * We check each of these items until we find the normalized image.
     */
-    int count = result->GetItemsCount();
+    int count = result->GetCount();
     cout << "Normalized " << count << " documents" << endl;
     for (int i = 0; i < count; i++) {
         const CCapturedResultItem* item = result->GetItem(i);
@@ -188,7 +188,7 @@ If you need to process multiple images at once instead of one image, you can fol
 2. [Initialize a Capture Vision Router Instance](#initialize-a-capture-vision-router-instance).
 3. [Include the Library](#include-the-library).
 
->You can download the complete source code from [here](https://github.com/Dynamsoft/document-normalizer-c-cpp-samples/blob/main/Samples/HelloWorld/NormalizeMultipleImages).
+>You can download the complete source code from [here](https://github.com/Dynamsoft/document-normalizer-c-cpp-samples/tree/main/samples/HelloWorld/NormalizeMultipleImages).
 
 ### Add an Image Source as the Input
 
@@ -241,7 +241,7 @@ The class `CDirectoryFetcher` is capable of converting a local directory to an i
     public:
         virtual void OnNormalizedImagesReceived(const CNormalizedImagesResult* pResult)
         {
-            const CFileImageTag *tag = dynamic_cast<const CFileImageTag*>(pResult->GetOriginalImageTag());
+            const CFileImageTag *tag = dynamic_cast<const CFileImageTag*>(pResult->GetSourceImageTag());
 
             cout << "File: " << tag->GetFilePath() << endl;
 
@@ -252,7 +252,7 @@ The class `CDirectoryFetcher` is capable of converting a local directory to an i
             else
             {
                 CImageManager manager;
-                int lCount = pResult->GetItemsCount();
+                int lCount = pResult->GetCount();
                 cout << "Normalized " << lCount << " documents" << endl;
                 for (int li = 0; li < lCount; ++li)
                 {

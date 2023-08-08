@@ -2,7 +2,7 @@
 layout: default-layout
 title: CDetectedQuadsResult Class
 description: This page shows CDetectedQuadsResult class definition of Dynamsoft Document Normalizer SDK C++ Edition.
-keywords: GetItemsCount, GetErrorCode, GetErrorString, GetItem, GetOriginalImageHashId, GetOriginalImageTag, CDetectedQuadsResult, api reference
+keywords: GetCount, GetErrorCode, GetErrorString, GetItem, GetSourceImageHashId, GetSourceImageTag, CDetectedQuadsResult, api reference
 permalink: /programming/cplusplus/api-reference/detected-quads-result.html
 ---
 
@@ -24,22 +24,22 @@ class CDetectedQuadsResult
 
 | Method | Description |
 |--------|-------------|
-| [`GetItemsCount`](#getitemscount) | Gets the number of detected quadrilaterals. |
+| [`GetCount`](#getcount) | Gets the number of detected quadrilaterals. |
 | [`GetErrorCode`](#geterrorcode) | Gets the error code of the detection operation. |
 | [`GetErrorString`](#geterrorstring) | Gets the error message of the detection operation. |
 | [`GetItem`](#getitem) | Gets the detected quadrilateral item at a specified index. |
 | [`HasItem`](#hasitem) | Check if the item is present in the array.|
 | [`RemoveItem`](#removeitem) | Remove a specific item from the array in the detected quads.|
 | [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Get the rotation transformation matrix of the original image relative to the rotated image.|
-| [`GetOriginalImageHashId`](#getoriginalimagehashid) | Gets the hash ID of the original image. |
-| [`GetOriginalImageTag`](#getoriginalimagetag) | Gets the tag of the original image. |
+| [`GetSourceImageHashId`](#getsourceimagehashid) | Gets the hash ID of the source image. |
+| [`GetSourceImageTag`](#getsourceimagetag) | Gets the tag of the source image. |
 
-### GetItemsCount
+### GetCount
 
 Gets the number of detected quadrilaterals.
 
 ```cpp
-int GetItemsCount()
+int GetCount()
 ```
 
 **Return value**
@@ -138,29 +138,29 @@ void GetRotationTransformMatrix(double matrix[9]) const;
 
 `[out] matrix` A double array which represents the rotation transform matrix.
 
-### GetOriginalImageHashId
+### GetSourceImageHashId
 
-Gets the hash ID of the original image.
+Gets the hash ID of the source image.
 
 ```cpp
-const char* GetOriginalImageHashId()
+const char* GetSourceImageHashId()
 ```
 
 **Return value**
 
-Returns a pointer to a null-terminated string that represents the hash ID of the original image.
+Returns a pointer to a null-terminated string that represents the hash ID of the source image.
 
-### GetOriginalImageTag
+### GetSourceImageTag
 
-Gets the tag of the original image.
+Gets the tag of the source image.
 
 ```cpp
-const CImageTag* GetOriginalImageTag()
+const CImageTag* GetSourceImageTag()
 ```
 
 **Return value**
 
-Returns a pointer to a CImageTag object that represents the tag of the original image.
+Returns a pointer to a CImageTag object that represents the tag of the source image.
 
 **See Also**
 
