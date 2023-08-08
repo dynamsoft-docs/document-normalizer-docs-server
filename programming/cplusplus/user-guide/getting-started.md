@@ -241,7 +241,7 @@ The class `CDirectoryFetcher` is capable of converting a local directory to an i
     public:
         virtual void OnNormalizedImagesReceived(const CNormalizedImagesResult* pResult)
         {
-            const CFileImageTag *tag = dynamic_cast<const CFileImageTag*>(pResult->GetSourceImageTag());
+            const CFileImageTag *tag = dynamic_cast<const CFileImageTag*>(pResult->GetOriginalImageTag());
 
             cout << "File: " << tag->GetFilePath() << endl;
 
