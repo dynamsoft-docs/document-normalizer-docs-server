@@ -28,7 +28,7 @@ permalink: /programming/cplusplus/api-reference/index.html
 - [`CDetectedQuadsResult`]({{ site.cpp_api }}detected-quads-result.html)
 - [`CNormalizedImageResultItem`]({{ site.cpp_api }}normalized-image-result-item.html)
 - [`CNormalizedImagesResult`]({{ site.cpp_api }}normalized-images-result.html)
-- [`CRawImageResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/raw-image-result-item.html)
+- [`COriginalImageResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/original-image-result-item.html)
 
 ## Final Results Filters
 
