@@ -15,7 +15,7 @@ permalink: /programming/cplusplus/release-notes/cpp-2.html
 
 * Fixed crash bugs that happen in rare cases.
 
-* Fixed a bug where the local license is not successfully updated when initialing the license again.
+* Fixed a bug where the local license is not successfully updated in some case.
 
 ### Improved
 
@@ -23,7 +23,7 @@ permalink: /programming/cplusplus/release-notes/cpp-2.html
 
 ### New
 
-* Added a new class CVector4 in the core module.
+* Added a new class `CVector4` in the core module.
 
 * Added new methods `SetTransformMatrix` and `GetTransformMatrix` to the class `CIntermediateResultUnit`. Enumeration `TransformMatrixType` is also added to support users specifying the type of the target matrix.
 
@@ -31,7 +31,7 @@ permalink: /programming/cplusplus/release-notes/cpp-2.html
 
 * Added `CRIT_NORMALIZED_IMAGE` to the available result types of result cross-verification.
 
-* Added method `GetContours` to the `CContourUnit` class to get all the `CContour` objects contained in the unit and their hierarchies.
+* Added method `GetContours` to the class `CContourUnit` to get all the `CContour` objects contained in the unit and their hierarchies.
 
 ### Changed
 
@@ -109,13 +109,13 @@ permalink: /programming/cplusplus/release-notes/cpp-2.html
 
 * Renamed parameter `CornerAngleRangeArray` to `CornerAngleRange`. The range of the sub parameter `MinValue` is restricted to [0,90] and the range of `MaxValue` is restricted to [90,180].
 
-### Removed 
+### Removed
 
-* Removed `Set/GetLocalToSourceImageTransformMatrix` methods from `CIntermediateResultUnit` class.
+* Removed methods `SetLocalToSourceImageTransformMatrix` and `GetLocalToSourceImageTransformMatrix` from class `CIntermediateResultUnit`.
 
-* Removed `Set/GetRotationTransformMatrix` methods from `CIntermediateResultUnit` class.
+* Removed methods `SetRotationTransformMatrix` and `GetRotationTransformMatrix` from class `CIntermediateResultUnit`.
 
-* Removed methods `GetCount` and `GetContour` from CContourUnit class. Use the method `GetContours` instead.
+* Removed methods `GetCount` and `GetContour` from class `CContourUnit`. Use the method `GetContours` instead.
 
 ## 2.0.0 (07/04/2023)
 
