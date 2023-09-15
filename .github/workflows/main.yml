@@ -38,7 +38,7 @@ jobs:
           git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo-Preview
           cp -rfp ./document-normalizer-docs-server/* ./DDNDocServer/
           cp -rfp ./Docs-Template-Repo-Preview/* ./DDNDocServer/
-          cd DDNDocServer && bundle exec jekyll build --incremental
+          cd DDNDocServer && bundle install && bundle exec jekyll build
 
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
@@ -81,7 +81,7 @@ jobs:
           cp -rfp ./Docs-Template-Repo-Preview/* ./DDNDocServerPreview/
           sed -i -e "1,3s/blob\/master$/blob\/preview/" \
           -e "1,3s/blob\/main$/blob\/preview/" /home/ubuntu/DDNDocServerPreview/_config.yml
-          cd DDNDocServerPreview && bundle exec jekyll build --incremental
+          cd DDNDocServerPreview && bundle install && bundle exec jekyll build
 
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
