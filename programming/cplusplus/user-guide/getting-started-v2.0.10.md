@@ -3,6 +3,7 @@ layout: default-layout
 title: User Guide for C++ Language
 keywords: user guide, hello world
 description: Dynamsoft Document Normalizer - User Guide for C++ Language
+permalink: /programming/cplusplus/user-guide/getting-started-v2.0.10.html
 ---
 
 # Document Normalizer in C++ - User Guide
@@ -69,15 +70,15 @@ Let's start by creating a console application which demonstrates how to use the 
 
     #if defined(_WIN64) || defined(_WIN32)
         #ifdef _WIN64
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftCaptureVisionRouterx64.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftCorex64.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftLicensex64.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftUtilityx64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftCaptureVisionRouterx64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftCorex64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftLicensex64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftUtilityx64.lib")
         #else
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftCaptureVisionRouterx86.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftCorex86.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftLicensex86.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftUtilityx86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftCaptureVisionRouterx86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftCorex86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftLicensex86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftUtilityx86.lib")
         #endif
     #endif
     ```
@@ -160,9 +161,7 @@ Let's start by creating a console application which demonstrates how to use the 
 
 3. Copy **ALL** `*.dll` files under `[INSTALLATION FOLDER]\Lib\Windows\x64` to the same folder as the `NormalizeAnImage.exe`
 
-4. Copy `[INSTALLATION FOLDER]/Distributables/DDN-PresetTemplates.json` to the same folder as the `NormalizeAnImage.exe`.
-
-5. Run the program `NormalizeAnImage.exe`.
+4. Run the program `NormalizeAnImage.exe`.
 
 > The SDK supports both x86 and x64, please set the platform based on your needs.
 
@@ -172,7 +171,6 @@ Let's start by creating a console application which demonstrates how to use the 
 
     ```bash
     g++ -o NormalizeAnImage NormalizeAnImage.cpp -lDynamsoftCore -lDynamsoftLicense -lDynamsoftUtility -lDynamsoftCaptureVisionRouter -L ../../../Lib/Linux/x64 -Wl,-rpath=../../../Lib/Linux/x64 -std=c++11
-    cp ../Distributables/DDN-PresetTemplates.json ../Distributables/Lib/Linux/x64
     ```
 
 2. Run the program `NormalizeAnImage`.
@@ -241,7 +239,8 @@ The class `CDirectoryFetcher` is capable of converting a local directory to an i
     ```cpp
     class MyResultReceiver : public CCapturedResultReceiver
     {
-        void OnNormalizedImagesReceived(CNormalizedImagesResult* pResult)
+    public:
+        virtual void OnNormalizedImagesReceived(const CNormalizedImagesResult* pResult)
         {
             const CFileImageTag *tag = dynamic_cast<const CFileImageTag*>(pResult->GetOriginalImageTag());
 
