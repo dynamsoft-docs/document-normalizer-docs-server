@@ -9,6 +9,58 @@ permalink: /programming/cplusplus/release-notes/cpp-2.html
 
 # Release Notes for C++ Edition - v2.x
 
+## 2.0.20 (10/26/2023)
+
+### New
+
+* Added the following preset templates:
+  * PT_READ_BARCODES_SPEED_FIRST
+  * PT_READ_BARCODES_READ_RATE_FIRST
+  * PT_READ_BARCODES_BALANCED
+  * PT_READ_SINGLE_BARCODE
+  * PT_READ_DENSE_BARCODES
+  * PT_READ_DISTANT__BARCODES
+  * PT_RECOGNIZE_NUMBERS
+  * PT_RECOGNIZE_LETTERS
+  * PT_RECOGNIZE_NUMBERS_AND_LETTERS
+  * PT_RECOGNIZE_NUMBERS_AND_UPPERCASE_LETTERS
+  * PT_RECOGNIZE_UPPERCASE_LETTERS
+* Added parameter `Page` to `ImageSource` object.
+* Added a new method `SetPages` to the class `CDirectoryFetcher` and class `CFileFetcher`.
+* Added `CImageSourceErrorListener` to receive the errors from an image source. 
+* Added method `SetErrorListener` to class `CImageSourceAdapter` to add the `CImageSourceErrorListener`.
+* Added a new parameter `minImageCaptureInterval` which can be set via the struct `SimplifiedCaptureVisionSettings` or the `CaptureVisionTemplate` object of a JSON template file.
+* Added "UNKNOWN" as a supported value of the `TextDetectionMode.Direction` parameter. Changed the default value of `Direction` to "UNKNOWN".
+* Added the following error codes:
+  * EC_FILE_ALREADY_EXISTS
+  * EC_CREATE_FILE_FAILED
+  * EC_IMGAE_DATA_INVALID
+
+### Improved
+
+* The class `CDirectoryFetcher` and `CFileFetcher` will be able to return error codes via `CImageSourceErrorListener`
+* Updated the error codes of the method `SaveToFile` of the class `CImageManager`.
+* Optimize the logic to support calling `CIntermediateResultManager.AddResultReceiver` and  `CIntermediateResultManager.RemoveResultReceiver` after StartCapturing.
+* Added ability to output all templates via methods `OutputSettings` and `OutputSettingsToFile` by specifying "*" for the parameter `templateName`.
+
+### Fixed
+
+* Small fixes and tweaks.
+
+### Changed
+
+* Changed the upper limit to the `DuplicateForgetTime`, which is 3 minutes.
+* Changed the timing of `OnOriginalImageResultReceived` so that it is triggered immediately after receiving the image.
+* Changed the constructors of the following classes from public to protected.
+  * CImageTag
+  * CCapturedResultReceiver
+  * CCapturedResultFilter
+  * CImageSourceAdapter
+  * CProactiveImageSourceAdapter
+  * CIntermediateResultUnit
+  * CIntermediateResultReceiver
+* Remove const modifiers of all callback methods of class `CCapturedResultReceiver` and class `CIntermediateResultReceiver`.
+
 ## 2.0.10(08/08/2023)
 
 ### Fixed
