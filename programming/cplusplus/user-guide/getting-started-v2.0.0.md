@@ -3,7 +3,7 @@ layout: default-layout
 title: User Guide for C++ Language
 keywords: user guide, hello world
 description: Dynamsoft Document Normalizer - User Guide for C++ Language
-/programming/cplusplus/user-guide/getting-started-v2.0.0.html
+permalink: /programming/cplusplus/user-guide/getting-started-v2.0.0.html
 ---
 
 # Document Normalizer in C++ - User Guide
