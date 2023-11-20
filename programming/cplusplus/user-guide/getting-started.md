@@ -51,7 +51,7 @@ Let's start by creating a console application which demonstrates how to use the 
 
 - For Linux
 
-1. Create a new source file named `NormalizeAnImage.cpp` and place it into the folder `[INSTALLATION FOLDER]/Resources/DocumentNormalizer/Samples/HelloWorld/NormalizeAnImage`.
+1. Create a new source file named `NormalizeAnImage.cpp` and place it into the folder `[INSTALLATION FOLDER]/Dynamsoft/Resources/DocumentNormalizer/Samples/HelloWorld/NormalizeAnImage`.
 
 ### Include the Library
 
@@ -60,7 +60,7 @@ Let's start by creating a console application which demonstrates how to use the 
     ```cpp
     #include <iostream>
     #include <string>
-    #include "[INSTALLATION FOLDER]/Include/DynamsoftCaptureVisionRouter.h"
+    #include "[INSTALLATION FOLDER]/Dynamsoft/Include/DynamsoftCaptureVisionRouter.h"
 
     using namespace std;
     using namespace dynamsoft::license;
@@ -69,15 +69,15 @@ Let's start by creating a console application which demonstrates how to use the 
 
     #if defined(_WIN64) || defined(_WIN32)
         #ifdef _WIN64
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftCaptureVisionRouterx64.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftCorex64.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftLicensex64.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftUtilityx64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Distributables/Lib/Windows/x64/DynamsoftCaptureVisionRouterx64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Distributables/Lib/Windows/x64/DynamsoftCorex64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Distributables/Lib/Windows/x64/DynamsoftLicensex64.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Distributables/Lib/Windows/x64/DynamsoftUtilityx64.lib")
         #else
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftCaptureVisionRouterx86.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftCorex86.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftLicensex86.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftUtilityx86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Distributables/Lib/Windows/x86/DynamsoftCaptureVisionRouterx86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Distributables/Lib/Windows/x86/DynamsoftCorex86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Distributables/Lib/Windows/x86/DynamsoftLicensex86.lib")
+            #pragma comment(lib, "[INSTALLATION FOLDER]/Dynamsoft/Distributables/Lib/Windows/x86/DynamsoftUtilityx86.lib")
         #endif
     #endif
     ```
@@ -147,7 +147,7 @@ Let's start by creating a console application which demonstrates how to use the 
 
     ```cpp
     delete router, router = NULL;
-	delete result, result = NULL;
+    delete result, result = NULL;
     ```
 
 ### Build and Run the Project
@@ -158,9 +158,9 @@ Let's start by creating a console application which demonstrates how to use the 
 
 2. Build the project to generate program `NormalizeAnImage.exe`.
 
-3. Copy **ALL** `*.dll` files under `[INSTALLATION FOLDER]\Lib\Windows\x64` to the same folder as the `NormalizeAnImage.exe`
+3. Copy **ALL** `*.dll` files under `[INSTALLATION FOLDER]/Dynamsoft/Lib/Windows/x64` to the same folder as the `NormalizeAnImage.exe`
 
-4. Copy `[INSTALLATION FOLDER]/Distributables/DDN-PresetTemplates.json` to the same folder as the `NormalizeAnImage.exe`.
+4. Copy `[INSTALLATION FOLDER]/Dynamsoft/Distributables/DDN-PresetTemplates.json` to the same folder as the `NormalizeAnImage.exe`.
 
 5. Run the program `NormalizeAnImage.exe`.
 
