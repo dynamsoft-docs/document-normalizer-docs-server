@@ -2,70 +2,22 @@
     {
         "version": "2.0.20",
         "matchList": {
-            "android":{
+            "cpp":{
                 "dcvRepoMobile": [
                     {
-                        "path": "/programming/android/api-reference/utility",
+                        "path": "/programming/cpp/api-reference/utility",
                         "version": "1.0.20"
                     }, {
-                        "path": "/programming/android/api-reference/license",
+                        "path": "/programming/cpp/api-reference/license",
                         "version": "3.0.20"
                     }, {
-                        "path": "/programming/android/api-reference/capture-vision-router",
+                        "path": "/programming/cpp/api-reference/capture-vision-router",
                         "version": "2.0.20"
                     }, {
-                        "path": "/programming/android/api-reference/core",
+                        "path": "/programming/cpp/api-reference/core",
                         "version": "3.0.20"
                     }, {
-                        "path": "/programming/android/api-reference/image-processing",
-                        "version": "2.0.20"
-                    }
-                ],
-                "dcvRepoCore": [
-                    {
-                        "path": "/enums/capture-vision-router",
-                        "version": "2.0.20"
-                    }, {
-                        "path": "/enums/core",
-                        "version": "3.0.20"
-                    },{
-                        "path": "/parameters/reference/capture-vision-template",
-                        "version": "2.0.20"
-                    },{
-                        "path": "/parameters/reference/target-roi-def",
-                        "version": "2.0.20"
-                    },{
-                        "path": "/parameters/reference/document-normalizer-task-settings",
-                        "version": "2.0.20"
-                    },{
-                        "path": "/parameters/reference/image-parameter",
-                        "version": "2.0.20"
-                    },{
-                        "path": "/parameters/reference/image-source-options",
-                        "version": "3.0.20"
-                    },{
-                        "path": "/parameters/reference/global-parameter",
-                        "version": "2.0.20"
-                    }
-                ],
-                "dce": "4.0.0"
-            },
-            "ios":{
-                "dcvRepoMobile": [
-                    {
-                        "path": "/programming/objectivec-swift/api-reference/utility",
-                        "version": "1.0.20"
-                    }, {
-                        "path": "/programming/objectivec-swift/api-reference/license",
-                        "version": "3.0.20"
-                    }, {
-                        "path": "/programming/objectivec-swift/api-reference/capture-vision-router",
-                        "version": "2.0.20"
-                    }, {
-                        "path": "/programming/objectivec-swift/api-reference/core",
-                        "version": "3.0.20"
-                    }, {
-                        "path": "/programming/objectivec-swift/api-reference/image-processing",
+                        "path": "/programming/cpp/api-reference/image-processing",
                         "version": "2.0.20"
                     }
                 ],
@@ -102,22 +54,22 @@
     },{
         "version": "2.0.10",
         "matchList": {
-            "android":{
+            "cpp":{
                 "dcvRepoMobile": [
                     {
-                        "path": "/programming/android/api-reference/utility",
+                        "path": "/programming/cpp/api-reference/utility",
                         "version": "1.0.10"
                     }, {
-                        "path": "/programming/android/api-reference/license",
+                        "path": "/programming/cpp/api-reference/license",
                         "version": "3.0.10"
                     }, {
-                        "path": "/programming/android/api-reference/capture-vision-router",
+                        "path": "/programming/cpp/api-reference/capture-vision-router",
                         "version": "2.0.10"
                     }, {
-                        "path": "/programming/android/api-reference/core",
+                        "path": "/programming/cpp/api-reference/core",
                         "version": "3.0.10"
                     }, {
-                        "path": "/programming/android/api-reference/image-processing",
+                        "path": "/programming/cpp/api-reference/image-processing",
                         "version": "2.0.10"
                     }
                 ],
@@ -149,64 +101,6 @@
                     }
                 ],
                 "dce": "4.0.0"
-            },
-            "ios":{
-                "dcvRepoMobile": [
-                    {
-                        "path": "/programming/objectivec-swift/api-reference/utility",
-                        "version": "1.0.10"
-                    }, {
-                        "path": "/programming/objectivec-swift/api-reference/license",
-                        "version": "3.0.10"
-                    }, {
-                        "path": "/programming/objectivec-swift/api-reference/capture-vision-router",
-                        "version": "2.0.10"
-                    }, {
-                        "path": "/programming/objectivec-swift/api-reference/core",
-                        "version": "3.0.10"
-                    }, {
-                        "path": "/programming/objectivec-swift/api-reference/image-processing",
-                        "version": "2.0.10"
-                    }
-                ],
-                "dcvRepoCore": [
-                    {
-                        "path": "/enums/capture-vision-router",
-                        "version": "2.0.10"
-                    }, {
-                        "path": "/enums/core",
-                        "version": "3.0.10"
-                    },{
-                        "path": "/parameters/reference/capture-vision-template",
-                        "version": "2.0.10"
-                    },{
-                        "path": "/parameters/reference/target-roi-def",
-                        "version": "2.0.10"
-                    },{
-                        "path": "/parameters/reference/document-normalizer-task-settings",
-                        "version": "2.0.10"
-                    },{
-                        "path": "/parameters/reference/image-parameter",
-                        "version": "2.0.10"
-                    },{
-                        "path": "/parameters/reference/image-source-options",
-                        "version": "3.0.10"
-                    },{
-                        "path": "/parameters/reference/global-parameter",
-                        "version": "2.0.10"
-                    }
-                ],
-                "dce": "4.0.0"
-            }
-        }
-    },{
-        "version": "1.0.30",
-        "matchList": {
-            "android": {
-                "dce": "3.0.3"
-            },
-            "ios": {
-                "dce": "3.0.3"
             }
         }
     }
