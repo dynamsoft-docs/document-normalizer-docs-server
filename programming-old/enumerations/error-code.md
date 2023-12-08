@@ -1,12 +1,15 @@
 ---
 layout: default-layout
 title: Dynamsoft Document Normalizer Enumerations - Error Code
-description: This article shows Error Code of Dynamsoft Document Normalizer.
+description: This article shows Error Code of Dynamsoft Document Normalizer server editions.
 keywords: error code, enumeration
 permalink: /programming/enumerations/error-code.html
+ignore: true
 ---
 
 # Error Code
+
+> You are viewing a historical document page of Dynamsoft Document Normalizer v1.0.30.
 
 ## For all programming languages
 
