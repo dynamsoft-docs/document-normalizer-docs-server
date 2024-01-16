@@ -2,8 +2,8 @@
 layout: default-layout
 title: CNormalizedImagesResult Class
 description: This page shows CNormalizedImagesResult class definition of Dynamsoft Document Normalizer SDK C++ Edition.
-keywords: GetCount, GetErrorCode, GetErrorString, GetItem, GetSourceImageHashId, GetSourceImageTag, CNormalizedImagesResult, api reference
-permalink: /programming/cplusplus/api-reference/normalized-images-result-v2.0.0.html
+keywords: GetItemsCount, GetErrorCode, GetErrorString, GetItem, GetOriginalImageHashId, GetOriginalImageTag, CNormalizedImagesResult, api reference
+permalink: /programming/cplusplus/api-reference/normalized-images-result-v2.0.20.html
 ---
 
 # CNormalizedImagesResult
@@ -24,22 +24,22 @@ class CNormalizedImagesResult: public CRegionObjectElement
 
 | Method               | Description |
 |----------------------|-------------|
-| [`GetCount`](#getcount) | Gets the number of normalized images in the result. |
+| [`GetItemsCount`](#getitemscount) | Gets the number of normalized images in the result. |
 | [`GetErrorCode`](#geterrorcode) | Gets the error code of the operation. |
 | [`GetErrorString`](#geterrorstring) | Gets the error message of the operation. |
 | [`GetItem`](#getitem) | Gets a specific normalized image from the result. |
 | [`HasItem`](#hasitem) | Check if the item is present in the array.|
 | [`RemoveItem`](#removeitem) | Remove a specific item from the array in the normalized images.|
 | [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Get the rotation transformation matrix of the original image relative to the rotated image.|
-| [`GetSourceImageHashId`](#getsourceimagehashid) | Gets the hash ID of the original image, from which you get the normalized image. |
-| [`GetSourceImageTag`](#getsourceimagetag) | Gets the tag of the original image, from which you get the normalized image. |
+| [`GetOriginalImageHashId`](#getoriginalimagehashid) | Gets the hash ID of the original image, from which you get the normalized image. |
+| [`GetOriginalImageTag`](#getoriginalimagetag) | Gets the tag of the original image, from which you get the normalized image. |
 
-### GetCount
+### GetItemsCount
 
 Gets the number of normalized images in the result.
 
 ```cpp
-int GetCount()
+int GetItemsCount()
 ```
 
 **Return value**
@@ -139,29 +139,29 @@ void GetRotationTransformMatrix(double matrix[9]) const;
 `[out] matrix` A double array which represents the rotation transform matrix.
 
 
-### GetSourceImageHashId
+### GetOriginalImageHashId
 
-Gets the hash ID of the source image that was normalized.
+Gets the hash ID of the original image that was normalized.
 
 ```cpp
-const char* GetSourceImageHashId()
+const char* GetOriginalImageHashId()
 ```
 
 **Return value**
 
-Returns the hash ID of the source image that was normalized.
+Returns the hash ID of the original image that was normalized.
 
-### GetSourceImageTag
+### GetOriginalImageTag
 
-Gets the tag of the source image that was normalized.
+Gets the tag of the original image that was normalized.
 
 ```cpp
-const CImageTag* GetSourceImageTag()
+const CImageTag* GetOriginalImageTag()
 ```
 
 **Return value**
 
-Returns a pointer to the tag of the source image that was normalized.
+Returns a pointer to the tag of the original image that was normalized.
 
 **See Also**
 

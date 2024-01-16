@@ -33,6 +33,9 @@ class CNormalizedImagesResult: public CRegionObjectElement
 | [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Get the rotation transformation matrix of the original image relative to the rotated image.|
 | [`GetOriginalImageHashId`](#getoriginalimagehashid) | Gets the hash ID of the original image, from which you get the normalized image. |
 | [`GetOriginalImageTag`](#getoriginalimagetag) | Gets the tag of the original image, from which you get the normalized image. |
+| [`operator[]`](#operator) | Gets the normalized images result at a specified index.|
+| [`Retain`](#retain) | Increases the reference count of the CDetectedQuadsResult object. |
+| [`Release`](#release) | Decreases the reference count of the CDetectedQuadsResult object. |
 
 ### GetItemsCount
 
@@ -166,3 +169,39 @@ Returns a pointer to the tag of the original image that was normalized.
 **See Also**
 
 * [CImageTag]({{ site.dcv_cpp_api }}core/basic-structures/image-tag.html)
+
+### operator[]
+
+Gets a specific normalized image from the result.
+
+```cpp
+virtual const CNormalizedImageResultItem* operator[](int index) const= 0
+```
+
+**Parameters**
+
+`[in] index` The index of the normalized image to get.
+
+**Return value**
+
+Returns a pointer to the normalized image at the specified index. If the index is out of range, returns nullptr.
+
+### Retain
+
+Increases the reference count of the CNormalizedImagesResult object.
+
+```cpp
+virtual CNormalizedImagesResult* Retain() = 0;
+```
+
+**Return value**
+
+An object of CNormalizedImagesResult.
+
+### Release
+
+Decreases the reference count of the CNormalizedImagesResult object.
+
+```cpp
+virtual void Release() = 0;
+```

@@ -28,6 +28,10 @@ class CCornersUnit: CIntermediateResultUnit
 |--------|-------------|
 | [`GetCount`](#getcount) | Gets the count of Corner objects in current object.|
 | [`GetCorner`](#getcorner) | Gets a Corner object from current object by specifying a index. |
+| [`RemoveAllCorners`](#removeallcorners) | Removes all the corners in current object. |
+| [`RemoveCorner`](removecorner) | Removes a corner from current object by specifying an index. |
+| [`AddCorner`](addcorner) | Adds a corner to current object. |
+| [`SetCorner`](setcorner) | Sets the corner at the specified index. |
 
 ### GetCount
 
@@ -63,3 +67,65 @@ Returns the error code.
 
 * [CCorner]({{ site.dcv_cpp_api }}core/basic-structures/corner.html)
 * [ErrorCode]({{ site.enumerations }}core/error-code.html?src=cpp&&lang=cpp)
+
+### RemoveAllCorners
+
+Removes all the corners in current object.
+
+```cpp
+virtual void RemoveAllCorners() = 0
+```
+
+### RemoveCorner
+
+Removes a corner from current object by specifying an index.
+
+```cpp
+virtual int RemoveCorner(int index) = 0
+```
+
+**Parameters**
+
+`[in] index` The index of the corner to be removed.
+
+**Return Value**
+
+Returns 0 if successful, otherwise returns a negative value.
+
+### AddCorner
+
+Adds a corner to current object.
+
+```cpp
+virtual int AddCorner(const CCorner& corner, const double matrixToOriginalImage[9] =  IDENTITY_MATRIX) = 0
+```
+
+**Parameters**
+
+`[in] corner` The corner to be added.
+
+`[in] matrixToOriginalImage` The matrix to the original image.
+
+**Return Value**
+
+Returns 0 if successful, otherwise returns a negative value.
+
+### SetCorner
+
+Sets the corner at the specified index.
+
+```cpp
+virtual int SetCorner(int index, const CCorner& corner, const double matrixToOriginalImage[9] =  IDENTITY_MATRIX) = 0;
+```
+
+**Parameters**
+
+`[in] index` The index of the corner to be set.
+
+`[in] corner` The corner to be added.
+
+`[in] matrixToOriginalImage` The matrix to the original image.
+
+**Return Value**
+
+Returns 0 if successful, otherwise returns a negative value.

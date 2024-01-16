@@ -3,7 +3,7 @@ layout: default-layout
 title: CDetectedQuadsResult Class
 description: This page shows CDetectedQuadsResult class definition of Dynamsoft Document Normalizer SDK C++ Edition.
 keywords: GetItemsCount, GetErrorCode, GetErrorString, GetItem, GetOriginalImageHashId, GetOriginalImageTag, CDetectedQuadsResult, api reference
-permalink: /programming/cplusplus/api-reference/detected-quads-result.html
+permalink: /programming/cplusplus/api-reference/detected-quads-result-v2.0.20.html
 ---
 
 # CDetectedQuadsResult Class
@@ -33,9 +33,6 @@ class CDetectedQuadsResult
 | [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Get the rotation transformation matrix of the original image relative to the rotated image.|
 | [`GetOriginalImageHashId`](#getoriginalimagehashid) | Gets the hash ID of the original image. |
 | [`GetOriginalImageTag`](#getoriginalimagetag) | Gets the tag of the original image. |
-| [`operator[]`](#operator) | Gets the detected quadrilateral item at a specified index.|
-| [`Retain`](#retain) | Increases the reference count of the CDetectedQuadsResult object. |
-| [`Release`](#release) | Decreases the reference count of the CDetectedQuadsResult object. |
 
 ### GetItemsCount
 
@@ -168,39 +165,3 @@ Returns a pointer to a CImageTag object that represents the tag of the original 
 **See Also**
 
 * [CImageTag]({{ site.dcv_cpp_api }}core/basic-structures/image-tag.html)
-
-### operator[]
-
-Gets the detected quadrilateral item at a specified index.
-
-```cpp
-virtual const CDetectedQuadResultItem* operator[](int index) const = 0
-```
-
-**Parameters**
-
-`[in] index` The zero-based index of the detected quadrilateral to retrieve.
-
-**Return value**
-
-Returns a pointer to a CDetectedQuadResultItem object that represents the detected quadrilateral at the specified index.
-
-### Retain
-
-Increases the reference count of the CDetectedQuadsResult object.
-
-```cpp
-virtual CDetectedQuadsResult* Retain() = 0;
-```
-
-**Return value**
-
-An object of CDetectedQuadsResult.
-
-### Release
-
-Decreases the reference count of the CDetectedQuadsResult object.
-
-```cpp
-virtual void Release() = 0;
-```

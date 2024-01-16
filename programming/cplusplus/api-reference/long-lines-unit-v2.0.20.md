@@ -3,7 +3,7 @@ layout: default-layout
 title: CLongLinesUnit Class
 description: This page shows CLongLinesUnit class definition of Dynamsoft Document Normalizer SDK C++ Edition.
 keywords: GetCount, GetLongLine, CLongLinesUnit, api reference
-permalink: /programming/cplusplus/api-reference/long-lines-unit-v2.0.0.html
+permalink: /programming/cplusplus/api-reference/long-lines-unit-v2.0.20.html
 ---
 
 # CLongLinesUnit Class
@@ -46,18 +46,16 @@ The count of LongLine objects in current object.
 Gets a LongLine object from current object by specifying a index.
 
 ```cpp
-int GetLongLine(int index, CLineSegment* line)
+const CLineSegment* GetLongLine(int index) const = 0;
 ```
 
 **Parameters**
 
 `[in] index` The index of the LongLine object.
 
-`[in, out] line` The LongLine object got by the specific index.
-
 **Return Value**
 
-Returns the error code.
+Returns the LongLine object.
 
 **See Also**
 

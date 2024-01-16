@@ -28,6 +28,10 @@ class CCandidateQuadEdgesUnit: CIntermediateResultUnit
 |--------|-------------|
 | [`GetCount`](#getcount) | Gets the count of CandidateQuadEdge objects in current object.|
 | [`GetCandidateQuadEdge`](#getcandidatequadedge) | Gets a CandidateQuadEdge object from current object by specifying a index. |
+| [`RemoveAllCandidateQuadEdges`](#removeallcandidatequadedges) | Removes all the candidate quad edges in current object. |
+| [`RemoveCandidateQuadEdge`](removecandidatequadedge) | Removes a candidate quad edge from current object by specifying an index. |
+| [`AddCandidateQuadEdge`](addcandidatequadedge) | Adds a candidate quad edge to current object. |
+| [`SetCandidateQuadEdge`](setcandidatequadedge) | Sets the candidate quad edge at the specified index. |
 
 ### GetCount
 
@@ -63,3 +67,65 @@ Returns the error code.
 
 * [CEdge]({{ site.dcv_cpp_api }}core/basic-structures/edge.html)
 * [ErrorCode]({{ site.enumerations }}core/error-code.html?src=cpp&&lang=cpp)
+
+### RemoveAllCandidateQuadEdges
+
+Removes all the candidate quad edges in current object.
+
+```cpp
+virtual void RemoveAllCandidateQuadEdges() = 0
+```
+
+### RemoveCandidateQuadEdge
+
+Removes a candidate quad edge from current object by specifying an index.
+
+```cpp
+virtual int RemoveCandidateQuadEdge(int index) = 0
+```
+
+**Parameters**
+
+`[in] index` The index of the candidate quad edge to be removed. 
+
+**Return Value**
+
+Returns 0 if successful, otherwise returns a negative value.
+
+### AddCandidateQuadEdge
+
+Adds a candidate quad edge to current object.
+
+```cpp
+virtual int AddCandidateQuadEdge(const CEdge& edge, const double matrixToOriginalImage[9] =  IDENTITY_MATRIX) = 0
+```
+
+**Parameters**
+
+`[in] edge` The candidate quad edge to be added.
+
+`[in] matrixToOriginalImage` The matrix to the original image.
+
+**Return Value**
+
+Returns 0 if successful, otherwise returns a negative value.
+
+### SetCandidateQuadEdge
+
+Sets the candidate quad edge at the specified index.
+
+```cpp
+virtual int SetCandidateQuadEdge(int index, const CEdge& edge, const double matrixToOriginalImage[9] =  IDENTITY_MATRIX) = 0;
+```
+
+**Parameters**
+
+`[in] index` The index of the candidate quad edge to be set.
+
+`[in] edge` The candidate quad edge to be added.
+
+`[in] matrixToOriginalImage` The matrix to the original image.
+
+**Return Value**
+
+Returns 0 if successful, otherwise returns a negative value.

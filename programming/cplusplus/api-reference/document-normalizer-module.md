@@ -25,9 +25,11 @@ class CDocumentNormalizerModule
 
 ## Methods Summary
 
-| Method                                                    | Description                                        |
-| --------------------------------------------------------- | -------------------------------------------------- |
+| Method                                                        | Description                                            |
+| ------------------------------------------------------------- | ------------------------------------------------------ |
 | [GetVersion](#getversion)                                     | Returns the version of the document normalizer module. |
+| [CreateNormalizedImageElement](#createnormalizedimageelement) | Create a Normalized Image Element object.              |
+| [CreateDetectedQuadElement](#createdetectedquadelement)       | Create a Detected Quad Element object.                 |
 
 ## GetVersion
 
@@ -44,3 +46,35 @@ None.
 **Return Value**
 
 Returns a const char pointer representing the version of the document normalizer module.
+
+## CreateNormalizedImageElement
+
+Create a Normalized Image Element object.
+
+```cpp
+static intermediate_results::CNormalizedImageElement* CreateNormalizedImageElement();
+```
+
+**Parameters**
+
+None.
+
+**Return Value**
+
+Returns an instance of CNormalizedImageElement.
+
+## CreateDetectedQuadElement
+
+Create a Detected Quad Element object.
+
+```cpp
+static intermediate_results::CDetectedQuadElement* CreateDetectedQuadElement();
+```
+
+**Parameters**
+
+None.
+
+**Return Value**
+
+Returns an instance of CDetectedQuadElement.
