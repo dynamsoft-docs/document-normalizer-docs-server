@@ -3,7 +3,7 @@ layout: default-layout
 title: CDetectedQuadsResult Class
 description: This page shows CDetectedQuadsResult class definition of Dynamsoft Document Normalizer SDK C++ Edition.
 keywords: GetCount, GetErrorCode, GetErrorString, GetItem, GetSourceImageHashId, GetSourceImageTag, CDetectedQuadsResult, api reference
-permalink: /programming/cplusplus/api-reference/detected-quads-result.html
+permalink: /programming/cplusplus/api-reference/detected-quads-result-v2.0.0.html
 ---
 
 # CDetectedQuadsResult Class

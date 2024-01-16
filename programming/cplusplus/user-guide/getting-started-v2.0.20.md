@@ -3,6 +3,7 @@ layout: default-layout
 title: User Guide for C++ Language
 keywords: user guide, hello world
 description: Dynamsoft Document Normalizer - User Guide for C++ Language
+permalink: /programming/cplusplus/user-guide/getting-started-v2.0.20.html
 ---
 
 # Document Normalizer in C++ - User Guide
@@ -146,8 +147,8 @@ Let's start by creating a console application which demonstrates how to use the 
 3. Release the allocated memory.
 
     ```cpp
-    result->Release();
     delete router, router = NULL;
+    delete result, result = NULL;
     ```
 
 ### Build and Run the Project

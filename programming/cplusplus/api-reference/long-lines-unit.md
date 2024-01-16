@@ -28,6 +28,10 @@ class CLongLinesUnit: CIntermediateResultUnit
 |--------|-------------|
 | [`GetCount`](#getcount) | Gets the count of LongLine objects in current object.|
 | [`GetLongLine`](#getlongline) | Gets a LongLine object from current object by specifying a index. |
+| [`RemoveAllLongLines`](#removealllonglines) | Removes all the LongLines in current object. |
+| [`RemoveLongLine`](removeLongLine) | Removes a LongLine from current object by specifying an index. |
+| [`AddLongLine`](addLongLine) | Adds a LongLine to current object. |
+| [`SetLongLine`](setLongLine) | Sets the LongLine at the specified index. |
 
 ### GetCount
 
@@ -61,3 +65,65 @@ Returns the LongLine object.
 
 * [CLineSegment]({{ site.dcv_cpp_api }}core/basic-structures/line-segment.html)
 * [ErrorCode]({{ site.enumerations }}core/error-code.html?src=cpp&&lang=cpp)
+
+### RemoveAllLongLines
+
+Removes all the LongLines in current object.
+
+```cpp
+virtual void RemoveAllLongLines() = 0
+```
+
+### RemoveLongLine
+
+Removes a LongLine from current object by specifying an index.
+
+```cpp
+virtual int RemoveLongLine(int index) = 0
+```
+
+**Parameters**
+
+`[in] index` The index of the LongLine to be removed.
+
+**Return Value**
+
+Returns 0 if successful, otherwise returns a negative value.
+
+### AddLongLine
+
+Adds a LongLine to current object.
+
+```cpp
+virtual int AddLongLine(const CLineSegment& line, const double matrixToOriginalImage[9] =  IDENTITY_MATRIX) = 0
+```
+
+**Parameters**
+
+`[in] line` The LongLine to be added.
+
+`[in] matrixToOriginalImage` The matrix to the original image.
+
+**Return Value**
+
+Returns 0 if successful, otherwise returns a negative value.
+
+### SetLongLine
+
+Sets the LongLine at the specified index.
+
+```cpp
+virtual int SetLongLine(int index, const CLineSegment& line, const double matrixToOriginalImage[9] =  IDENTITY_MATRIX) = 0;
+```
+
+**Parameters**
+
+`[in] index` The index of the LongLine to be set.
+
+`[in] line` The LongLine to be added.
+
+`[in] matrixToOriginalImage` The matrix to the original image.
+
+**Return Value**
+
+Returns 0 if successful, otherwise returns a negative value.

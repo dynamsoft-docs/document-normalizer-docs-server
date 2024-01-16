@@ -70,6 +70,7 @@ permalink: /programming/cplusplus/api-reference/index.html
 ## Settings
 
 - [`SimplifiedCaptureVisionSettings`]({{ site.dcv_cpp_api }}capture-vision-router/structs/simplified-capture-vision-settings.html)
+- [`SimplifiedDocumentNormalizerSettings`]({{ site.cpp_api }}simplified-document-normalizer-settings.html)
 - [`CPresetTemplate`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/preset-template.html)
 
 ## State Listener
