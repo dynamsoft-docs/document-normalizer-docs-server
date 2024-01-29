@@ -29,9 +29,9 @@ class CLongLinesUnit: CIntermediateResultUnit
 | [`GetCount`](#getcount) | Gets the count of LongLine objects in current object.|
 | [`GetLongLine`](#getlongline) | Gets a LongLine object from current object by specifying a index. |
 | [`RemoveAllLongLines`](#removealllonglines) | Removes all the LongLines in current object. |
-| [`RemoveLongLine`](removeLongLine) | Removes a LongLine from current object by specifying an index. |
-| [`AddLongLine`](addLongLine) | Adds a LongLine to current object. |
-| [`SetLongLine`](setLongLine) | Sets the LongLine at the specified index. |
+| [`RemoveLongLine`](#removelongline) | Removes a LongLine from current object by specifying an index. |
+| [`AddLongLine`](#addlongline) | Adds a LongLine to current object. |
+| [`SetLongLine`](#setlongline) | Sets the LongLine at the specified index. |
 
 ### GetCount
 
