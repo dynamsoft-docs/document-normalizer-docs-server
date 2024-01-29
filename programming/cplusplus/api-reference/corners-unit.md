@@ -29,9 +29,9 @@ class CCornersUnit: CIntermediateResultUnit
 | [`GetCount`](#getcount) | Gets the count of Corner objects in current object.|
 | [`GetCorner`](#getcorner) | Gets a Corner object from current object by specifying a index. |
 | [`RemoveAllCorners`](#removeallcorners) | Removes all the corners in current object. |
-| [`RemoveCorner`](removecorner) | Removes a corner from current object by specifying an index. |
-| [`AddCorner`](addcorner) | Adds a corner to current object. |
-| [`SetCorner`](setcorner) | Sets the corner at the specified index. |
+| [`RemoveCorner`](#removecorner) | Removes a corner from current object by specifying an index. |
+| [`AddCorner`](#addcorner) | Adds a corner to current object. |
+| [`SetCorner`](#setcorner) | Sets the corner at the specified index. |
 
 ### GetCount
 

@@ -29,9 +29,9 @@ class CCandidateQuadEdgesUnit: CIntermediateResultUnit
 | [`GetCount`](#getcount) | Gets the count of CandidateQuadEdge objects in current object.|
 | [`GetCandidateQuadEdge`](#getcandidatequadedge) | Gets a CandidateQuadEdge object from current object by specifying a index. |
 | [`RemoveAllCandidateQuadEdges`](#removeallcandidatequadedges) | Removes all the candidate quad edges in current object. |
-| [`RemoveCandidateQuadEdge`](removecandidatequadedge) | Removes a candidate quad edge from current object by specifying an index. |
-| [`AddCandidateQuadEdge`](addcandidatequadedge) | Adds a candidate quad edge to current object. |
-| [`SetCandidateQuadEdge`](setcandidatequadedge) | Sets the candidate quad edge at the specified index. |
+| [`RemoveCandidateQuadEdge`](#removecandidatequadedge) | Removes a candidate quad edge from current object by specifying an index. |
+| [`AddCandidateQuadEdge`](#addcandidatequadedge) | Adds a candidate quad edge to current object. |
+| [`SetCandidateQuadEdge`](#setcandidatequadedge) | Sets the candidate quad edge at the specified index. |
 
 ### GetCount
 

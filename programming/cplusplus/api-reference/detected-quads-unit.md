@@ -30,9 +30,9 @@ class CDetectedQuadsUnit: CIntermediateResultUnit
 | [`GetDetectedQuad`](#getdetectedquad) | Gets a DetectedQuad object from current object by specifying a index. |
 | [`operator[]`](#operator) | Gets a DetectedQuad object from current object by specifying a index.|
 | [`RemoveAllDetectedQuads`](#removealldetectedquads) | Removes all the detected quads in current object. |
-| [`RemoveDetectedQuad`](removedetectedquad) | Removes a detected quad from current object by specifying an index. |
-| [`AddDetectedQuad`](adddetectedquad) | Adds a detected quad to current object. |
-| [`SetDetectedQuad`](setdetectedquad) | Sets the detected quad at the specified index. |
+| [`RemoveDetectedQuad`](#removedetectedquad) | Removes a detected quad from current object by specifying an index. |
+| [`AddDetectedQuad`](#adddetectedquad) | Adds a detected quad to current object. |
+| [`SetDetectedQuad`](#setdetectedquad) | Sets the detected quad at the specified index. |
 
 ### GetCount
 
