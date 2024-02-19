@@ -116,6 +116,7 @@ permalink: /programming/cplusplus/release-notes/cpp-2.html
 
 #### Fixed
 
+- Fixed a bug where the internal table boundaries were recognized as the document boundaries.
 - Fixed a crash bug that might happen when triggering the `SetNextImageToReturn` method of the `ImageSourceAdapter` class.
 
 #### Break Changes
