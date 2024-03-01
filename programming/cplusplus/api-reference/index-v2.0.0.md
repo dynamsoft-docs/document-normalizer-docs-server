@@ -3,7 +3,7 @@ layout: default-layout
 title: Dynamsoft Document Normalizer C++ API Reference - Main Page
 description: This is the main page of Dynamsoft Document Normalizer SDK API Reference for C++ Language.
 keywords: CDocumentNormalizer, api reference, C++
-permalink: /programming/cplusplus/api-reference/index.html
+permalink: /programming/cplusplus/api-reference/index-v2.0.0.html
 ---
 
 # API Reference - C++
@@ -105,19 +105,19 @@ permalink: /programming/cplusplus/api-reference/index.html
 
 ## Enumerations
 
-- [`BufferOverflowProtectionMode`]({{ site.enumerations }}core/buffer-overflow-protection-mode.html?src=cpp&&lang=cpp)
-- [`CapturedResultItemType`]({{ site.enumerations }}core/captured-result-item-type.html?src=cpp&&lang=cpp)
-- [`CornerType`]({{ site.enumerations }}core/corner-type.html?src=cpp&&lang=cpp)
-- [`ErrorCode`]({{ site.enumerations }}core/error-code.html?src=cpp&&lang=cpp)
-- [`GrayscaleTransformationMode`]({{ site.enumerations }}core/grayscale-transformation-mode.html?src=cpp&&lang=cpp)
-- [`ImageCaptureDistanceMode`]({{ site.enumerations }}core/image-capture-distance-mode.html?src=cpp&&lang=cpp)
-- [`ImagePixelFormat`]({{ site.enumerations }}core/image-pixel-format.html?src=cpp&&lang=cpp)
-- [`ImageSourceState`]({{ site.enumerations }}core/image-source-state.html?src=cpp&&lang=cpp)
-- [`ImageTagType`]({{ site.enumerations }}core/image-tag-type.html?src=cpp&&lang=cpp)
-- [`IntermediateResultUnitType`]({{ site.enumerations }}core/intermediate-result-unit-type.html?src=cpp&&lang=cpp)
-- [`PDFReadingMode`]({{ site.enumerations }}core/pdf-reading-mode.html?src=cpp&&lang=cpp)
-- [`RegionObjectElementType`]({{ site.enumerations }}core/region-object-element-type.html?src=cpp&&lang=cpp)
-- [`SectionType`]({{ site.enumerations }}core/section-type.html?src=cpp&&lang=cpp)
-- [`TargetType`]({{ site.enumerations }}core/target-type.html?src=cpp&&lang=cpp)
-- [`VideoFrameQuality`]({{ site.enumerations }}core/video-frame-quality.html?src=cpp&&lang=cpp)
+- [`BufferOverflowProtectionMode`]({{ site.dcv_enumerations }}core/buffer-overflow-protection-mode.html?src=cpp&&lang=cpp)
+- [`CapturedResultItemType`]({{ site.dcv_enumerations }}core/captured-result-item-type.html?src=cpp&&lang=cpp)
+- [`CornerType`]({{ site.dcv_enumerations }}core/corner-type.html?src=cpp&&lang=cpp)
+- [`ErrorCode`]({{ site.dcv_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
+- [`GrayscaleTransformationMode`]({{ site.dcv_enumerations }}core/grayscale-transformation-mode.html?src=cpp&&lang=cpp)
+- [`ImageCaptureDistanceMode`]({{ site.dcv_enumerations }}core/image-capture-distance-mode.html?src=cpp&&lang=cpp)
+- [`ImagePixelFormat`]({{ site.dcv_enumerations }}core/image-pixel-format.html?src=cpp&&lang=cpp)
+- [`ImageSourceState`]({{ site.dcv_enumerations }}core/image-source-state.html?src=cpp&&lang=cpp)
+- [`ImageTagType`]({{ site.dcv_enumerations }}core/image-tag-type.html?src=cpp&&lang=cpp)
+- [`IntermediateResultUnitType`]({{ site.dcv_enumerations }}core/intermediate-result-unit-type.html?src=cpp&&lang=cpp)
+- [`PDFReadingMode`]({{ site.dcv_enumerations }}core/pdf-reading-mode.html?src=cpp&&lang=cpp)
+- [`RegionObjectElementType`]({{ site.dcv_enumerations }}core/region-object-element-type.html?src=cpp&&lang=cpp)
+- [`SectionType`]({{ site.dcv_enumerations }}core/section-type.html?src=cpp&&lang=cpp)
+- [`TargetType`]({{ site.dcv_enumerations }}core/target-type.html?src=cpp&&lang=cpp)
+- [`VideoFrameQuality`]({{ site.dcv_enumerations }}core/video-frame-quality.html?src=cpp&&lang=cpp)
 - [`ColourChannelUsageType`]({{ site.enumerations}}core/colour-channel-usage-type.html?src=cpp&&lang=cpp)

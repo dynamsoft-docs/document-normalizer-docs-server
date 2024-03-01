@@ -63,7 +63,7 @@ Returns the error code of the operation. A non-zero value indicates an error occ
 
 **See Also**
 
-* [ErrorCode]({{ site.enumerations }}core/error-code.html?src=cpp&&lang=cpp)
+* [ErrorCode]({{ site.dcv_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
 
 ### GetErrorString
 

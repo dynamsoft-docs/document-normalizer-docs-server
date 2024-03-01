@@ -274,7 +274,7 @@ The class `CDirectoryFetcher` is capable of converting a local directory to an i
     };
     ```
 
-    >For the error handling mechanism, the SDK returns Error Code in the `CNormalizedImagesResult` object. You can add error handling code as needed. See [Error Code]({{ site.enumerations }}core/error-code.html) for a full list of supported error codes.
+    >For the error handling mechanism, the SDK returns Error Code in the `CNormalizedImagesResult` object. You can add error handling code as needed. See [Error Code]({{ site.dcv_enumerations }}core/error-code.html?src=cpp&&lang=cpp) for a full list of supported error codes.
 
 2. Create a receiver object and set it as the output.
 
