@@ -63,7 +63,7 @@ Returns the error code.
 
 **See Also**
 
-* [ErrorCode]({{ site.enumerations }}core/error-code.html?src=cpp&&lang=cpp)
+* [ErrorCode]({{ site.dcv_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
 
 ### GetErrorString
 

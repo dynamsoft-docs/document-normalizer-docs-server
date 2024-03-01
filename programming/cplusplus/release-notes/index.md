@@ -9,7 +9,7 @@ permalink: /programming/cplusplus/release-notes/index.html
 
 # Release Notes - C++ Edition
 
-- [2.2.10 (02/29/2024)](cpp-2.html#2210-02292024)
+- [2.2.10 (03/01/2024)](cpp-2.html#2210-03012024)
 - [2.2.0 (01/16/2024)](cpp-2.html#220-01162024)
 - [2.0.20 (10/26/2023)](cpp-2.html#2020-10262023)
 - [2.0.10 (08/08/2023)](cpp-2.html#2010-08082023)

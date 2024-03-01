@@ -66,7 +66,7 @@ Returns the error code.
 **See Also**
 
 * [CCorner]({{ site.dcv_cpp_api }}core/basic-structures/corner.html)
-* [ErrorCode]({{ site.enumerations }}core/error-code.html?src=cpp&&lang=cpp)
+* [ErrorCode]({{ site.dcv_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
 
 ### RemoveAllCorners
 

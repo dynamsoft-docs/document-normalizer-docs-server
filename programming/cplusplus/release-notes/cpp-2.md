@@ -9,11 +9,11 @@ permalink: /programming/cplusplus/release-notes/cpp-2.html
 
 # Release Notes for C++ Edition - v2.x
 
-## 2.2.10 (02/29/2024)
+## 2.2.10 (03/01/2024)
 
 ### Improved
 
-- Security update for `DynamsoftDocumentNormalizer` library and other coorsponding libraries.
+- Security update for `DynamsoftDocumentNormalizer` library and other corresponding libraries.
 - Supported multiple instances of the class [`CCaptureVisionRouter`]({{ site.dcv_cpp_api }}capture-vision-router/capture-vision-router.html).
 - Improved the usage count logic of the concurrent license mode.
 - Improved the experience of local cache usage when failing to connect the license server. The renewal of the local cache is optimized as well.

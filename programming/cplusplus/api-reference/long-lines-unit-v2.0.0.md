@@ -62,4 +62,4 @@ Returns the error code.
 **See Also**
 
 * [CLineSegment]({{ site.dcv_cpp_api }}core/basic-structures/line-segment.html)
-* [ErrorCode]({{ site.enumerations }}core/error-code.html?src=cpp&&lang=cpp)
+* [ErrorCode]({{ site.dcv_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
