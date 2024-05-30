@@ -11,11 +11,11 @@ description: Documentation Homepage
 
 Learn how to use Dynamsoft Document Normalizer SDK in different programming languages:
 
-- [C++]({{ site.cpp }})
+- [C++]({{ site.ddn_cpp }})
+- [C]({{ site.ddn_c }})
+- [.NET]({{ site.ddn_dotnet }})
 
 Coming soon:
 
 - Python
-- C
-- .NET
 - Java

@@ -72,7 +72,7 @@ Let's start by creating a console application which demonstrates how to use the 
     ```
 
     > The string "DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9" here is a free public trial license. Note that network connection is required for this license to work. When it expires, you can
-    > request a 30-day free trial license from <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=guide&product=ddn&package=desktop" target="_blank">Customer Portal</a>.
+    > request a 30-day free trial license from <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=guide&product=ddn&package=c_cpp" target="_blank">Customer Portal</a>.
 
 2. Create an instance of Dynamsoft Document Normalizer.
 
@@ -92,7 +92,7 @@ Let's start by creating a console application which demonstrates how to use the 
         printf("%s\n", DC_GetErrorString(errorCode));
     ```
 
-    >For the error handling mechanism, the SDK returns Error Code for each function and provides a function `DC_GetErrorString` to get the readable message. You should add codes for error handling based on your needs. Check out [Error Code]({{site.enumerations_v1}}error-code.html) for full supported error codes.
+    >For the error handling mechanism, the SDK returns Error Code for each function and provides a function `DC_GetErrorString` to get the readable message. You should add codes for error handling based on your needs. Check out [Error Code]({{site.ddn_enumerations_v1}}error-code.html) for full supported error codes.
 
 2. Save the normalized result as an image file.
 

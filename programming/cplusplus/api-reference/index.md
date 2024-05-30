@@ -38,27 +38,28 @@ permalink: /programming/cplusplus/api-reference/index.html
 ### Enums
 
 - [`CaptureState`]({{ site.dcv_enumerations }}capture-vision-router/capture-state.html?lang=cpp)
+- [`ImageSourceState`]({{ site.dcv_enumerations }}capture-vision-router/image-source-state.html?lang=cpp)
 
 ## DynamsoftDocumentNormalizer
 
 ### Classes
 
-- [`CCandidateQuadEdgesUnit`]({{ site.cpp_api }}candidate-quad-edges-unit.html)
-- [`CCornersUnit`]({{ site.cpp_api }}corners-unit.html)
-- [`CDetectedQuadElement`]({{ site.cpp_api }}detected-quad-element.html)
-- [`CDetectedQuadResultItem`]({{ site.cpp_api }}detected-quad-result-item.html)
-- [`CDetectedQuadsResult`]({{ site.cpp_api }}detected-quads-result.html)
-- [`CDetectedQuadsUnit`]({{ site.cpp_api }}detected-quads-unit.html)
-- [`CDocumentNormalizerModule`]({{ site.cpp_api }}document-normalizer-module.html)
-- [`CLongLinesUnit`]({{ site.cpp_api }}long-lines-unit.html)
-- [`CNormalizedImageElement`]({{ site.cpp_api }}normalized-image-element.html)
-- [`CNormalizedImageResultItem`]({{ site.cpp_api }}normalized-image-result-item.html)
-- [`CNormalizedImagesResult`]({{ site.cpp_api }}normalized-images-result.html)
-- [`CNormalizedImagesUnit`]({{ site.cpp_api }}normalized-image-unit.html)
+- [`CCandidateQuadEdgesUnit`]({{ site.ddn_cpp_api }}candidate-quad-edges-unit.html)
+- [`CCornersUnit`]({{ site.ddn_cpp_api }}corners-unit.html)
+- [`CDetectedQuadElement`]({{ site.ddn_cpp_api }}detected-quad-element.html)
+- [`CDetectedQuadResultItem`]({{ site.ddn_cpp_api }}detected-quad-result-item.html)
+- [`CDetectedQuadsResult`]({{ site.ddn_cpp_api }}detected-quads-result.html)
+- [`CDetectedQuadsUnit`]({{ site.ddn_cpp_api }}detected-quads-unit.html)
+- [`CDocumentNormalizerModule`]({{ site.ddn_cpp_api }}document-normalizer-module.html)
+- [`CLongLinesUnit`]({{ site.ddn_cpp_api }}long-lines-unit.html)
+- [`CNormalizedImageElement`]({{ site.ddn_cpp_api }}normalized-image-element.html)
+- [`CNormalizedImageResultItem`]({{ site.ddn_cpp_api }}normalized-image-result-item.html)
+- [`CNormalizedImagesResult`]({{ site.ddn_cpp_api }}normalized-images-result.html)
+- [`CNormalizedImagesUnit`]({{ site.ddn_cpp_api }}normalized-image-unit.html)
 
 ### Structs
 
-- [`SimplifiedDocumentNormalizerSettings`]({{ site.cpp_api }}simplified-document-normalizer-settings.html)
+- [`SimplifiedDocumentNormalizerSettings`]({{ site.ddn_cpp_api }}simplified-document-normalizer-settings.html)
 
 ### Enums
 
@@ -124,7 +125,6 @@ permalink: /programming/cplusplus/api-reference/index.html
 - [`GrayscaleTransformationMode`]({{ site.dcv_enumerations }}core/grayscale-transformation-mode.html?lang=cpp)
 - [`ImageCaptureDistanceMode`]({{ site.dcv_enumerations }}core/image-capture-distance-mode.html?lang=cpp)
 - [`ImagePixelFormat`]({{ site.dcv_enumerations }}core/image-pixel-format.html?lang=cpp)
-- [`ImageSourceState`]({{ site.dcv_enumerations }}core/image-source-state.html?lang=cpp)
 - [`ImageTagType`]({{ site.dcv_enumerations }}core/image-tag-type.html?lang=cpp)
 - [`IntermediateResultUnitType`]({{ site.dcv_enumerations }}core/intermediate-result-unit-type.html?lang=cpp)
 - [`PDFReadingMode`]({{ site.dcv_enumerations }}core/pdf-reading-mode.html?lang=cpp)

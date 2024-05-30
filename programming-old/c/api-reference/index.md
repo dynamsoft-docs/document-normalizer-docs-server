@@ -56,8 +56,8 @@ permalink: /programming/c/api-reference/index.html
 
 ## Enumerations
 
-- [`ImagePixelFormat`]({{ site.enumerations_v1 }}image-pixel-format.html?src=c)
+- [`ImagePixelFormat`]({{ site.ddn_enumerations_v1 }}image-pixel-format.html?src=c)
 
 ## Others
 
-- [Error Codes]({{ site.enumerations_v1 }}error-code.html?src=c)
+- [Error Codes]({{ site.ddn_enumerations_v1 }}error-code.html?src=c)

@@ -12,12 +12,12 @@ This is the main page of Dynamsoft Document Normalizer SDK documentation for C L
 
 ## User Guide
 
-- [Getting Started]({{ site.c }}user-guide/getting-started.html)
+- [Getting Started]({{ site.ddn_c }}user-guide/getting-started.html)
 
 ## API Reference
 
-- [API Reference]({{ site.c }}api-reference/index.html)
+- [API Reference]({{ site.ddn_c }}api-reference/index.html)
 
 ## Release Notes
 
-- [Version 1.x]({{ site.c }}release-notes/c-1.html)
+- [Version 1.x]({{ site.ddn_c }}release-notes/c-1.html)
