@@ -40,15 +40,15 @@ keywords: CDocumentNormalizer, api reference, .NET
 
 ### Classes
 
-- [`DetectedQuadResultItem`]({{ site.dotnet_api }}detected-quad-result-item.html)
-- [`DetectedQuadsResult`]({{ site.dotnet_api }}detected-quads-result.html)
-- [`DocumentNormalizerModule`]({{ site.dotnet_api }}document-normalizer-module.html)
-- [`NormalizedImageResultItem`]({{ site.dotnet_api }}normalized-image-result-item.html)
-- [`NormalizedImagesResult`]({{ site.dotnet_api }}normalized-images-result.html)
+- [`DetectedQuadResultItem`]({{ site.ddn_dotnet_api }}detected-quad-result-item.html)
+- [`DetectedQuadsResult`]({{ site.ddn_dotnet_api }}detected-quads-result.html)
+- [`DocumentNormalizerModule`]({{ site.ddn_dotnet_api }}document-normalizer-module.html)
+- [`NormalizedImageResultItem`]({{ site.ddn_dotnet_api }}normalized-image-result-item.html)
+- [`NormalizedImagesResult`]({{ site.ddn_dotnet_api }}normalized-images-result.html)
 
 ### Structs
 
-- [`SimplifiedDocumentNormalizerSettings`]({{ site.dotnet_api }}simplified-document-normalizer-settings.html)
+- [`SimplifiedDocumentNormalizerSettings`]({{ site.ddn_dotnet_api }}simplified-document-normalizer-settings.html)
 
 ### Enums
 

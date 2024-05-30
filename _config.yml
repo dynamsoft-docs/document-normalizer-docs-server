@@ -12,6 +12,8 @@ ddn_cpp: /document-normalizer/docs/server/programming/cplusplus/
 ddn_cpp_api: /document-normalizer/docs/server/programming/cplusplus/api-reference/
 ddn_cpp_release_notes: /document-normalizer/docs/server/programming/cplusplus/release-notes/
 ddn_dotnet: /document-normalizer/docs/server/programming/dotnet/
+ddn_dotnet_api: /document-normalizer/docs/server/programming/dotnet/api-reference/
+ddn_dotnet_release_notes: /document-normalizer/docs/server/programming/dotnet/release-notes/
 
 ddn_js: /document-normalizer/docs/web/programming/javascript/
 ddn_ios: /document-normalizer/docs/mobile/programming/ios/
