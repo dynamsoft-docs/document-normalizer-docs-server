@@ -51,7 +51,7 @@ The image pixel format used in the image byte array.
 
 **See Also**
 
-[ImagePixelFormat]({{ site.enumerations_v1 }}image-pixel-format.html?src=c)
+[ImagePixelFormat]({{ site.ddn_enumerations_v1 }}image-pixel-format.html?src=c)
 
 ### orientation
 

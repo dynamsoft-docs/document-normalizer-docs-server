@@ -4,24 +4,26 @@ docFullPath: https://www.dynamsoft.com/document-normalizer/docs/server/
 firstLevelUrl: /document-normalizer/docs/server
 docHomePage: /document-normalizer/docs/core/introduction/
 
-c: /document-normalizer/docs/server/programming/c/
-c_api: /document-normalizer/docs/server/programming/c/api-reference/
-c_release_notes: /document-normalizer/docs/server/programming/c/release-notes/
-enumerations_v1: /document-normalizer/docs/server/programming/enumerations/
-cpp: /document-normalizer/docs/server/programming/cplusplus/
-cpp_api: /document-normalizer/docs/server/programming/cplusplus/api-reference/
-cpp_release_notes: /document-normalizer/docs/server/programming/cplusplus/release-notes/
+ddn_c: /document-normalizer/docs/server/programming/c/
+ddn_c_api: /document-normalizer/docs/server/programming/c/api-reference/
+ddn_c_release_notes: /document-normalizer/docs/server/programming/c/release-notes/
+ddn_enumerations_v1: /document-normalizer/docs/server/programming/enumerations/
+ddn_cpp: /document-normalizer/docs/server/programming/cplusplus/
+ddn_cpp_api: /document-normalizer/docs/server/programming/cplusplus/api-reference/
+ddn_cpp_release_notes: /document-normalizer/docs/server/programming/cplusplus/release-notes/
+ddn_dotnet: /document-normalizer/docs/server/programming/dotnet/
 
-js: /document-normalizer/docs/web/programming/javascript/
-ios: /document-normalizer/docs/mobile/programming/ios/
-android: /document-normalizer/docs/mobile/programming/android/
-xamarin: /document-normalizer/docs/mobile/programming/xamarin/
+ddn_js: /document-normalizer/docs/web/programming/javascript/
+ddn_ios: /document-normalizer/docs/mobile/programming/ios/
+ddn_android: /document-normalizer/docs/mobile/programming/android/
+ddn_xamarin: /document-normalizer/docs/mobile/programming/xamarin/
 
-dcv_enumerations: /capture-vision/docs/core/enums/
-parameters_reference_ddn: /document-normalizer/docs/core/parameters/reference/
+ddn_parameters_reference: /document-normalizer/docs/core/parameters/reference/
 
 dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
+dcv_dotnet_api: /capture-vision/docs/server/programming/dotnet/api-reference/
 dcv_introduction: /capture-vision/docs/core/introduction/
+dcv_enumerations: /capture-vision/docs/core/enums/
 
 useVersionTree: true
 

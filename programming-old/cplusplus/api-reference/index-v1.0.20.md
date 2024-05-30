@@ -24,8 +24,8 @@ permalink: /programming/cplusplus/api-reference/index-v1.0.20.html
 
 ## Enumerations
 
-- [`ImagePixelFormat`]({{ site.enumerations_v1 }}image-pixel-format.html?src=cpp)
+- [`ImagePixelFormat`]({{ site.ddn_enumerations_v1 }}image-pixel-format.html?src=cpp)
 
 ## Others
 
-- [Error Codes]({{ site.enumerations_v1 }}error-code.html?src=cpp)
+- [Error Codes]({{ site.ddn_enumerations_v1 }}error-code.html?src=cpp)
