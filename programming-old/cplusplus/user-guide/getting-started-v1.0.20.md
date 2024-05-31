@@ -73,8 +73,7 @@ Let's start by creating a console application which demonstrates how to use the 
     CLicenseManager::InitLicense("DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9", szErrorMsg, 256);
     ```
 
-    > The string "DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9" here is a free public trial license. Note that network connection is required for this license to work. When it expires, you can
-    > request a 30-day free trial license from <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=guide&product=ddn&package=c_cpp" target="_blank">Customer Portal</a>.
+    > The string "DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9" here is a free public trial license. Note that network connection is required for this license to work. When it expires, you can request a 30-day trial license via the <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=guide&product=ddn&package=c_cpp" target="_blank">Request a Trial License</a> link.
 
 2. Create an instance of Dynamsoft Document Normalizer.
 
