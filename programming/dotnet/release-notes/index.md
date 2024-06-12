@@ -8,4 +8,5 @@ needAutoGenerateSidebar: false
 
 # Release Notes - .NET Edition
 
+- [2.2.11 (06/12/2024)](dotnet-2.md#2211-06122024)
 - [2.2.10 (05/30/2024)](dotnet-2.md#2210-05302024)
