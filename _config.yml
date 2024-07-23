@@ -21,6 +21,7 @@ ddn_android: /document-normalizer/docs/mobile/programming/android/
 ddn_xamarin: /document-normalizer/docs/mobile/programming/xamarin/
 
 ddn_parameters_reference: /document-normalizer/docs/core/parameters/reference/
+dcv_parameters_reference: /capture-vision/docs/core/parameters/reference/
 
 dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
 dcv_dotnet_api: /capture-vision/docs/server/programming/dotnet/api-reference/

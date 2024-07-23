@@ -28,7 +28,6 @@ class CNormalizedImageResultItem: CCapturedResultItem
 |--------|-------------|
 | [`GetImageData`](#getimagedata) | Gets the ImageData of current object. |
 | [`GetLocation`](#getlocation) | Get the quadrilateral from which you get the normalized image result item. |
-| [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Get the rotation transformation matrix. |
 
 ### GetImageData
 
@@ -62,10 +61,3 @@ The location of current object.
 
 * [CQuadrilateral]({{ site.dcv_cpp_api }}core/basic-structures/quadrilateral.html)
 
-### GetRotationTransformMatrix
-
-Get the rotation transformation matrix.
-
-```cpp
-void GetRotationTransformMatrix(double matrix[9])
-```
