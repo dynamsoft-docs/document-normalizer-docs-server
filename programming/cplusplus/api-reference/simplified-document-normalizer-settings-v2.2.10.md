@@ -23,9 +23,7 @@ typedef struct tagSimplifiedDocumentNormalizerSettings
     int contrast;    
     int maxThreadsInOneTask;    
     int scaleDownThreshold;    
-    int minQuadrilateralAreaRatio;
-    int expectedDocumentsCount;
-    char reserved[504];
+    char reserved[512];
 } SimplifiedDocumentNormalizerSettings;
 
 ```
@@ -42,9 +40,7 @@ typedef struct tagSimplifiedDocumentNormalizerSettings
 | [`contrast`](#contrast) | *int* |
 | [`maxThreadsInOneTask`](#maxthreadsinonetask) | *int* |
 | [`scaleDownThreshold`](#scaledownthreshold) | *int* |
-| [`minQuadrilateralAreaRatio`](#minquadrilateralarearatio) | *int* |
-| [`expectedDocumentsCount`](#expecteddocumentscount) | *int* |
-| [`reserved`](#reserved) | *char[504]* |
+| [`reserved`](#reserved) | *char[508]* |
 
 ### grayscaleTransformationModes
 
@@ -159,42 +155,10 @@ int scaleDownThreshold;
 
 If the shorter edge size is larger than the given threshold value, the library will calculate the required height and width of the barcode image and shrink the image to that size before detection. Otherwise, the library will perform document detection on the original image.
 
-### minQuadrilateralAreaRatio
-
-Set the minimum ratio between the target document area and the total image area. Only those exceeding this value will be outputted (measured in percentages).
-
-```cpp
-int minQuadrilateralAreaRatio;
-```
-
-**Value Range**
-
-[0, 100]
-
-**Default Value**
-
-0
-
-### expectedDocumentsCount
-
-Set the number of documents expected to be detected.
-
-```cpp
-int expectedDocumentsCount;
-```
-
-**Value Range**
-
-[0, 0x7fffffff]
-
-**Default Value**
-
-0
-
 ### reserved
 
 Reserved for future use.
 
 ```cpp
-char reserved[504];
+char reserved[508];
 ```

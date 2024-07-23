@@ -9,6 +9,25 @@ permalink: /programming/cplusplus/release-notes/cpp-2.html
 
 # Release Notes for C++ Edition - v2.x
 
+## 2.4.10 (07/23/2024)
+
+### New
+
+- Added a new parameter [`MinQuadrilateralAreaRatio`]({{ site.dcv_parameters_reference }}document-normalizer-task-settings/quadrilateral-detection-modes.html) to define the minimum targeting document area. The parameter is available via both the parameter template and the [`SimplifiedDocumentNormalizerSettings`]({{ site.ddn_cpp_api }}simplified-document-normalizer-settings.html).
+- Added a new parameter [`ExpectedDocumentsCount`]({{ site.dcv_parameters_reference }}document-normalizer-task-settings/expected-documents-count.html) to define the expected document count for detection. The parameter is available via both the parameter template and the [`SimplifiedDocumentNormalizerSettings`]({{ site.ddn_cpp_api }}simplified-document-normalizer-settings.html).
+- Added a new function [`Clone`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html#clone) to the class [`CCapturedResultItem`]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html).
+- Added a new function [`AddItem`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/captured-result.html#additem) to the class [`CCapturedResult`]({{ site.dcv_cpp_api }}capture-vision-router/auxiliary-classes/captured-result.html).
+- Add a new charge way, `TimeSliceCount`.
+
+### Changed
+
+- Changed the maximum length of the `DeviceFriendlyName` to 255. If the length exceeds 255, it will be truncated.
+
+### Fixed
+
+- Fixed a bug where `CaptureVisionRouter.StartCapturing` would erroneously halt the fetching process when its status was running, leading to an unnecessary stop and restart of the fetching operation.
+- Fixed a bug where `CDirectoryFetcher` would prematurely read an image before verifying if the buffer was full, resulting in potential loss of the image that did not make it into the buffer upon calling `StopFetching`.
+
 ## 2.2.10 (03/01/2024)
 
 ### Improved

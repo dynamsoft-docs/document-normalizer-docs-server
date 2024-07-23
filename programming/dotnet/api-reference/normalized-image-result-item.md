@@ -27,7 +27,6 @@ public class NormalizedImageResultItem: CapturedResultItem
 |--------|-------------|
 | [`GetImageData`](#getimagedata) | Gets the ImageData of current object. |
 | [`GetLocation`](#getlocation) | Get the quadrilateral from which you get the normalized image result item. |
-| [`GetRotationTransformMatrix`](#getrotationtransformmatrix) | Get the rotation transformation matrix. |
 
 ### GetImageData
 
@@ -60,11 +59,3 @@ The location of current object.
 **See Also**
 
 * [Quadrilateral]({{ site.dcv_dotnet_api }}core/basic-classes/quadrilateral.html)
-
-### GetRotationTransformMatrix
-
-Get the rotation transformation matrix.
-
-```csharp
-double[] GetRotationTransformMatrix()
-```

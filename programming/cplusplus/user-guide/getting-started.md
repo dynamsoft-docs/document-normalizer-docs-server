@@ -87,8 +87,17 @@ Let's start by creating a console application which demonstrates how to use the 
 1. Initialize the license key.
 
     ```cpp
+    int errorcode = 0;
     char errorMsg[256] = {0};
-    CLicenseManager::InitLicense("DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9", errorMsg, 256);
+    errorcode = CLicenseManager::InitLicense("DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9", errorMsg, 256);
+    if (errorcode != ErrorCode::EC_OK && errorcode != ErrorCode::EC_LICENSE_CACHE_USED)
+    {
+        cout << "License initialization failed: ErrorCode: " << errorcode << ", ErrorString: " << errorMsg << endl;
+    }
+    else
+    {
+        // other codes...
+    }
     ```
 
     > The string "DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9" here is a free public trial license. Note that network connection is required for this license to work. When it expires, you can request a 30-day trial license via the <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=guide&product=ddn&package=c_cpp" target="_blank">Request a Trial License</a> link.
