@@ -14,6 +14,9 @@ ddn_cpp_release_notes: /document-normalizer/docs/server/programming/cplusplus/re
 ddn_dotnet: /document-normalizer/docs/server/programming/dotnet/
 ddn_dotnet_api: /document-normalizer/docs/server/programming/dotnet/api-reference/
 ddn_dotnet_release_notes: /document-normalizer/docs/server/programming/dotnet/release-notes/
+ddn_python: /document-normalizer/docs/server/programming/python/
+ddn_python_api: /document-normalizer/docs/server/programming/python/api-reference/
+ddn_python_release_notes: /document-normalizer/docs/server/programming/python/release-notes/
 
 ddn_js: /document-normalizer/docs/web/programming/javascript/
 ddn_ios: /document-normalizer/docs/mobile/programming/ios/
@@ -25,10 +28,12 @@ dcv_parameters_reference: /capture-vision/docs/core/parameters/reference/
 
 dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
 dcv_dotnet_api: /capture-vision/docs/server/programming/dotnet/api-reference/
+dcv_python_api: /capture-vision/docs/server/programming/python/api-reference/
 dcv_introduction: /capture-vision/docs/core/introduction/
 dcv_enumerations: /capture-vision/docs/core/enums/
 
-useVersionTree: true
+useVersionTree: false
+isDCV: true
 
 assets: /document-normalizer/docs/server/assets/
 edit_icon: /document-normalizer/docs/server/assets/img-icon/edit-icon.png
@@ -72,6 +77,16 @@ defaults:
     values: 
       docRootName: "Document Normalizer C" 
       docHomePage: "/document-normalizer/docs/server/programming/c/"
+  - scope: 
+      path: "programming/dotnet" 
+    values: 
+      docRootName: "Document Normalizer .NET Edition" 
+      docHomePage: "/document-normalizer/docs/server/programming/dotnet/"
+  - scope: 
+      path: "programming/python" 
+    values: 
+      docRootName: "Document Normalizer Python Edition" 
+      docHomePage: "/document-normalizer/docs/server/programming/python/"
   - scope:
       path: "Hide_Tree_Page.html"
     values:

@@ -10,3 +10,4 @@ permalink: /programming/index.html
 - [C++]({{ site.ddn_cpp}})
 - [C]({{ site.ddn_c}})
 - [.NET]({{ site.ddn_dotnet}})
+- [Python]({{ site.ddn_python}})
