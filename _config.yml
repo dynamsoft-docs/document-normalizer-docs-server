@@ -1,41 +1,41 @@
 repository: dynamsoft-docs/document-normalizer-docs-server
 repositoryUrl: https://github.com/dynamsoft-docs/document-normalizer-docs-server/blob/main
-docFullPath: https://www.dynamsoft.com/document-normalizer/docs/server/
-firstLevelUrl: /document-normalizer/docs/server
-docHomePage: /document-normalizer/docs/core/introduction/
+docFullPath: https://www.dynamsoft.com/document-normalizer/docs-archive/server/
+firstLevelUrl: /document-normalizer/docs-archive/server
+docHomePage: /document-normalizer/docs-archive/core/introduction/
 
-ddn_c: /document-normalizer/docs/server/programming/c/
-ddn_c_api: /document-normalizer/docs/server/programming/c/api-reference/
-ddn_c_release_notes: /document-normalizer/docs/server/programming/c/release-notes/
-ddn_enumerations_v1: /document-normalizer/docs/server/programming/enumerations/
-ddn_cpp: /document-normalizer/docs/server/programming/cplusplus/
-ddn_cpp_api: /document-normalizer/docs/server/programming/cplusplus/api-reference/
-ddn_cpp_release_notes: /document-normalizer/docs/server/programming/cplusplus/release-notes/
-ddn_dotnet: /document-normalizer/docs/server/programming/dotnet/
-ddn_dotnet_api: /document-normalizer/docs/server/programming/dotnet/api-reference/
-ddn_dotnet_release_notes: /document-normalizer/docs/server/programming/dotnet/release-notes/
+ddn_c: /document-normalizer/docs-archive/server/programming/c/
+ddn_c_api: /document-normalizer/docs-archive/server/programming/c/api-reference/
+ddn_c_release_notes: /document-normalizer/docs-archive/server/programming/c/release-notes/
+ddn_enumerations_v1: /document-normalizer/docs-archive/server/programming/enumerations/
+ddn_cpp: /document-normalizer/docs-archive/server/programming/cplusplus/
+ddn_cpp_api: /document-normalizer/docs-archive/server/programming/cplusplus/api-reference/
+ddn_cpp_release_notes: /document-normalizer/docs-archive/server/programming/cplusplus/release-notes/
+ddn_dotnet: /document-normalizer/docs-archive/server/programming/dotnet/
+ddn_dotnet_api: /document-normalizer/docs-archive/server/programming/dotnet/api-reference/
+ddn_dotnet_release_notes: /document-normalizer/docs-archive/server/programming/dotnet/release-notes/
 
-ddn_js: /document-normalizer/docs/web/programming/javascript/
-ddn_ios: /document-normalizer/docs/mobile/programming/ios/
-ddn_android: /document-normalizer/docs/mobile/programming/android/
-ddn_xamarin: /document-normalizer/docs/mobile/programming/xamarin/
+ddn_js: /document-normalizer/docs-archive/web/programming/javascript/
+ddn_ios: /document-normalizer/docs-archive/mobile/programming/ios/
+ddn_android: /document-normalizer/docs-archive/mobile/programming/android/
+ddn_xamarin: /document-normalizer/docs-archive/mobile/programming/xamarin/
 
-ddn_parameters_reference: /document-normalizer/docs/core/parameters/reference/
-dcv_parameters_reference: /capture-vision/docs/core/parameters/reference/
+ddn_parameters_reference: /document-normalizer/docs-archive/core/parameters/reference/
+dcv_parameters_reference: /capture-vision/docs-archive/core/parameters/reference/
 
-dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
-dcv_dotnet_api: /capture-vision/docs/server/programming/dotnet/api-reference/
-dcv_introduction: /capture-vision/docs/core/introduction/
-dcv_enumerations: /capture-vision/docs/core/enums/
+dcv_cpp_api: /capture-vision/docs-archive/server/programming/cplusplus/api-reference/
+dcv_dotnet_api: /capture-vision/docs-archive/server/programming/dotnet/api-reference/
+dcv_introduction: /capture-vision/docs-archive/core/introduction/
+dcv_enumerations: /capture-vision/docs-archive/core/enums/
 
 useVersionTree: true
 
-assets: /document-normalizer/docs/server/assets/
-edit_icon: /document-normalizer/docs/server/assets/img-icon/edit-icon.png
-smile_icon: /document-normalizer/docs/server/assets/img-icon/icon-smile.png
-sad_icon: /document-normalizer/docs/server/assets/img-icon/icon-sad.png
+assets: /document-normalizer/docs-archive/server/assets/
+edit_icon: /document-normalizer/docs-archive/server/assets/img-icon/edit-icon.png
+smile_icon: /document-normalizer/docs-archive/server/assets/img-icon/icon-smile.png
+sad_icon: /document-normalizer/docs-archive/server/assets/img-icon/icon-sad.png
 
-baseurl: "/document-normalizer/docs/server"
+baseurl: "/document-normalizer/docs-archive/server"
 
 download: "/document-normalizer/downloads/"
 
@@ -61,17 +61,17 @@ defaults:
       path: "programming/cplusplus" 
     values: 
       docRootName: "Document Normalizer C++" 
-      docHomePage: "/document-normalizer/docs/server/programming/cplusplus/"
+      docHomePage: "/document-normalizer/docs-archive/server/programming/cplusplus/"
   - scope: 
       path: "programming-old/cplusplus" 
     values: 
       docRootName: "Document Normalizer C++" 
-      docHomePage: "/document-normalizer/docs/server/programming/cplusplus/"
+      docHomePage: "/document-normalizer/docs-archive/server/programming/cplusplus/"
   - scope: 
       path: "programming/c" 
     values: 
       docRootName: "Document Normalizer C" 
-      docHomePage: "/document-normalizer/docs/server/programming/c/"
+      docHomePage: "/document-normalizer/docs-archive/server/programming/c/"
   - scope:
       path: "Hide_Tree_Page.html"
     values:
