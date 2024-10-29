@@ -17,7 +17,7 @@ The CNormalizedImagesResult class stores a collection of captured result items w
 *Assembly:* DynamsoftDocumentNormalizer
 
 ```cpp
-class CNormalizedImagesResult: public CRegionObjectElement
+class CNormalizedImagesResult
 ```
 
 ## Methods
