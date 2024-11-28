@@ -189,7 +189,7 @@ int expectedDocumentsCount;
 
 **Default Value**
 
-1
+0
 
 ### reserved
 
