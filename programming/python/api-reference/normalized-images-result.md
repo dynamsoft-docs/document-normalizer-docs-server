@@ -14,7 +14,7 @@ The NormalizedImagesResult class stores a collection of captured result items wh
 *Module:* dynamsoft_document_normalizer
 
 ```python
-class NormalizedImagesResult(object)
+class NormalizedImagesResult
 ```
 
 ## Methods
