@@ -12,7 +12,7 @@ needGenerateH3Content: true
 The `SimplifiedDocumentNormalizerSettings` class contains settings for document normalization. It is a sub-parameter of `SimplifiedCaptureVisionSettings`
 
 ```python
-class SimplifiedDocumentNormalizerSettings(object)
+class SimplifiedDocumentNormalizerSettings
 ```
 
 ## Properties Summary
