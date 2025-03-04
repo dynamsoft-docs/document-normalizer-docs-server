@@ -3,6 +3,8 @@ repositoryUrl: https://github.com/dynamsoft-docs/document-normalizer-docs-server
 docFullPath: https://www.dynamsoft.com/document-normalizer/docs/server/
 firstLevelUrl: /document-normalizer/docs/server
 docHomePage: /document-normalizer/docs/core/introduction/
+needSearchIndex: true
+searchNeedFilter: true
 
 ddn_c: /document-normalizer/docs/server/programming/c/
 ddn_c_api: /document-normalizer/docs/server/programming/c/api-reference/

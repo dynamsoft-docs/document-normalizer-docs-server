@@ -6,7 +6,6 @@ keywords: document normalizer module, c++
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
 breadcrumbText: C++ CDocumentNormalizerModule Class
-permalink: /programming/cplusplus/api-reference/document-normalizer-module.html
 ---
 
 # CDocumentNormalizerModule
@@ -28,8 +27,9 @@ class CDocumentNormalizerModule
 | Method                                                        | Description                                            |
 | ------------------------------------------------------------- | ------------------------------------------------------ |
 | [GetVersion](#getversion)                                     | Returns the version of the document normalizer module. |
-| [CreateNormalizedImageElement](#createnormalizedimageelement) | Create a Normalized Image Element object.              |
+| [CreateDeskewedImageElement](#createdeskewedimageelement) | Create a Deskewed Image Element object.              |
 | [CreateDetectedQuadElement](#createdetectedquadelement)       | Create a Detected Quad Element object.                 |
+| [CreateEnhancedImageElement](#createenhancedimageelement)       | Creates a CEnhancedImageElement object.                 |
 
 ## GetVersion
 
@@ -47,12 +47,12 @@ None.
 
 Returns a const char pointer representing the version of the document normalizer module.
 
-## CreateNormalizedImageElement
+## CreateDeskewedImageElement
 
 Create a Normalized Image Element object.
 
 ```cpp
-static intermediate_results::CNormalizedImageElement* CreateNormalizedImageElement();
+static intermediate_results::CDeskewedImageElement* CreateDeskewedImageElement();
 ```
 
 **Parameters**
@@ -61,7 +61,7 @@ None.
 
 **Return Value**
 
-Returns an instance of CNormalizedImageElement.
+Returns an instance of CDeskewedImageElement.
 
 ## CreateDetectedQuadElement
 
@@ -77,4 +77,20 @@ None.
 
 **Return Value**
 
-Returns an instance of CDetectedQuadElement.
+Returns an object of `CDeskewedImageElement`.
+
+## CreateEnhancedImageElement
+
+Creates a CEnhancedImageElement object.
+
+```cpp
+static intermediate_results::CEnhancedImageElement* CreateEnhancedImageElement();
+```
+
+**Parameters**
+
+None.
+
+**Return Value**
+
+Returns an object of `CEnhancedImageElement`.
