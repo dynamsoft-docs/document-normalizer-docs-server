@@ -26,7 +26,6 @@ class CDetectedQuadElement: CRegionObjectElement
 | Method | Description |
 |--------|-------------|
 | [`GetConfidenceAsDocumentBoundary`](#getconfidenceasdocumentboundary) | Gets the confidence as document boundary of current object. |
-| [`SetLocation`](#setlocation) | Sets the location of the detected quad element. |
 
 ### GetConfidenceAsDocumentBoundary
 
@@ -39,19 +38,3 @@ int GetConfidenceAsDocumentBoundary()
 **Return Value**
 
 The confidence as document boundary of current object.
-
-### SetLocation
-
-Sets the location of the detected quad element.
-
-```cpp
-virtual int SetLocation(const CQuadrilateral& location) = 0;
-```
-
-**Parameters**
-
-`location` The location of the detected quad element.
-
-**Return Value**
-
-Returns 0 if success, otherwise an error code.
