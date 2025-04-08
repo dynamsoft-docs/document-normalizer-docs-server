@@ -25,7 +25,6 @@ class DetectedQuadsUnit(IntermediateResultUnit)
 |--------|-------------|
 | [`get_count`](#get_count) | Gets the count of `DetectedQuadElement` objects in current object.|
 | [`get_detected_quad`](#get_detected_quad) | Gets a `DetectedQuadElement` object from current object by specifying a index. |
-| [`operator[]`](#operator) | Gets a `DetectedQuadElement` object from current object by specifying a index.|
 | [`remove_all_detected_quads`](#remove_all_detected_quads) | Removes all the detected quads in current object. |
 | [`remove_detected_quad`](#remove_detected_quad) | Removes a detected quad from current object by specifying an index. |
 | [`add_detected_quad`](#add_detected_quad) | Adds a detected quad to current object. |

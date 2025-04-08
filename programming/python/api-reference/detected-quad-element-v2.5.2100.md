@@ -25,7 +25,6 @@ class DetectedQuadElement(RegionObjectElement)
 |--------|-------------|
 | [`__init__`](#__init__) | Initializes a new instance of the `DetectedQuadElement` class. |
 | [`get_confidence_as_document_boundary`](#get_confidence_as_document_boundary) | Gets the confidence as document boundary of current object. |
-| [`set_location`](#set_location) | Sets the location of the detected quad element. |
 
 ### \_\_init\_\_
 
@@ -46,23 +45,3 @@ def get_confidence_as_document_boundary(self) -> int:
 **Return Value**
 
 The confidence as document boundary of current object.
-
-### set_location
-
-Sets the location of the detected quad element.
-
-```python
-def set_location(self, location: Quadrilateral) -> int:
-```
-
-**Parameters**
-
-`location` The location of the detected quad element.
-
-**Return Value**
-
-Returns 0 if success, otherwise an error code.
-
-**See Also**
-
-* [Quadrilateral]({{ site.dcv_python_api }}core/basic-classes/quadrilateral.html)

@@ -42,7 +42,7 @@ Returns the error code.
 
 **See Also**
 
-[EnumErrorCode]({{ site.dcv_enumerations }}core/error-code.html?lang=python)
+[EnumErrorCode]({{ site.dcv_python_api }}core/enum-error-code.html?lang=python)
 
 ### get_error_string
 

@@ -62,7 +62,7 @@ Returns a tuple containing following elements:
 
 **See Also**
 
-[ErrorCode]({{ site.dcv_enumerations }}core/error-code.html?lang=python)
+[EnumErrorCode]({{ site.dcv_python_api }}core/enum-error-code.html?lang=python)
 
 [Corner]({{ site.dcv_python_api }}core/basic-classes/corner.html)
 
