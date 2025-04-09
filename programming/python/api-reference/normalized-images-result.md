@@ -42,7 +42,7 @@ Returns the error code of the operation. A non-zero value indicates an error occ
 
 **See Also**
 
-[EnumErrorCode]({{ site.dcv_enumerations }}core/error-code.html?lang=python)
+[EnumErrorCode]({{ site.dcv_python_api }}core/enum-error-code.html)
 
 ### get_error_string
 
