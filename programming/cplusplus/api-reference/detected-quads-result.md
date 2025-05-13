@@ -8,7 +8,7 @@ permalink: /programming/cplusplus/api-reference/detected-quads-result.html
 
 # CDetectedQuadsResult Class
 
-The CDetectedQuadsResult class stores a captured result whose type is detected quads.
+The `CDetectedQuadsResult` class stores a captured result whose type is detected quads.
 
 ## Definition
 
@@ -63,7 +63,7 @@ Returns the error code.
 
 **See Also**
 
-* [ErrorCode]({{ site.dcv_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
+* [ErrorCode]({{ site.dcvb_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
 
 ### GetErrorString
 
@@ -167,7 +167,7 @@ Returns a pointer to a CImageTag object that represents the tag of the original 
 
 **See Also**
 
-* [CImageTag]({{ site.dcv_cpp_api }}core/basic-structures/image-tag.html)
+* [CImageTag]({{ site.dcvb_cpp_api }}core/basic-structures/image-tag.html)
 
 ### operator[]
 

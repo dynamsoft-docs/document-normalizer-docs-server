@@ -13,10 +13,9 @@ The NormalizedImagesResult class stores a collection of captured result items wh
 
 *Namespace:* Dynamsoft.DDN
 
-*Assembly:* Dynamsoft.DocumentNormalizer.dll
 
 ```csharp
-public class NormalizedImagesResult : CRegionObjectElement
+public class NormalizedImagesResult : RegionObjectElement
 ```
 
 ## Methods
@@ -44,7 +43,7 @@ Returns the error code of the operation. A non-zero value indicates an error occ
 
 **See Also**
 
-* [EnumErrorCode]({{ site.dcv_enumerations }}core/error-code.html?lang=dotnet)
+* [EnumErrorCode]({{ site.dcvb_enumerations }}core/error-code.html)
 
 ### GetErrorString
 
@@ -116,4 +115,4 @@ Returns a tag of the original image that was normalized.
 
 **See Also**
 
-* [ImageTag]({{ site.dcv_dotnet_api }}core/basic-classes/image-tag.html)
+* [ImageTag]({{ site.dcvb_dotnet_api }}core/basic-classes/image-tag.html)

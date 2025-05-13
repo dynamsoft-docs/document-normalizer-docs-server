@@ -17,7 +17,7 @@ The `EnhancedImageUnit` class represents an intermediate result unit whose type 
 class EnhancedImageUnit(IntermediateResultUnit):
 ```
 
-*Inheritance:* [IntermediateResultUnit]({{ site.dcv_python_api }}core/intermediate-results/intermediate-result-unit.html) -> EnhancedImageUnit
+*Inheritance:* [IntermediateResultUnit]({{ site.dcvb_python_api }}core/intermediate-results/intermediate-result-unit.html) -> EnhancedImageUnit
 
 ## Methods
 

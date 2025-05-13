@@ -8,7 +8,7 @@ permalink: /programming/cplusplus/api-reference/detected-quads-unit.html
 
 # CDetectedQuadsUnit Class
 
-The CDetectedQuadsUnit class represents an intermediate result unit whose type is detected quads.
+The `CDetectedQuadsUnit` class represents an intermediate result unit whose type is detected quads.
 
 ## Definition
 
@@ -20,7 +20,7 @@ The CDetectedQuadsUnit class represents an intermediate result unit whose type i
 class CDetectedQuadsUnit: CIntermediateResultUnit
 ```
 
-*Inheritance:* [CIntermediateResultUnit]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CDetectedQuadsUnit
+*Inheritance:* [CIntermediateResultUnit]({{ site.dcvb_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CDetectedQuadsUnit
 
 ## Methods
 

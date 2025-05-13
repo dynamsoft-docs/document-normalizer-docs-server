@@ -20,7 +20,7 @@ The CCornersUnit class represents an intermediate result unit whose type is corn
 class CCornersUnit: CIntermediateResultUnit
 ```
 
-*Inheritance:* [CIntermediateResultUnit]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CCornersUnit
+*Inheritance:* [CIntermediateResultUnit]({{ site.dcvb_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CCornersUnit
 
 ## Methods
 
@@ -65,8 +65,8 @@ Returns the error code.
 
 **See Also**
 
-* [CCorner]({{ site.dcv_cpp_api }}core/basic-structures/corner.html)
-* [ErrorCode]({{ site.dcv_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
+* [CCorner]({{ site.dcvb_cpp_api }}core/basic-structures/corner.html)
+* [ErrorCode]({{ site.dcvb_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
 
 ### RemoveAllCorners
 

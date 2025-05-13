@@ -19,7 +19,7 @@ The `CDetectedQuadResultItem` class stores a captured result whose type is detec
 class CDetectedQuadResultItem: CCapturedResultItem
 ```
 
-*Inheritance:* [CCapturedResultItem]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html) -> CDetectedQuadResultItem
+*Inheritance:* [CCapturedResultItem]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-item.html) -> CDetectedQuadResultItem
 
 ## Methods
 
@@ -43,7 +43,7 @@ The location of current object.
 
 **See Also**
 
-* [CQuadrilateral]({{ site.dcv_cpp_api }}core/basic-structures/quadrilateral.html)
+* [CQuadrilateral]({{ site.dcvb_cpp_api }}core/basic-structures/quadrilateral.html)
 
 ### GetConfidenceAsDocumentBoundary
 
@@ -71,4 +71,4 @@ The `CrossVerificationStatus` of the detected quad result.
 
 **See Also**
 
-* [CrossVerificationStatus]({{ site.dcv_enumerations }}core/cross-verification-status.html?lang=cpp)
+* [CrossVerificationStatus]({{ site.dcvb_enumerations }}core/cross-verification-status.html?lang=cpp)

@@ -19,7 +19,7 @@ The `CProcessedDocumentResult` class is a base class for storing processed docum
 class CProcessedDocumentResult : CCapturedResultBase
 ```
 
-*Inheritance:* [CCapturedResultBase]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-base.html) -> CProcessedDocumentResult
+*Inheritance:* [CCapturedResultBase]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-base.html) -> CProcessedDocumentResult
 
 ## Methods
 

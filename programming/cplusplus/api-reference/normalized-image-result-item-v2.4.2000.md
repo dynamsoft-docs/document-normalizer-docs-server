@@ -20,7 +20,7 @@ The CNormalizedImageResultItem class stores a captured result item whose type is
 class CNormalizedImageResultItem: CCapturedResultItem
 ```
 
-*Inheritance:* [CCapturedResultItem]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html) -> CNormalizedImageResultItem
+*Inheritance:* [CCapturedResultItem]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-item.html) -> CNormalizedImageResultItem
 
 ## Methods
 
@@ -43,7 +43,7 @@ The image data.
 
 **See Also**
 
-* [CImageData]({{ site.dcv_cpp_api }}core/basic-structures/image-data.html)
+* [CImageData]({{ site.dcvb_cpp_api }}core/basic-structures/image-data.html)
 
 ### GetLocation
 
@@ -59,5 +59,5 @@ The location of current object.
 
 **See Also**
 
-* [CQuadrilateral]({{ site.dcv_cpp_api }}core/basic-structures/quadrilateral.html)
+* [CQuadrilateral]({{ site.dcvb_cpp_api }}core/basic-structures/quadrilateral.html)
 

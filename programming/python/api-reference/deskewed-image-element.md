@@ -17,7 +17,7 @@ The `DeskewedImageElement` class stores an intermediate result whose type is Des
 class DeskewedImageElement(RegionObjectElement):
 ```
 
-*Inheritance:* [RegionObjectElement]({{ site.dcv_python_api }}core/intermediate-results/region-object-element.html) -> DeskewedImageElement
+*Inheritance:* [RegionObjectElement]({{ site.dcvb_python_api }}core/intermediate-results/region-object-element.html) -> DeskewedImageElement
 
 ## Methods
 
@@ -44,7 +44,7 @@ Returns 0 if succeeds, nonzero otherwise.
 
 **See Also**
 
-* [ImageData]({{ site.dcv_python_api }}core/basic-classes/image-data.html)
+* [ImageData]({{ site.dcvb_python_api }}core/basic-classes/image-data.html)
 
 ### get_source_deskew_quad
 
@@ -60,4 +60,4 @@ Returns A `Quadrilateral` object representing the four corners of the quadrilate
 
 **See Also**
 
-* [Quadrilateral]({{ site.dcv_python_api }}core/basic-classes/quadrilateral.html)
+* [Quadrilateral]({{ site.dcvb_python_api }}core/basic-classes/quadrilateral.html)

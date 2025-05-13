@@ -17,7 +17,7 @@ The `DetectedQuadResultItem` class stores a captured result whose type is detect
 class DetectedQuadResultItem(dynamsoft_core.CapturedResultItem)
 ```
 
-*Inheritance:* [CapturedResultItem]({{ site.dcv_python_api }}core/basic-classes/captured-result-item.html) -> DetectedQuadResultItem
+*Inheritance:* [CapturedResultItem]({{ site.dcvb_python_api }}core/basic-classes/captured-result-item.html) -> DetectedQuadResultItem
 
 ## Methods
 
@@ -41,7 +41,7 @@ The location of current object.
 
 **See Also**
 
-[Quadrilateral]({{ site.dcv_python_api }}core/basic-classes/quadrilateral.html)
+[Quadrilateral]({{ site.dcvb_python_api }}core/basic-classes/quadrilateral.html)
 
 ### get_confidence_as_document_boundary
 
@@ -69,5 +69,5 @@ The status of current object as a verified document boundary.
 
 **See Also**
 
-[EnumCrossVerificationStatus]({{ site.dcv_python_api }}core/enum-cross-verification-status.html)
+[EnumCrossVerificationStatus]({{ site.dcvb_python_api }}core/enum-cross-verification-status.html)
 

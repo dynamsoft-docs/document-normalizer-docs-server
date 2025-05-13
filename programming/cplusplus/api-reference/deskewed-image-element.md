@@ -7,7 +7,7 @@ keywords: GetImageData, CDeskewedImageElement, api reference
 
 # CDeskewedImageElement Class
 
-The CDeskewedImageElement class stores an intermediate result whose type is Deskewed image.
+The `CDeskewedImageElement` class stores an intermediate result whose type is Deskewed image.
 
 ## Definition
 
@@ -19,7 +19,7 @@ The CDeskewedImageElement class stores an intermediate result whose type is Desk
 class CDeskewedImageElement: public CRegionObjectElement
 ```
 
-*Inheritance:* [CRegionObjectElement]({{ site.dcv_cpp_api }}core/intermediate-results/region-object-element.html) -> CDeskewedImageElement
+*Inheritance:* [CRegionObjectElement]({{ site.dcvb_cpp_api }}core/intermediate-results/region-object-element.html) -> CDeskewedImageElement
 
 ## Methods
 
@@ -46,7 +46,7 @@ Returns 0 if succeeds, nonzero otherwise.
 
 **See Also**
 
-* [CImageData]({{ site.dcv_cpp_api }}core/basic-structures/image-data.html)
+* [CImageData]({{ site.dcvb_cpp_api }}core/basic-structures/image-data.html)
 
 ### GetSourceDeskewQuad
 

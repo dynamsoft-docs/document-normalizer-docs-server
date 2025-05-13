@@ -17,7 +17,7 @@ The `NormalizedImagesUnit` class represents an intermediate result unit whose ty
 class NormalizedImagesUnit(IntermediateResultUnit)
 ```
 
-*Inheritance:* [IntermediateResultUnit]({{ site.dcv_python_api }}core/intermediate-results/intermediate-result-unit.html) -> NormalizedImagesUnit
+*Inheritance:* [IntermediateResultUnit]({{ site.dcvb_python_api }}core/intermediate-results/intermediate-result-unit.html) -> NormalizedImagesUnit
 
 ## Methods
 

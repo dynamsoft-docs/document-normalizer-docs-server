@@ -17,7 +17,7 @@ The `CornersUnit` class represents an intermediate result unit whose type is cor
 class CornersUnit(IntermediateResultUnit)
 ```
 
-*Inheritance:* [IntermediateResultUnit]({{ site.dcv_python_api }}core/intermediate-results/intermediate-result-unit.html) -> CornersUnit
+*Inheritance:* [IntermediateResultUnit]({{ site.dcvb_python_api }}core/intermediate-results/intermediate-result-unit.html) -> CornersUnit
 
 ## Methods
 
@@ -62,9 +62,9 @@ Returns a tuple containing following elements:
 
 **See Also**
 
-[EnumErrorCode]({{ site.dcv_python_api }}core/enum-error-code.html)
+[EnumErrorCode]({{ site.dcvb_python_api }}core/enum-error-code.html)
 
-[Corner]({{ site.dcv_python_api }}core/basic-classes/corner.html)
+[Corner]({{ site.dcvb_python_api }}core/basic-classes/corner.html)
 
 ### remove_all_corners
 
@@ -110,7 +110,7 @@ Returns 0 if successful, otherwise returns a negative value.
 
 **See Also**
 
-[Corner]({{ site.dcv_python_api }}core/basic-classes/corner.html)
+[Corner]({{ site.dcvb_python_api }}core/basic-classes/corner.html)
 
 ### set_corner
 
@@ -134,5 +134,5 @@ Returns 0 if successful, otherwise returns a negative value.
 
 **See Also**
 
-[Corner]({{ site.dcv_python_api }}core/basic-classes/corner.html)
+[Corner]({{ site.dcvb_python_api }}core/basic-classes/corner.html)
 

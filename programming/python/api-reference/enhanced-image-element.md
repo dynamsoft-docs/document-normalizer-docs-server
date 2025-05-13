@@ -17,7 +17,7 @@ The `EnhancedImageElement` class stores an intermediate result whose type is Enh
 class EnhancedImageElement(RegionObjectElement):
 ```
 
-*Inheritance:* [RegionObjectElement]({{ site.dcv_python_api }}core/intermediate-results/region-object-element.html) -> EnhancedImageElement
+*Inheritance:* [RegionObjectElement]({{ site.dcvb_python_api }}core/intermediate-results/region-object-element.html) -> EnhancedImageElement
 
 ## Methods
 
@@ -43,4 +43,4 @@ Returns 0 if succeeds, nonzero otherwise.
 
 **See Also**
 
-* [ImageData]({{ site.dcv_python_api }}core/basic-classes/image-data.html)
+* [ImageData]({{ site.dcvb_python_api }}core/basic-classes/image-data.html)

@@ -17,7 +17,7 @@ The `NormalizedImageResultItem` class stores a captured result item whose type i
 class NormalizedImageResultItem(dynamsoft_core.CapturedResultItem)
 ```
 
-*Inheritance:* [CapturedResultItem]({{ site.dcv_python_api }}core/basic-classes/captured-result-item.html) -> NormalizedImageResultItem
+*Inheritance:* [CapturedResultItem]({{ site.dcvb_python_api }}core/basic-classes/captured-result-item.html) -> NormalizedImageResultItem
 
 ## Methods
 
@@ -40,7 +40,7 @@ The image data.
 
 **See Also**
 
-[ImageData]({{ site.dcv_python_api }}core/basic-classes/image-data.html)
+[ImageData]({{ site.dcvb_python_api }}core/basic-classes/image-data.html)
 
 ### get_location
 
@@ -56,4 +56,4 @@ The location of current object.
 
 **See Also**
 
-[Quadrilateral]({{ site.dcv_python_api }}core/basic-classes/quadrilateral.html)
+[Quadrilateral]({{ site.dcvb_python_api }}core/basic-classes/quadrilateral.html)

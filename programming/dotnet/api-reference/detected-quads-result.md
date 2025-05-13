@@ -13,7 +13,6 @@ The DetectedQuadsResult class stores a captured result whose type is detected qu
 
 *Namespace:* Dynamsoft.DDN
 
-*Assembly:* Dynamsoft.DocumentNormalizer.dll
 
 ```csharp
 public class DetectedQuadsResult
@@ -44,7 +43,7 @@ Returns the error code.
 
 **See Also**
 
-* [EnumErrorCode]({{ site.dcv_enumerations }}core/error-code.html?lang=dotnet)
+* [EnumErrorCode]({{ site.dcvb_enumerations }}core/error-code.html)
 
 ### GetErrorString
 
@@ -116,5 +115,5 @@ Returns an `ImageTag` object that represents the tag of the original image.
 
 **See Also**
 
-* [ImageTag]({{ site.dcv_dotnet_api }}core/basic-classes/image-tag.html)
+* [ImageTag]({{ site.dcvb_dotnet_api }}core/basic-classes/image-tag.html)
 

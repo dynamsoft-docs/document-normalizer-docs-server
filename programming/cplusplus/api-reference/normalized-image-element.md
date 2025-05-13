@@ -8,7 +8,7 @@ permalink: /programming/cplusplus/api-reference/normalized-image-element.html
 
 # CNormalizedImageElement Class
 
-The CNormalizedImageElement class stores an intermediate result whose type is normalized image.
+The `CNormalizedImageElement` class stores an intermediate result whose type is normalized image.
 
 ## Definition
 
@@ -20,7 +20,7 @@ The CNormalizedImageElement class stores an intermediate result whose type is no
 class CNormalizedImageElement: public CRegionObjectElement
 ```
 
-*Inheritance:* [CRegionObjectElement]({{ site.dcv_cpp_api }}core/intermediate-results/region-object-element.html) -> CNormalizedImageElement
+*Inheritance:* [CRegionObjectElement]({{ site.dcvb_cpp_api }}core/intermediate-results/region-object-element.html) -> CNormalizedImageElement
 ## Methods
 
 | Method | Description |
@@ -41,4 +41,4 @@ The image data.
 
 **See Also**
 
-* [CImageData]({{ site.dcv_cpp_api }}core/basic-structures/image-data.html)
+* [CImageData]({{ site.dcvb_cpp_api }}core/basic-structures/image-data.html)

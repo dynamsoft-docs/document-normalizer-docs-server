@@ -12,60 +12,47 @@ needGenerateH3Content: true
 The `SimplifiedDocumentNormalizerSettings` class contains settings for document normalization. It is a sub-parameter of `SimplifiedCaptureVisionSettings`
 
 ```csharp
-typedef class SimplifiedDocumentNormalizerSettings
-{
-    GrayscaleTransformationMode grayscaleTransformationModes[];     
-    GrayscaleEnhancementMode grayscaleEnhancementModes[];     
-    ImageColourMode colourMode;    
-    int pageSize[];    
-    int brightness;    
-    int contrast;    
-    int maxThreadsInOneTask;    
-    int scaleDownThreshold;    
-} SimplifiedDocumentNormalizerSettings;
-
+public class SimplifiedDocumentNormalizerSettings
 ```
 
 ## Attributes Summary
 
 | Attribute | Type |
 | --------- | ---- |
-| [`grayscaleTransformationModes`](#grayscaletransformationmodes) | *GrayscaleTransformationMode[]* |
-| [`grayscaleEnhancementModes`](#grayscaleenhancementmodes) | *GrayscaleEnhancementMode[]* |
-| [`colourMode`](#colourmode) | *int* |
+| [`grayscaleTransformationModes`](#grayscaletransformationmodes) | *EnumGrayscaleTransformationMode[]* |
+| [`grayscaleEnhancementModes`](#grayscaleenhancementmodes) | *EnumGrayscaleEnhancementMode[]* |
+| [`colourMode`](#colourmode) | *EnumImageColourMode* |
 | [`pageSize`](#pagesize) | *int[]* |
 | [`brightness`](#brightness) | *int* |
 | [`contrast`](#contrast) | *int* |
 | [`maxThreadsInOneTask`](#maxthreadsinonetask) | *int* |
 | [`scaleDownThreshold`](#scaledownthreshold) | *int* |
+| [`minQuadrilateralAreaRatio`](#minquadrilateralarearatio) | *int* |
+| [`expectedDocumentsCount`](#expecteddocumentscount) | *int* |
 
 ### grayscaleTransformationModes
 
-Set the grayscale transformation modes with an array of enumeration `GrayscaleTransformationMode`. View the reference page of <a href="{{ site.dcv_enumerations}}core/grayscale-transformation-mode.html?lang=dotnet" target="_blank">`GrayscaleTransformationMode`</a> for more detail about grayscale transformation modes.
+Sets the grayscale transformation modes using an [`EnumGrayscaleTransformationMode`]({{ site.dcvb_dotnet_api }}core/enum-grayscale-transformation-mode.html) array with 8 elements. View the reference page of <a href="{{ site.dcvb_parameters_reference }}image-parameter/grayscale-transformation-modes.html">`GrayscaleTransformationModes`</a> for more detail about grayscale transformation modes.
 
 ```csharp
-GrayscaleTransformationMode grayscaleTransformationModes[];
+EnumGrayscaleTransformationMode[] grayscaleTransformationModes;
 ```
 
 ### grayscaleEnhancementModes
 
-Set the grayscale enhancement modes with an array of enumeration `GrayscaleEnhancementMode`. View the reference page of <a href="{{ site.dcv_enumerations}}core/grayscale-enhancement-mode.html?lang=dotnet" target="_blank">`GrayscaleEnhancementMode`</a> for more detail about grayscale enhancement modes.
+Sets the grayscale enhancement modes using an [`EnumGrayscaleEnhancementMode`]({{ site.dcvb_dotnet_api }}core/enum-grayscale-enhancement-mode.html) array with 8 elements. View the reference page of <a href="{{ site.dcvb_parameters_reference }}image-parameter/grayscale-enhancement-modes.html">`GrayscaleEnhancementModes`</a> for more detail about grayscale enhancement modes.
 
 ```csharp
-GrayscaleEnhancementMode grayscaleEnhancementModes[];
+EnumGrayscaleEnhancementMode[] grayscaleEnhancementModes;
 ```
 
 ### colourMode
 
-Set the output image colour mode.
+Sets the output image colour mode using an enumeration value from [`EnumImageColourMode`]({{ site.ddn_dotnet_api }}core/enum-image-colour-mode.html).
 
 ```csharp
-ImageColourMode colourMode;
+EnumImageColourMode colourMode;
 ```
-
-**Value Range**
-
-"ICM_BINARY", "ICM_GRAYSCALE", "ICM_COLOUR"
 
 **Default value**
 
@@ -73,16 +60,15 @@ ImageColourMode colourMode;
 
 ### pageSize
 
-Set the page size (width by height in pixels) of the normalized image.
+Sets the page size (width by height in pixels) of the normalized image.
 
 ```csharp
-int pageSize[];
+int[] pageSize;
 ```
-
 
 ### brightness
 
-Set the brightness of the normalized image.
+Sets the brightness of the normalized image.
 
 ```csharp
 int brightness;
@@ -98,10 +84,10 @@ int brightness;
 
 ### contrast
 
-Set the contrast of the normalized image.
+Sets the contrast of the normalized image.
 
 ```csharp
-int contrast   
+int contrastl
 ```
 
 **Value Range**
@@ -114,7 +100,7 @@ int contrast
 
 ### maxThreadsInOneTask
 
-Set the maximum available threads count in one document normalization task.
+Sets the maximum available threads count in one document normalization task.
 
 ```csharp
 int maxThreadsInOneTask;
@@ -148,3 +134,34 @@ int scaleDownThreshold;
 
 If the shorter edge size is larger than the given threshold value, the library will calculate the required height and width of the barcode image and shrink the image to that size before detection. Otherwise, the library will perform document detection on the original image.
 
+### minQuadrilateralAreaRatio
+
+Sets the minimum ratio between the target document area and the total image area. Only those exceeding this value will be output (measured in percentages).
+
+```csharp
+int minQuadrilateralAreaRatio;
+```
+
+**Value Range**
+
+[0, 100]
+
+**Default value**
+
+0
+
+### expectedDocumentsCount
+
+Sets the number of documents expected to be detected.
+
+```csharp
+int expectedDocumentsCount;
+```
+
+**Value Range**
+
+[0, 0x7fffffff]
+
+**Default value**
+
+1

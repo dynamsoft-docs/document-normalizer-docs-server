@@ -17,7 +17,7 @@ The `ProcessedDocumentResult` class is a base class for storing processed docume
 class ProcessedDocumentResult(CapturedResultBase):
 ```
 
-*Inheritance:* [CapturedResultBase]({{ site.dcv_python_api }}core/basic-classes/captured-result-base.html) -> ProcessedDocumentResult
+*Inheritance:* [CapturedResultBase]({{ site.dcvb_python_api }}core/basic-classes/captured-result-base.html) -> ProcessedDocumentResult
 
 ## Methods
 

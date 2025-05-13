@@ -8,7 +8,7 @@ permalink: /programming/cplusplus/api-reference/normalized-image-unit.html
 
 # CNormalizedImagesUnit Class
 
-The CNormalizedImagesUnit class represents an intermediate result unit whose type is normalized images.
+The `CNormalizedImagesUnit` class represents an intermediate result unit whose type is normalized images.
 
 ## Definition
 
@@ -20,7 +20,7 @@ The CNormalizedImagesUnit class represents an intermediate result unit whose typ
 class CNormalizedImagesUnit: CIntermediateResultUnit
 ```
 
-*Inheritance:* [CIntermediateResultUnit]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CNormalizedImagesUnit
+*Inheritance:* [CIntermediateResultUnit]({{ site.dcvb_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CNormalizedImagesUnit
 
 ## Methods
 

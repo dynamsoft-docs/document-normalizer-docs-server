@@ -17,7 +17,7 @@ The `DeskewedImageResultItem` class stores a captured result item whose type is 
 class DeskewedImageResultItem(CapturedResultItem):
 ```
 
-*Inheritance:* [CapturedResultItem]({{ site.dcv_python_api }}core/basic-classes/captured-result-item.html) -> DeskewedImageResultItem
+*Inheritance:* [CapturedResultItem]({{ site.dcvb_python_api }}core/basic-classes/captured-result-item.html) -> DeskewedImageResultItem
 
 ## Methods
 
@@ -42,7 +42,7 @@ The image data.
 
 **See Also**
 
-* [ImageData]({{ site.dcv_python_api }}core/basic-classes/image-data.html)
+* [ImageData]({{ site.dcvb_python_api }}core/basic-classes/image-data.html)
 
 ### get_source_deskew_quad
 
@@ -58,7 +58,7 @@ A `Quadrilateral` object representing the four corners of the quadrilateral used
 
 **See Also**
 
-* [Quadrilateral]({{ site.dcv_python_api }}core/basic-classes/quadrilateral.html)
+* [Quadrilateral]({{ site.dcvb_python_api }}core/basic-classes/quadrilateral.html)
 
 ### get_cross_verification_status
 
@@ -74,7 +74,7 @@ Return the status of current object as a verified deskewed image.
 
 **See Also**
 
-[EnumCrossVerificationStatus]({{ site.dcv_python_api }}core/enum-cross-verification-status.html)
+[EnumCrossVerificationStatus]({{ site.dcvb_python_api }}core/enum-cross-verification-status.html)
 
 ### get_original_to_local_matrix
 

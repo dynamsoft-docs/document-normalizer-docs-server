@@ -17,7 +17,7 @@ The `DetectedQuadsUnit` class represents an intermediate result unit whose type 
 class DetectedQuadsUnit(IntermediateResultUnit)
 ```
 
-*Inheritance:* [IntermediateResultUnit]({{ site.dcv_python_api }}core/intermediate-results/intermediate-result-unit.html) -> DetectedQuadsUnit
+*Inheritance:* [IntermediateResultUnit]({{ site.dcvb_python_api }}core/intermediate-results/intermediate-result-unit.html) -> DetectedQuadsUnit
 
 ## Methods
 

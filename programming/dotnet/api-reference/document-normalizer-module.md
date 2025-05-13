@@ -5,7 +5,6 @@ description: Definition of DocumentNormalizerModule class in Dynamsoft Document 
 keywords: document normalizer module, .NET
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
-
 ---
 
 # DocumentNormalizerModule
@@ -16,7 +15,6 @@ The `DocumentNormalizerModule` class defines general functions in the document n
 
 *Namespace:* Dynamsoft.DDN
 
-*Assembly:* Dynamsoft.DocumentNormalizer.dll
 
 ```csharp
 public class DocumentNormalizerModule 
