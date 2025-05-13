@@ -20,7 +20,7 @@ The CCandidateQuadEdgesUnit class represents an intermediate result unit whose t
 class CCandidateQuadEdgesUnit: CIntermediateResultUnit
 ```
 
-*Inheritance:* [CIntermediateResultUnit]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CCandidateQuadEdgesUnit
+*Inheritance:* [CIntermediateResultUnit]({{ site.dcvb_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CCandidateQuadEdgesUnit
 
 ## Methods
 
@@ -65,8 +65,8 @@ Returns the error code.
 
 **See Also**
 
-* [CEdge]({{ site.dcv_cpp_api }}core/basic-structures/edge.html)
-* [ErrorCode]({{ site.dcv_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
+* [CEdge]({{ site.dcvb_cpp_api }}core/basic-structures/edge.html)
+* [ErrorCode]({{ site.dcvb_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
 
 ### RemoveAllCandidateQuadEdges
 

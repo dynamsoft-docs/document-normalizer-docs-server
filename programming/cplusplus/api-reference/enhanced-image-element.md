@@ -7,7 +7,7 @@ keywords: SetImageData, CEnhancedImageElement, api reference
 
 # CEnhancedImageElement Class
 
-The CEnhancedImageElement class stores an intermediate result whose type is Enhanced image.
+The `CEnhancedImageElement` class stores an intermediate result whose type is Enhanced image.
 
 ## Definition
 
@@ -19,7 +19,7 @@ The CEnhancedImageElement class stores an intermediate result whose type is Enha
 class CEnhancedImageElement: public CRegionObjectElement
 ```
 
-*Inheritance:* [CRegionObjectElement]({{ site.dcv_cpp_api }}core/intermediate-results/region-object-element.html) -> CEnhancedImageElement
+*Inheritance:* [CRegionObjectElement]({{ site.dcvb_cpp_api }}core/intermediate-results/region-object-element.html) -> CEnhancedImageElement
 
 ## Methods
 
@@ -45,4 +45,4 @@ Returns 0 if succeeds, nonzero otherwise.
 
 **See Also**
 
-* [CImageData]({{ site.dcv_cpp_api }}core/basic-structures/image-data.html)
+* [CImageData]({{ site.dcvb_cpp_api }}core/basic-structures/image-data.html)

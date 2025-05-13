@@ -7,7 +7,7 @@ keywords: GetImageData, SaveToFile, CEnhancedImageResultItem, api reference
 
 # CEnhancedImageResultItem Class
 
-The CEnhancedImageResultItem class stores a captured result item whose type is Enhanced image.
+The `CEnhancedImageResultItem` class stores a captured result item whose type is Enhanced image.
 
 ## Definition
 
@@ -19,7 +19,7 @@ The CEnhancedImageResultItem class stores a captured result item whose type is E
 class CEnhancedImageResultItem: CCapturedResultItem
 ```
 
-*Inheritance:* [CCapturedResultItem]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html) -> CEnhancedImageResultItem
+*Inheritance:* [CCapturedResultItem]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-item.html) -> CEnhancedImageResultItem
 
 ## Methods
 
@@ -42,7 +42,7 @@ The image data.
 
 **See Also**
 
-* [CImageData]({{ site.dcv_cpp_api }}core/basic-structures/image-data.html)
+* [CImageData]({{ site.dcvb_cpp_api }}core/basic-structures/image-data.html)
 
 ### GetOriginalToLocalMatrix
 

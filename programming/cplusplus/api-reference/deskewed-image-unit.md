@@ -8,7 +8,7 @@ permalink: /programming/cplusplus/api-reference/Deskewed-image-unit.html
 
 # CDeskewedImagesUnit Class
 
-The CDeskewedImagesUnit class represents an intermediate result unit whose type is Deskewed images.
+The `CDeskewedImagesUnit` class represents an intermediate result unit whose type is Deskewed images.
 
 ## Definition
 
@@ -20,7 +20,7 @@ The CDeskewedImagesUnit class represents an intermediate result unit whose type 
 class CDeskewedImagesUnit: CIntermediateResultUnit
 ```
 
-*Inheritance:* [CIntermediateResultUnit]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CDeskewedImagesUnit
+*Inheritance:* [CIntermediateResultUnit]({{ site.dcvb_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CDeskewedImagesUnit
 
 ## Methods
 

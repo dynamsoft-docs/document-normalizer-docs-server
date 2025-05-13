@@ -8,7 +8,7 @@ permalink: /programming/cplusplus/api-reference/logic-lines-unit.html
 
 # CLogicLinesUnit Class
 
-The CLogicLinesUnit class represents an intermediate result unit whose type is logic lines. Logic lines are formed by combining long lines that meet certain conditions.
+The `CLogicLinesUnit` class represents an intermediate result unit whose type is logic lines. Logic lines are formed by combining long lines that meet certain conditions.
 
 ## Definition
 
@@ -20,7 +20,7 @@ The CLogicLinesUnit class represents an intermediate result unit whose type is l
 class CLogicLinesUnit: CIntermediateResultUnit
 ```
 
-*Inheritance:* [CIntermediateResultUnit]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CLogicLinesUnit
+*Inheritance:* [CIntermediateResultUnit]({{ site.dcvb_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CLogicLinesUnit
 
 ## Methods
 
@@ -63,8 +63,8 @@ Returns the LogicLine object.
 
 **See Also**
 
-* [CLineSegment]({{ site.dcv_cpp_api }}core/basic-structures/line-segment.html)
-* [ErrorCode]({{ site.dcv_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
+* [CLineSegment]({{ site.dcvb_cpp_api }}core/basic-structures/line-segment.html)
+* [ErrorCode]({{ site.dcvb_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
 
 ### RemoveAllLogicLines
 

@@ -7,7 +7,7 @@ keywords: GetEnhancedImage, CEnhancedImagesUnit, api reference
 
 # CEnhancedImagesUnit Class
 
-The CEnhancedImagesUnit class represents an intermediate result unit whose type is enhanced images.
+The `CEnhancedImagesUnit` class represents an intermediate result unit whose type is enhanced images.
 
 ## Definition
 
@@ -19,7 +19,7 @@ The CEnhancedImagesUnit class represents an intermediate result unit whose type 
 class CEnhancedImagesUnit: CIntermediateResultUnit
 ```
 
-*Inheritance:* [CIntermediateResultUnit]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CEnhancedImagesUnit
+*Inheritance:* [CIntermediateResultUnit]({{ site.dcvb_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CEnhancedImagesUnit
 
 ## Methods
 

@@ -8,7 +8,7 @@ permalink: /programming/cplusplus/api-reference/long-lines-unit.html
 
 # CLongLinesUnit Class
 
-The CLongLinesUnit class represents an intermediate result unit whose type is long lines. Short line segments that are located in the same line are extended and merged to form a long line segment.
+The `CLongLinesUnit` class represents an intermediate result unit whose type is long lines. Short line segments that are located in the same line are extended and merged to form a long line segment.
 
 ## Definition
 
@@ -20,7 +20,7 @@ The CLongLinesUnit class represents an intermediate result unit whose type is lo
 class CLongLinesUnit: CIntermediateResultUnit
 ```
 
-*Inheritance:* [CIntermediateResultUnit]({{ site.dcv_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CLongLinesUnit
+*Inheritance:* [CIntermediateResultUnit]({{ site.dcvb_cpp_api }}core/intermediate-results/intermediate-result-unit.html) -> CLongLinesUnit
 
 ## Methods
 
@@ -63,8 +63,8 @@ Returns the LongLine object.
 
 **See Also**
 
-* [CLineSegment]({{ site.dcv_cpp_api }}core/basic-structures/line-segment.html)
-* [ErrorCode]({{ site.dcv_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
+* [CLineSegment]({{ site.dcvb_cpp_api }}core/basic-structures/line-segment.html)
+* [ErrorCode]({{ site.dcvb_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
 
 ### RemoveAllLongLines
 

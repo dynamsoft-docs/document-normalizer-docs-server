@@ -13,13 +13,12 @@ The NormalizedImageResultItem class stores a captured result item whose type is 
 
 *Namespace:* Dynamsoft.DDN
 
-*Assembly:* Dynamsoft.DocumentNormalizer.dll
 
 ```csharp
 public class NormalizedImageResultItem: CapturedResultItem
 ```
 
-*Inheritance:* [CapturedResultItem]({{ site.dcv_dotnet_api }}core/basic-classes/captured-result-item.html) -> NormalizedImageResultItem
+*Inheritance:* [CapturedResultItem]({{ site.dcvb_dotnet_api }}core/basic-classes/captured-result-item.html) -> NormalizedImageResultItem
 
 ## Methods
 
@@ -42,14 +41,14 @@ The image data.
 
 **See Also**
 
-* [ImageData]({{ site.dcv_dotnet_api }}core/basic-classes/image-data.html)
+* [ImageData]({{ site.dcvb_dotnet_api }}core/basic-classes/image-data.html)
 
 ### GetLocation
 
 Gets the location of current object.
 
 ```csharp
-const Quadrilateral GetLocation() 
+Quadrilateral GetLocation() 
 ```
 
 **Return Value**
@@ -58,4 +57,4 @@ The location of current object.
 
 **See Also**
 
-* [Quadrilateral]({{ site.dcv_dotnet_api }}core/basic-classes/quadrilateral.html)
+* [Quadrilateral]({{ site.dcvb_dotnet_api }}core/basic-classes/quadrilateral.html)

@@ -42,7 +42,7 @@ Returns the error code.
 
 **See Also**
 
-[EnumErrorCode]({{ site.dcv_python_api }}core/enum-error-code.html)
+[EnumErrorCode]({{ site.dcvb_python_api }}core/enum-error-code.html)
 
 ### get_error_string
 
@@ -110,5 +110,5 @@ Returns an `ImageTag` object that represents the tag of the original image.
 
 **See Also**
 
-[ImageTag]({{ site.dcv_python_api }}core/basic-classes/image-tag.html)
+[ImageTag]({{ site.dcvb_python_api }}core/basic-classes/image-tag.html)
 

@@ -26,15 +26,15 @@ ddn_android: /document-normalizer/docs/mobile/programming/android/
 ddn_xamarin: /document-normalizer/docs/mobile/programming/xamarin/
 
 ddn_parameters_reference: /document-normalizer/docs/core/parameters/reference/
-dcv_parameters_reference: /capture-vision/docs/core/parameters/reference/
+dcvb_parameters_reference: /capture-vision/docs/core/parameters/reference/
 
-dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
-dcv_dotnet_api: /capture-vision/docs/server/programming/dotnet/api-reference/
-dcv_python_api: /capture-vision/docs/server/programming/python/api-reference/
-dcv_introduction: /capture-vision/docs/core/introduction/
-dcv_enumerations: /capture-vision/docs/core/enums/
+dcvb_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
+dcvb_dotnet_api: /capture-vision/docs/server/programming/dotnet/api-reference/
+dcvb_python_api: /capture-vision/docs/server/programming/python/api-reference/
+dcvb_introduction: /capture-vision/docs/core/introduction/
+dcvb_enumerations: /capture-vision/docs/core/enums/
 
-useVersionTree: false
+useVersionTree: false 
 isDCV: true
 
 assets: /document-normalizer/docs/server/assets/

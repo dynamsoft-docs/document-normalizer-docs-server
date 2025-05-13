@@ -17,7 +17,7 @@ The `LongLinesUnit` class represents an intermediate result unit whose type is l
 class LongLinesUnit(IntermediateResultUnit)
 ```
 
-*Inheritance:* [IntermediateResultUnit]({{ site.dcv_python_api }}core/intermediate-results/intermediate-result-unit.html) -> LongLinesUnit
+*Inheritance:* [IntermediateResultUnit]({{ site.dcvb_python_api }}core/intermediate-results/intermediate-result-unit.html) -> LongLinesUnit
 
 ## Methods
 
@@ -60,7 +60,7 @@ Returns the `LongLine` object.
 
 **See Also**
 
-* [LineSegment]({{ site.dcv_python_api }}core/basic-classes/line-segment.html)
+* [LineSegment]({{ site.dcvb_python_api }}core/basic-classes/line-segment.html)
 
 ### remove_all_long_lines
 
@@ -106,7 +106,7 @@ Returns 0 if successful, otherwise returns a negative value.
 
 **See Also**
 
-* [LineSegment]({{ site.dcv_python_api }}core/basic-classes/line-segment.html)
+* [LineSegment]({{ site.dcvb_python_api }}core/basic-classes/line-segment.html)
 
 ### set_long_line
 

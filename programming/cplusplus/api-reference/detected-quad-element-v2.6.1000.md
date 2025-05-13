@@ -19,7 +19,7 @@ The CDetectedQuadElement class stores an intermediate result whose type is detec
 class CDetectedQuadElement: CRegionObjectElement
 ```
 
-*Inheritance:* [CRegionObjectElement]({{ site.dcv_cpp_api }}core/intermediate-results/region-object-element.html) -> CDetectedQuadElement
+*Inheritance:* [CRegionObjectElement]({{ site.dcvb_cpp_api }}core/intermediate-results/region-object-element.html) -> CDetectedQuadElement
 
 ## Methods
 

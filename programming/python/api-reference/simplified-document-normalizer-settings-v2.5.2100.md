@@ -34,25 +34,25 @@ class SimplifiedDocumentNormalizerSettings
 
 Specifies how grayscale transformations should be applied, including whether to process inverted grayscale images and the specific transformation mode to use.
 
-It is a list of 8 integers, where each integer represents a mode specified by the [`EnumGrayscaleTransformationMode`]({{ site.dcv_enumerations }}core/grayscale-transformation-mode.html?lang=python) enumeration.
+It is a list of 8 integers, where each integer represents a mode specified by the [`EnumGrayscaleTransformationMode`]({{ site.dcvb_enumerations }}core/grayscale-transformation-mode.html?lang=python) enumeration.
 
-View the parameter reference page of <a href="{{ site.dcv_parameters_reference }}image-parameter/grayscale-transformation-modes.html?product=ddn&repoType=core" target="_blank">`GrayscaleTransformationModes`</a> for more detail about grayscale transformation modes.
+View the parameter reference page of <a href="{{ site.dcvb_parameters_reference }}image-parameter/grayscale-transformation-modes.html?product=ddn&repoType=core" target="_blank">`GrayscaleTransformationModes`</a> for more detail about grayscale transformation modes.
 
 ### grayscale_enhancement_modes
 
 Specifies how to enhance the quality of the grayscale image.
 
-It is a list of 8 integers, where each integer represents a mode specified by the [`EnumGrayscaleEnhancementMode`]({{ site.dcv_enumerations }}core/grayscale-enhancement-mode.html?lang=python) enumeration.
+It is a list of 8 integers, where each integer represents a mode specified by the [`EnumGrayscaleEnhancementMode`]({{ site.dcvb_enumerations }}core/grayscale-enhancement-mode.html?lang=python) enumeration.
 
-View the parameter reference page of <a href="{{ site.dcv_parameters_reference }}image-parameter/grayscale-enhancement-modes.html?product=ddn&repoType=core" target="_blank">`GrayscaleEnhancementModes`</a> for more detail about grayscale enhancement modes.
+View the parameter reference page of <a href="{{ site.dcvb_parameters_reference }}image-parameter/grayscale-enhancement-modes.html?product=ddn&repoType=core" target="_blank">`GrayscaleEnhancementModes`</a> for more detail about grayscale enhancement modes.
 
 ### colour_mode
 
 Specifies the colour mode of the output image.
 
-It is a value of the [`EnumImageColourMode`]({{ site.dcv_enumerations }}document-normalizer/image-colour-mode.html?lang=python) enumeration.
+It is a value of the [`EnumImageColourMode`]({{ site.dcvb_enumerations }}document-normalizer/image-colour-mode.html?lang=python) enumeration.
 
-View the parameter reference page of <a href="{{ site.dcv_parameters_reference }}document-normalizer-task-settings/colour-mode.html?product=ddn&repoType=core" target="_blank">`ColourMode`</a> for more detail about colour mode.
+View the parameter reference page of <a href="{{ site.dcvb_parameters_reference }}document-normalizer-task-settings/colour-mode.html?product=ddn&repoType=core" target="_blank">`ColourMode`</a> for more detail about colour mode.
 
 **Default value**
 

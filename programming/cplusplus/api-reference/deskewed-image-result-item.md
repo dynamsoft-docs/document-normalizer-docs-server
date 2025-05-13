@@ -7,7 +7,7 @@ keywords: GetImageData, SaveToFile, CDeskewedImageResultItem, api reference
 
 # CDeskewedImageResultItem Class
 
-The CDeskewedImageResultItem class stores a captured result item whose type is Deskewed image.
+The `CDeskewedImageResultItem` class stores a captured result item whose type is Deskewed image.
 
 ## Definition
 
@@ -19,7 +19,7 @@ The CDeskewedImageResultItem class stores a captured result item whose type is D
 class CDeskewedImageResultItem: CCapturedResultItem
 ```
 
-*Inheritance:* [CCapturedResultItem]({{ site.dcv_cpp_api }}core/basic-structures/captured-result-item.html) -> CDeskewedImageResultItem
+*Inheritance:* [CCapturedResultItem]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-item.html) -> CDeskewedImageResultItem
 
 ## Methods
 
@@ -45,7 +45,7 @@ The image data.
 
 **See Also**
 
-* [CImageData]({{ site.dcv_cpp_api }}core/basic-structures/image-data.html)
+* [CImageData]({{ site.dcvb_cpp_api }}core/basic-structures/image-data.html)
 
 ### GetSourceDeskewQuad
 
@@ -61,7 +61,7 @@ A `CQuadrilateral` object representing the four corners of the quadrilateral use
 
 **See Also**
 
-* [CQuadrilateral]({{ site.dcv_cpp_api }}core/basic-structures/quadrilateral.html)
+* [CQuadrilateral]({{ site.dcvb_cpp_api }}core/basic-structures/quadrilateral.html)
 
 ### GetCrossVerificationStatus
 

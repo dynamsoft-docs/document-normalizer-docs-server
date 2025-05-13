@@ -17,7 +17,7 @@ The `NormalizedImageElement` class stores an intermediate result whose type is n
 class NormalizedImageElement(RegionObjectElement)
 ```
 
-*Inheritance:* [RegionObjectElement]({{ site.dcv_python_api }}core/intermediate-results/region-object-element.html) -> NormalizedImageElement
+*Inheritance:* [RegionObjectElement]({{ site.dcvb_python_api }}core/intermediate-results/region-object-element.html) -> NormalizedImageElement
 ## Methods
 
 | Method | Description |
@@ -47,4 +47,4 @@ The image data.
 
 **See Also**
 
-* [ImageData]({{ site.dcv_python_api }}core/basic-classes/image-data.html)
+* [ImageData]({{ site.dcvb_python_api }}core/basic-classes/image-data.html)

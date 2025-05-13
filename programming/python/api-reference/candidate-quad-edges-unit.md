@@ -17,7 +17,7 @@ The `CandidateQuadEdgesUnit` class represents an intermediate result unit whose 
 class CandidateQuadEdgesUnit(IntermediateResultUnit)
 ```
 
-*Inheritance:* [IntermediateResultUnit]({{ site.dcv_python_api }}core/intermediate-results/intermediate-result-unit.html) -> CandidateQuadEdgesUnit
+*Inheritance:* [IntermediateResultUnit]({{ site.dcvb_python_api }}core/intermediate-results/intermediate-result-unit.html) -> CandidateQuadEdgesUnit
 
 ## Methods
 
@@ -62,9 +62,9 @@ Returns a tuple containing following elements:
 
 **See Also**
 
-[EnumErrorCode]({{ site.dcv_python_api }}core/enum-error-code.html)
+[EnumErrorCode]({{ site.dcvb_python_api }}core/enum-error-code.html)
 
-[Edge]({{ site.dcv_python_api }}core/basic-classes/edge.html)
+[Edge]({{ site.dcvb_python_api }}core/basic-classes/edge.html)
 
 ### remove_all_candidate_quad_edges
 
@@ -110,7 +110,7 @@ Returns 0 if successful, otherwise returns a negative value.
 
 **See Also**
 
-[Edge]({{ site.dcv_python_api }}core/basic-classes/edge.html)
+[Edge]({{ site.dcvb_python_api }}core/basic-classes/edge.html)
 
 ### set_candidate_quad_edge
 
@@ -134,4 +134,4 @@ Returns 0 if successful, otherwise returns a negative value.
 
 **See Also**
 
-[Edge]({{ site.dcv_python_api }}core/basic-classes/edge.html)
+[Edge]({{ site.dcvb_python_api }}core/basic-classes/edge.html)

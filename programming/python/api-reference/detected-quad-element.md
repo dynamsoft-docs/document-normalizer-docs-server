@@ -17,7 +17,7 @@ The `DetectedQuadElement` class stores an intermediate result whose type is dete
 class DetectedQuadElement(RegionObjectElement)
 ```
 
-*Inheritance:* [RegionObjectElement]({{ site.dcv_python_api }}core/intermediate-results/region-object-element.html) -> DetectedQuadElement
+*Inheritance:* [RegionObjectElement]({{ site.dcvb_python_api }}core/intermediate-results/region-object-element.html) -> DetectedQuadElement
 
 ## Methods
 
@@ -65,4 +65,4 @@ Returns 0 if success, otherwise an error code.
 
 **See Also**
 
-* [Quadrilateral]({{ site.dcv_python_api }}core/basic-classes/quadrilateral.html)
+* [Quadrilateral]({{ site.dcvb_python_api }}core/basic-classes/quadrilateral.html)

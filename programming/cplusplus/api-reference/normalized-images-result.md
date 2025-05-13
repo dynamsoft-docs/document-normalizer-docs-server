@@ -8,7 +8,7 @@ permalink: /programming/cplusplus/api-reference/normalized-images-result.html
 
 # CNormalizedImagesResult
 
-The CNormalizedImagesResult class stores a collection of captured result items whose type are normalized images.
+The `CNormalizedImagesResult` class stores a collection of captured result items whose type are normalized images.
 
 ## Definition
 
@@ -63,7 +63,7 @@ Returns the error code of the operation. A non-zero value indicates an error occ
 
 **See Also**
 
-* [ErrorCode]({{ site.dcv_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
+* [ErrorCode]({{ site.dcvb_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
 
 ### GetErrorString
 
@@ -168,7 +168,7 @@ Returns a pointer to the tag of the original image that was normalized.
 
 **See Also**
 
-* [CImageTag]({{ site.dcv_cpp_api }}core/basic-structures/image-tag.html)
+* [CImageTag]({{ site.dcvb_cpp_api }}core/basic-structures/image-tag.html)
 
 ### operator[]
 
