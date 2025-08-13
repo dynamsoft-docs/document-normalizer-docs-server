@@ -71,10 +71,3 @@ A `Quadrilateral` object representing the four corners of the quadrilateral used
 
 * [Quadrilateral]({{ site.dcvb_java_api }}core/basic-classes/quadrilateral.html)
 
-**Return Value**
-
-Returns A `Quadrilateral` object representing the four corners of the quadrilateral used to deskew the image.
-
-**See Also**
-
-* [Quadrilateral]({{ site.dcvb_python_api }}core/basic-classes/quadrilateral.html)
