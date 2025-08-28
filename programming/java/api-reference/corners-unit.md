@@ -62,7 +62,7 @@ Returns the `Corner` object got by the specific index.
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.html)
+[`DocumentNormalizerException`](document-normalizer-exception.md)
 
 **See Also**
 
@@ -94,7 +94,7 @@ public void removeAllCorners() throws DocumentNormalizerException
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.html)
+[`DocumentNormalizerException`](document-normalizer-exception.md)
 
 ### removeCorner
 
@@ -110,7 +110,7 @@ public void removeCorner(int index) throws DocumentNormalizerException
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.html)
+[`DocumentNormalizerException`](document-normalizer-exception.md)
 
 ### addCorner
 
@@ -129,7 +129,7 @@ public void addCorner(Corner corner, double[] matrixToOriginalImage) throws Docu
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.html)
+[`DocumentNormalizerException`](document-normalizer-exception.md)
 
 **See Also**
 
@@ -154,7 +154,7 @@ public void setCorner(int index, Corner corner, double[] matrixToOriginalImage) 
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.html)
+[`DocumentNormalizerException`](document-normalizer-exception.md)
 
 **See Also**
 

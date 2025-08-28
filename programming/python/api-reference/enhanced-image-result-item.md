@@ -24,7 +24,7 @@ class EnhancedImageResultItem(CapturedResultItem):
 | Method | Description |
 |--------|-------------|
 | [`get_image_data`](#get_image_data) | Gets the ImageData of current object. |
-| [`get_original_to_local_matrix`](get_original_to_local_matrix) | Gets the transformation matrix from the original image coordinate system to the local coordinate system. |
+| [`get_original_to_local_matrix`](#get_original_to_local_matrix) | Gets the transformation matrix from the original image coordinate system to the local coordinate system. |
 
 ### get_image_data
 

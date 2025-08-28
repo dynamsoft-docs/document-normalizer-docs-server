@@ -61,7 +61,7 @@ public void setLocation(Quadrilateral location) throws DocumentNormalizerExcepti
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.html)
+[`DocumentNormalizerException`](document-normalizer-exception.md)
 
 **See Also**
 
