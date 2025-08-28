@@ -101,7 +101,7 @@ public void removeLongLine(int index) throws DocumentNormalizerException
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.html)
+[`DocumentNormalizerException`](document-normalizer-exception.md)
 
 ### addLongLine
 
@@ -120,7 +120,7 @@ public void addLongLine(LineSegment line, double[] matrixToOriginalImage) throws
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.html)
+[`DocumentNormalizerException`](document-normalizer-exception.md)
 
 **See Also**
 
@@ -145,4 +145,4 @@ public void setLongLine(int index, LineSegment line, double[] matrixToOriginalIm
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.html)
+[`DocumentNormalizerException`](document-normalizer-exception.md)

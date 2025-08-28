@@ -25,8 +25,8 @@ class DeskewedImageResultItem(CapturedResultItem):
 |--------|-------------|
 | [`get_image_data`](#get_image_data) | Gets the ImageData of current object. |
 | [`get_source_deskew_quad`](#get_source_deskew_quad)| Gets the quadrilateral used for deskewing the image. |
-| [`get_cross_verification_status`](get_cross_verification_status)| Gets the status of current object as a verified deskewed image. |
-| [`get_original_to_local_matrix`](get_original_to_local_matrix) | Gets the transformation matrix from the original image coordinate system to the local coordinate system. |
+| [`get_cross_verification_status`](#get_cross_verification_status)| Gets the status of current object as a verified deskewed image. |
+| [`get_original_to_local_matrix`](#get_original_to_local_matrix) | Gets the transformation matrix from the original image coordinate system to the local coordinate system. |
 
 ### get_image_data
 

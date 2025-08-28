@@ -59,7 +59,7 @@ public void setDeskewedImage(DeskewedImageElement element, double[] matrixToOrig
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.html)
+[`DocumentNormalizerException`](document-normalizer-exception.md)
 
 **See Also**
 
