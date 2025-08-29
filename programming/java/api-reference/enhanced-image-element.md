@@ -48,7 +48,7 @@ public void setImageData(ImageData imageData) throws DocumentNormalizerException
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.md)
+[`DocumentNormalizerException`]({{ site.ddn_java_api }}document-normalizer-exception.html)
 
 **See Also**
 
