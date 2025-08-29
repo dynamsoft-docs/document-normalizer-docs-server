@@ -50,7 +50,6 @@ Gets a `Corner` object from current object by specifying a index.
 ```java
 public Corner getCorner(int index) throws DocumentNormalizerException
 ```
-```
 
 **Parameters**
 
@@ -62,7 +61,7 @@ Returns the `Corner` object got by the specific index.
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.md)
+[`DocumentNormalizerException`]({{ site.ddn_java_api }}document-normalizer-exception.html)
 
 **See Also**
 
@@ -94,7 +93,7 @@ public void removeAllCorners() throws DocumentNormalizerException
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.md)
+[`DocumentNormalizerException`]({{ site.ddn_java_api }}document-normalizer-exception.html)
 
 ### removeCorner
 
@@ -110,7 +109,7 @@ public void removeCorner(int index) throws DocumentNormalizerException
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.md)
+[`DocumentNormalizerException`]({{ site.ddn_java_api }}document-normalizer-exception.html)
 
 ### addCorner
 
@@ -129,7 +128,7 @@ public void addCorner(Corner corner, double[] matrixToOriginalImage) throws Docu
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.md)
+[`DocumentNormalizerException`]({{ site.ddn_java_api }}document-normalizer-exception.html)
 
 **See Also**
 
@@ -154,7 +153,7 @@ public void setCorner(int index, Corner corner, double[] matrixToOriginalImage) 
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.md)
+[`DocumentNormalizerException`]({{ site.ddn_java_api }}document-normalizer-exception.html)
 
 **See Also**
 

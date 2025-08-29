@@ -61,7 +61,7 @@ Returns the `Edge` object got by the specific index.
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.md)
+[`DocumentNormalizerException`]({{ site.ddn_java_api }}document-normalizer-exception.html)
 
 **See Also**
 
@@ -105,7 +105,7 @@ public void removeCandidateQuadEdge(int index) throws DocumentNormalizerExceptio
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.md)
+[`DocumentNormalizerException`]({{ site.ddn_java_api }}document-normalizer-exception.html)
 
 ### addCandidateQuadEdge
 
@@ -124,7 +124,7 @@ public void addCandidateQuadEdge(Edge edge, double[] matrixToOriginalImage) thro
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.md)
+[`DocumentNormalizerException`]({{ site.ddn_java_api }}document-normalizer-exception.html)
 
 **See Also**
 
@@ -149,7 +149,7 @@ public void setCandidateQuadEdge(int index, Edge edge, double[] matrixToOriginal
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.md)
+[`DocumentNormalizerException`]({{ site.ddn_java_api }}document-normalizer-exception.html)
 
 **See Also**
 

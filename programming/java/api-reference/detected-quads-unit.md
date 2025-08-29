@@ -101,7 +101,7 @@ public void removeDetectedQuad(int index) throws DocumentNormalizerException
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.md)
+[`DocumentNormalizerException`]({{ site.ddn_java_api }}document-normalizer-exception.html)
 
 ### addDetectedQuad
 
@@ -120,7 +120,7 @@ public void addDetectedQuad(DetectedQuadElement element, double[] matrixToOrigin
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.md)
+[`DocumentNormalizerException`]({{ site.ddn_java_api }}document-normalizer-exception.html)
 
 **See Also**
 
@@ -145,7 +145,7 @@ public void setDetectedQuad(int index, DetectedQuadElement element, double[] mat
 
 **Exceptions**
 
-[`DocumentNormalizerException`](document-normalizer-exception.md)
+[`DocumentNormalizerException`]({{ site.ddn_java_api }}document-normalizer-exception.html)
 
 **See Also**
 
