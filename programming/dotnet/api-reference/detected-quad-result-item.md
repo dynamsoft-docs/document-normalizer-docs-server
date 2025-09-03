@@ -13,9 +13,10 @@ The `DetectedQuadResultItem` class stores a captured result whose type is detect
 
 *Namespace:* Dynamsoft.DDN
 
+*Assembly:* Dynamsoft.DocumentNormalizer.dll
 
 ```csharp
-public class DetectedQuadResultItem : CapturedResultItem
+public class DetectedQuadResultItem: CapturedResultItem
 ```
 
 *Inheritance:* [CapturedResultItem]({{ site.dcvb_dotnet_api }}core/basic-classes/captured-result-item.html) -> DetectedQuadResultItem
@@ -26,7 +27,6 @@ public class DetectedQuadResultItem : CapturedResultItem
 |--------|-------------|
 | [`GetLocation`](#getlocation) | Gets the location of current object. |
 | [`GetConfidenceAsDocumentBoundary`](#getconfidenceasdocumentboundary) | Gets the confidence of current object as a document boundary. |
-| [`GetCrossVerificationStatus`](#getcrossverificationstatus) | Gets the status of current object as a verified document boundary. |
 
 ### GetLocation
 
@@ -55,19 +55,3 @@ int GetConfidenceAsDocumentBoundary()
 **Return Value**
 
 The confidence as document boundary of the detected quad result.
-
-### GetCrossVerificationStatus
-
-Gets the status of current object as a verified document boundary.
-
-```csharp
-EnumCrossVerificationStatus GetCrossVerificationStatus()
-```
-
-**Return Value**
-
-A value from `EnumCrossVerificationStatus` representing the status of the detected quad result.
-
-**See Also**
-
-* [EnumCrossVerificationStatus]({{ site.dcvb_dotnet_api }}core/cross-verification-status.html)

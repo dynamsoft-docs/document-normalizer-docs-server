@@ -1,50 +1,38 @@
 repository: dynamsoft-docs/document-normalizer-docs-server
-repositoryUrl: https://github.com/dynamsoft-docs/document-normalizer-docs-server/blob/main
-docFullPath: https://www.dynamsoft.com/document-normalizer/docs/server/
-firstLevelUrl: /document-normalizer/docs/server
-docHomePage: /document-normalizer/docs/core/introduction/
+repositoryUrl: https://github.com/dynamsoft-docs/document-normalizer-docs-server/blob/v2
+docFullPath: https://www.dynamsoft.com/document-normalizer/docs/v2/server/
+firstLevelUrl: /document-normalizer/docs/v2/server
+docHomePage: /document-normalizer/docs/v2/core/introduction/
 needSearchIndex: true
 searchNeedFilter: true
 
-ddn_c: /document-normalizer/docs/server/programming/c/
-ddn_c_api: /document-normalizer/docs/server/programming/c/api-reference/
-ddn_c_release_notes: /document-normalizer/docs/server/programming/c/release-notes/
-ddn_enumerations_v1: /document-normalizer/docs/server/programming/enumerations/
-ddn_cpp: /document-normalizer/docs/server/programming/cplusplus/
-ddn_cpp_api: /document-normalizer/docs/server/programming/cplusplus/api-reference/
-ddn_cpp_release_notes: /document-normalizer/docs/server/programming/cplusplus/release-notes/
-ddn_dotnet: /document-normalizer/docs/server/programming/dotnet/
-ddn_dotnet_api: /document-normalizer/docs/server/programming/dotnet/api-reference/
-ddn_dotnet_release_notes: /document-normalizer/docs/server/programming/dotnet/release-notes/
-ddn_python: /document-normalizer/docs/server/programming/python/
-ddn_python_api: /document-normalizer/docs/server/programming/python/api-reference/
-ddn_python_release_notes: /document-normalizer/docs/server/programming/python/release-notes/
+ddn_cpp: /document-normalizer/docs/v2/server/programming/cplusplus/
+ddn_cpp_api: /document-normalizer/docs/v2/server/programming/cplusplus/api-reference/
+ddn_dotnet: /document-normalizer/docs/v2/server/programming/dotnet/
+ddn_dotnet_api: /document-normalizer/docs/v2/server/programming/dotnet/api-reference/
+ddn_python: /document-normalizer/docs/v2/server/programming/python/
+ddn_python_api: /document-normalizer/docs/v2/server/programming/python/api-reference/
 
-ddn_js: /document-normalizer/docs/web/programming/javascript/
-ddn_ios: /document-normalizer/docs/mobile/programming/ios/
-ddn_android: /document-normalizer/docs/mobile/programming/android/
-ddn_xamarin: /document-normalizer/docs/mobile/programming/xamarin/
 
-ddn_parameters_reference: /document-normalizer/docs/core/parameters/reference/
-dcvb_parameters_reference: /capture-vision/docs/core/parameters/reference/
+dcvb_parameters_reference: /capture-vision/docs/v2/core/parameters/reference/
 
-dcvb_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
-dcvb_dotnet_api: /capture-vision/docs/server/programming/dotnet/api-reference/
-dcvb_python_api: /capture-vision/docs/server/programming/python/api-reference/
-dcvb_introduction: /capture-vision/docs/core/introduction/
-dcvb_enumerations: /capture-vision/docs/core/enums/
+dcvb_cpp_api: /capture-vision/docs/v2/server/programming/cplusplus/api-reference/
+dcvb_dotnet_api: /capture-vision/docs/v2/server/programming/dotnet/api-reference/
+dcvb_python_api: /capture-vision/docs/v2/server/programming/python/api-reference/
+dcvb_introduction: /capture-vision/docs/v2/core/introduction/
+dcvb_enumerations: /capture-vision/docs/v2/core/enums/
 
 useVersionTree: false 
 isDCV: true
+useJSVersionV3: true
 
-assets: /document-normalizer/docs/server/assets/
-edit_icon: /document-normalizer/docs/server/assets/img-icon/edit-icon.png
-smile_icon: /document-normalizer/docs/server/assets/img-icon/icon-smile.png
-sad_icon: /document-normalizer/docs/server/assets/img-icon/icon-sad.png
+assets: /document-normalizer/docs/v2/server/assets/
+edit_icon: /document-normalizer/docs/v2/server/assets/img-icon/edit-icon.png
+smile_icon: /document-normalizer/docs/v2/server/assets/img-icon/icon-smile.png
+sad_icon: /document-normalizer/docs/v2/server/assets/img-icon/icon-sad.png
 
-baseurl: "/document-normalizer/docs/server"
+baseurl: "/document-normalizer/docs/v2/server"
 
-download: "/document-normalizer/downloads/"
 
 plugins:
   - jemoji
@@ -68,27 +56,17 @@ defaults:
       path: "programming/cplusplus" 
     values: 
       docRootName: "Document Normalizer C++" 
-      docHomePage: "/document-normalizer/docs/server/programming/cplusplus/"
-  - scope: 
-      path: "programming-old/cplusplus" 
-    values: 
-      docRootName: "Document Normalizer C++" 
-      docHomePage: "/document-normalizer/docs/server/programming/cplusplus/"
-  - scope: 
-      path: "programming/c" 
-    values: 
-      docRootName: "Document Normalizer C" 
-      docHomePage: "/document-normalizer/docs/server/programming/c/"
+      docHomePage: "/document-normalizer/docs/v2/server/programming/cplusplus/"
   - scope: 
       path: "programming/dotnet" 
     values: 
       docRootName: "Document Normalizer .NET Edition" 
-      docHomePage: "/document-normalizer/docs/server/programming/dotnet/"
+      docHomePage: "/document-normalizer/docs/v2/server/programming/dotnet/"
   - scope: 
       path: "programming/python" 
     values: 
       docRootName: "Document Normalizer Python Edition" 
-      docHomePage: "/document-normalizer/docs/server/programming/python/"
+      docHomePage: "/document-normalizer/docs/v2/server/programming/python/"
   - scope:
       path: "Hide_Tree_Page.html"
     values:

@@ -3,11 +3,12 @@ layout: default-layout
 title: CDetectedQuadResultItem Class
 description: This page shows CDetectedQuadResultItem class definition of Dynamsoft Document Normalizer SDK C++ Edition.
 keywords: GetLocation, GetConfidenceAsDocumentBoundary, GetRotationTransformMatrix, CDetectedQuadResultItem, api reference
+permalink: /programming/cplusplus/api-reference/detected-quad-result-item-v2.4.2200.html
 ---
 
 # CDetectedQuadResultItem Class
 
-The `CDetectedQuadResultItem` class stores a captured result whose type is detected quad.
+The CDetectedQuadResultItem class stores a captured result whose type is detected quad.
 
 ## Definition
 
@@ -27,7 +28,6 @@ class CDetectedQuadResultItem: CCapturedResultItem
 |--------|-------------|
 | [`GetLocation`](#getlocation) | Gets the location of current object. |
 | [`GetConfidenceAsDocumentBoundary`](#getconfidenceasdocumentboundary) | Gets the confidence of current object as a document boundary. |
-| [`GetCrossVerificationStatus`](#getcrossverificationstatus) | Gets the status of current object as a verified document boundary. |
 
 ### GetLocation
 
@@ -56,19 +56,3 @@ int GetConfidenceAsDocumentBoundary()
 **Return Value**
 
 The confidence as document boundary of the detected quad result.
-
-### GetCrossVerificationStatus
-
-Gets the status of current object as a verified document boundary.
-
-```cpp
-virtual CrossVerificationStatus GetCrossVerificationStatus() const = 0;
-```
-
-**Return Value**
-
-The `CrossVerificationStatus` of the detected quad result.
-
-**See Also**
-
-* [CrossVerificationStatus]({{ site.dcvb_enumerations }}core/cross-verification-status.html?lang=cpp)

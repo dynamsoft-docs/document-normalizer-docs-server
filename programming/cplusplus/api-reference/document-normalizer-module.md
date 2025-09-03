@@ -27,9 +27,8 @@ class CDocumentNormalizerModule
 | Method                                                        | Description                                            |
 | ------------------------------------------------------------- | ------------------------------------------------------ |
 | [GetVersion](#getversion)                                     | Returns the version of the document normalizer module. |
-| [CreateDeskewedImageElement](#createdeskewedimageelement) | Create a Deskewed Image Element object.              |
+| [CreateNormalizedImageElement](#createnormalizedimageelement) | Create a Normalized Image Element object.              |
 | [CreateDetectedQuadElement](#createdetectedquadelement)       | Create a Detected Quad Element object.                 |
-| [CreateEnhancedImageElement](#createenhancedimageelement)       | Creates a CEnhancedImageElement object.                 |
 
 ## GetVersion
 
@@ -47,12 +46,12 @@ None.
 
 Returns a const char pointer representing the version of the document normalizer module.
 
-## CreateDeskewedImageElement
+## CreateNormalizedImageElement
 
 Create a Normalized Image Element object.
 
 ```cpp
-static intermediate_results::CDeskewedImageElement* CreateDeskewedImageElement();
+static intermediate_results::CNormalizedImageElement* CreateNormalizedImageElement();
 ```
 
 **Parameters**
@@ -61,7 +60,7 @@ None.
 
 **Return Value**
 
-Returns an instance of CDeskewedImageElement.
+Returns an instance of CNormalizedImageElement.
 
 ## CreateDetectedQuadElement
 
@@ -77,20 +76,4 @@ None.
 
 **Return Value**
 
-Returns an object of `CDeskewedImageElement`.
-
-## CreateEnhancedImageElement
-
-Creates a CEnhancedImageElement object.
-
-```cpp
-static intermediate_results::CEnhancedImageElement* CreateEnhancedImageElement();
-```
-
-**Parameters**
-
-None.
-
-**Return Value**
-
-Returns an object of `CEnhancedImageElement`.
+Returns an instance of CDetectedQuadElement.

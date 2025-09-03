@@ -3,11 +3,12 @@ layout: default-layout
 title: CNormalizedImageResultItem Class
 description: This page shows CNormalizedImageResultItem class definition of Dynamsoft Document Normalizer SDK C++ Edition.
 keywords: GetImageData, SaveToFile, CNormalizedImageResultItem, api reference
+permalink: /programming/cplusplus/api-reference/normalized-image-result-item-v2.4.2000.html
 ---
 
 # CNormalizedImageResultItem Class
 
-The `CNormalizedImageResultItem` class stores a captured result item whose type is normalized image.
+The CNormalizedImageResultItem class stores a captured result item whose type is normalized image.
 
 ## Definition
 
@@ -27,7 +28,6 @@ class CNormalizedImageResultItem: CCapturedResultItem
 |--------|-------------|
 | [`GetImageData`](#getimagedata) | Gets the ImageData of current object. |
 | [`GetLocation`](#getlocation) | Get the quadrilateral from which you get the normalized image result item. |
-| [`GetCrossVerificationStatus`](#getcrossverificationstatus) | Gets the status of current object as a verified normalized image. |
 
 ### GetImageData
 
@@ -61,18 +61,3 @@ The location of current object.
 
 * [CQuadrilateral]({{ site.dcvb_cpp_api }}core/basic-structures/quadrilateral.html)
 
-### GetCrossVerificationStatus
-
-Gets the status of current object as a verified normalized image.
-
-```cpp
-virtual CrossVerificationStatus GetCrossVerificationStatus() const = 0
-```
-
-**Return Value**
-
-The `CrossVerificationStatus` of the normalized image result.
-
-**See Also**
-
-* [CrossVerificationStatus]({{ site.dcvb_enumerations }}core/cross-verification-status.html?lang=cpp)

@@ -25,7 +25,6 @@ class DetectedQuadResultItem(dynamsoft_core.CapturedResultItem)
 |--------|-------------|
 | [`get_location`](#get_location) | Gets the location of current object. |
 | [`get_confidence_as_document_boundary`](#get_confidence_as_document_boundary) | Gets the confidence of current object as a document boundary. |
-| [`get_cross_verification_status`](#get_cross_verification_status) | Gets the status of current object as a verified document boundary. |
 
 ### get_location
 
@@ -54,20 +53,3 @@ def get_confidence_as_document_boundary(self) -> int:
 **Return Value**
 
 The confidence as document boundary of the detected quad result.
-
-### get_cross_verification_status
-
-Gets the status of current object as a verified document boundary.
-
-```python
-def get_cross_verification_status(self) -> EnumCrossVerificationStatus:
-```
-
-**Return Value**
-
-The status of current object as a verified document boundary.
-
-**See Also**
-
-[EnumCrossVerificationStatus]({{ site.dcvb_python_api }}core/enum-cross-verification-status.html)
-
