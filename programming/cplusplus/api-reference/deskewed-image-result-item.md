@@ -75,6 +75,10 @@ virtual CrossVerificationStatus GetCrossVerificationStatus() const = 0;
 
 Return the CrossVerificationStatus of the deskewed image result.
 
+**See Also**
+
+* [CrossVerificationStatus]({{ site.dcvb_cpp_api }}core/enum-cross-verification-status.html)
+
 ### SetCrossVerificationStatus
 
 Sets the status of current object.

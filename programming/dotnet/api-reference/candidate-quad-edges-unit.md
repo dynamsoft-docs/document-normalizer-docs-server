@@ -65,7 +65,7 @@ Returns the error code.
 **See Also**
 
 * [Edge]({{ site.dcvb_dotnet_api }}core/basic-classes/edge.html)
-* [ErrorCode]({{ site.dcvb_enumerations }}core/error-code.html)
+* [ErrorCode]({{ site.dcvb_dotnet_api }}core/enum-error-code.html)
 
 ### GetCandidateQuadEdges
 
@@ -86,7 +86,7 @@ Returns the error code.
 **See Also**
 
 * [Edge]({{ site.dcvb_dotnet_api }}core/basic-classes/edge.html)
-* [ErrorCode]({{ site.dcvb_enumerations }}core/error-code.html)
+* [ErrorCode]({{ site.dcvb_dotnet_api }}core/enum-error-code.html)
 
 ### RemoveAllCandidateQuadEdges
 

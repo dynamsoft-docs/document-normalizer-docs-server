@@ -75,7 +75,7 @@ Return a value from `EnumCrossVerificationStatus` representing the status of the
 
 **See Also**
 
-* [EnumCrossVerificationStatus]({{ site.dcvb_dotnet_api }}core/cross-verification-status.html)
+* [EnumCrossVerificationStatus]({{ site.dcvb_dotnet_api }}core/enum-cross-verification-status.html)
 
 ### GetOriginalToLocalMatrix
 

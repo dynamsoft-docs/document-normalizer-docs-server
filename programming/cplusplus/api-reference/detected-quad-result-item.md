@@ -71,4 +71,4 @@ The `CrossVerificationStatus` of the detected quad result.
 
 **See Also**
 
-* [CrossVerificationStatus]({{ site.dcvb_enumerations }}core/cross-verification-status.html?lang=cpp)
+* [CrossVerificationStatus]({{ site.dcvb_cpp_api }}core/enum-cross-verification-status.html)

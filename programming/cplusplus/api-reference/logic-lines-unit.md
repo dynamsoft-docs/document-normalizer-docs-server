@@ -64,7 +64,7 @@ Returns the LogicLine object.
 **See Also**
 
 * [CLineSegment]({{ site.dcvb_cpp_api }}core/basic-structures/line-segment.html)
-* [ErrorCode]({{ site.dcvb_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
+* [ErrorCode]({{ site.dcvb_cpp_api }}core/enum-error-code.html)
 
 ### RemoveAllLogicLines
 
