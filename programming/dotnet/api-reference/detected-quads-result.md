@@ -43,7 +43,7 @@ Returns the error code.
 
 **See Also**
 
-* [EnumErrorCode]({{ site.dcvb_enumerations }}core/error-code.html)
+* [EnumErrorCode]({{ site.dcvb_dotnet_api }}core/enum-error-code.html)
 
 ### GetErrorString
 

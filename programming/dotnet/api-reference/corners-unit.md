@@ -65,7 +65,7 @@ Returns the error code.
 **See Also**
 
 * [Corner]({{ site.dcvb_dotnet_api }}core/basic-classes/corner.html)
-* [ErrorCode]({{ site.dcvb_enumerations }}core/error-code.html)
+* [ErrorCode]({{ site.dcvb_dotnet_api }}core/enum-error-code.html)
 
 ### GetCorners
 
@@ -86,7 +86,7 @@ Returns the error code.
 **See Also**
 
 * [Corner]({{ site.dcvb_dotnet_api }}core/basic-classes/corner.html)
-* [ErrorCode]({{ site.dcvb_enumerations }}core/error-code.html)
+* [ErrorCode]({{ site.dcvb_dotnet_api }}core/enum-error-code.html)
 
 ### RemoveAllCorners
 

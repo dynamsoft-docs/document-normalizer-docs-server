@@ -6,39 +6,26 @@ docHomePage: /document-normalizer/docs/core/introduction/
 needSearchIndex: true
 searchNeedFilter: true
 
-ddn_c: /document-normalizer/docs/server/programming/c/
-ddn_c_api: /document-normalizer/docs/server/programming/c/api-reference/
-ddn_c_release_notes: /document-normalizer/docs/server/programming/c/release-notes/
-ddn_enumerations_v1: /document-normalizer/docs/server/programming/enumerations/
 ddn_cpp: /document-normalizer/docs/server/programming/cplusplus/
 ddn_cpp_api: /document-normalizer/docs/server/programming/cplusplus/api-reference/
-ddn_cpp_release_notes: /document-normalizer/docs/server/programming/cplusplus/release-notes/
 ddn_dotnet: /document-normalizer/docs/server/programming/dotnet/
 ddn_dotnet_api: /document-normalizer/docs/server/programming/dotnet/api-reference/
-ddn_dotnet_release_notes: /document-normalizer/docs/server/programming/dotnet/release-notes/
 ddn_python: /document-normalizer/docs/server/programming/python/
 ddn_python_api: /document-normalizer/docs/server/programming/python/api-reference/
-ddn_python_release_notes: /document-normalizer/docs/server/programming/python/release-notes/
 ddn_java: /document-normalizer/docs/server/programming/java/
 ddn_java_api: /document-normalizer/docs/server/programming/java/api-reference/
 
-ddn_js: /document-normalizer/docs/web/programming/javascript/
-ddn_ios: /document-normalizer/docs/mobile/programming/ios/
-ddn_android: /document-normalizer/docs/mobile/programming/android/
-ddn_xamarin: /document-normalizer/docs/mobile/programming/xamarin/
 
-ddn_parameters_reference: /document-normalizer/docs/core/parameters/reference/
 dcvb_parameters_reference: /capture-vision/docs/core/parameters/reference/
 
 dcvb_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
 dcvb_dotnet_api: /capture-vision/docs/server/programming/dotnet/api-reference/
 dcvb_python_api: /capture-vision/docs/server/programming/python/api-reference/
 dcvb_java_api: /capture-vision/docs/server/programming/java/api-reference/
-dcvb_introduction: /capture-vision/docs/core/introduction/
-dcvb_enumerations: /capture-vision/docs/core/enums/
 
 useVersionTree: false 
 isDCV: true
+useJSVersionV3: true
 
 assets: /document-normalizer/docs/server/assets/
 edit_icon: /document-normalizer/docs/server/assets/img-icon/edit-icon.png
@@ -72,16 +59,6 @@ defaults:
     values: 
       docRootName: "Document Normalizer C++" 
       docHomePage: "/document-normalizer/docs/server/programming/cplusplus/"
-  - scope: 
-      path: "programming-old/cplusplus" 
-    values: 
-      docRootName: "Document Normalizer C++" 
-      docHomePage: "/document-normalizer/docs/server/programming/cplusplus/"
-  - scope: 
-      path: "programming/c" 
-    values: 
-      docRootName: "Document Normalizer C" 
-      docHomePage: "/document-normalizer/docs/server/programming/c/"
   - scope: 
       path: "programming/dotnet" 
     values: 

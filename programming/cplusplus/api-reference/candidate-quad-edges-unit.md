@@ -66,7 +66,7 @@ Returns the error code.
 **See Also**
 
 * [CEdge]({{ site.dcvb_cpp_api }}core/basic-structures/edge.html)
-* [ErrorCode]({{ site.dcvb_enumerations }}core/error-code.html?src=cpp&&lang=cpp)
+* [ErrorCode]({{ site.dcvb_cpp_api }}core/enum-error-code.html)
 
 ### RemoveAllCandidateQuadEdges
 
