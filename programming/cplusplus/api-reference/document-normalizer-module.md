@@ -22,7 +22,7 @@ The `CDocumentNormalizerModule` class defines general functions in the document 
 class CDocumentNormalizerModule 
 ```
 
-## Methods Summary
+## Methods
 
 | Method                                                        | Description                                            |
 | ------------------------------------------------------------- | ------------------------------------------------------ |

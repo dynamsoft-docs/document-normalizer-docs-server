@@ -27,7 +27,7 @@ class CDeskewedImageElement: public CRegionObjectElement
 |--------|-------------|
 | [`SetImageData`](#setimagedata) | Sets the image data of the deskewed image element. |
 | [`GetSourceDeskewQuad`](#getsourcedeskewquad) | Gets the quadrilateral used for deskewing the image. |
-| Methods Inherited from [CRegionObjectElement]({{ site.dcvb_cpp_api }}core/intermediate-results/region-object-element.html): | |
+| **Methods Inherited from [CRegionObjectElement]({{ site.dcvb_cpp_api }}core/intermediate-results/region-object-element.html):** | |
 | [`GetLocation`]({{ site.dcvb_cpp_api }}core/intermediate-results/region-object-element.html#getlocation) | Gets the location of the region object element. |
 | [`GetReferencedElement`]({{ site.dcvb_cpp_api }}core/intermediate-results/region-object-element.html#getreferencedelement) | Gets a pointer to a referenced region object element. |
 | [`GetElementType`]({{ site.dcvb_cpp_api }}core/intermediate-results/region-object-element.html#getelementtype) | Gets the type of the region object element. |
