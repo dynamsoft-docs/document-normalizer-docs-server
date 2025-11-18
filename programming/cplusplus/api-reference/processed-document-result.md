@@ -35,6 +35,12 @@ class CProcessedDocumentResult : CCapturedResultBase
 | [`Release`](#release)	                                                  | Decreases the reference count of the CProcessedDocumentResult object.|
 | [`RemoveItem`](#removeitem)	                                          | Removes a specific item from the array in the recognition result.    |
 | [`HasItem`](#hasitem)	                                                  | Checks if a specific item is present in the array.                   |
+| Methods Inherited from [CCapturedResultBase]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-base.html): | |
+| [`GetOriginalImageHashId`]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-base.html#getoriginalimagehashid) | Gets the hash ID of the original image. |
+| [`GetOriginalImageTag`]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-base.html#getoriginalimagetag) | Gets the tag of the original image. |
+| [`GetRotationTransformMatrix`]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-base.html#getrotationtransformmatrix) | Gets the rotation transformation matrix of the original image relative to the rotated image. |
+| [`GetErrorCode`]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-base.html#geterrorcode) | Gets the error code of the recognition result, if an error occurred. |
+| [`GetErrorString`]({{ site.dcvb_cpp_api }}core/basic-structures/captured-result-base.html#geterrorstring) | Gets the error message of the recognition result, if an error occurred. |
 
 ### GetDetectedQuadResultItemsCount
 
