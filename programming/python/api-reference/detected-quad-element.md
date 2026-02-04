@@ -11,7 +11,7 @@ The `DetectedQuadElement` class stores an intermediate result whose type is dete
 
 ## Definition
 
-*Module:* dynamsoft_document_normalizer
+*Module:* ddn
 
 ```python
 class DetectedQuadElement(RegionObjectElement)

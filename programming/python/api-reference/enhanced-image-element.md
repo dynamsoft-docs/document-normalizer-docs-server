@@ -11,7 +11,7 @@ The `EnhancedImageElement` class stores an intermediate result whose type is Enh
 
 ## Definition
 
-*Module:* dynamsoft_document_normalizer
+*Module:* ddn
 
 ```python
 class EnhancedImageElement(RegionObjectElement):

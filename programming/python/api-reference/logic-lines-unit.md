@@ -11,7 +11,7 @@ The `LogicLinesUnit` class represents an intermediate result unit whose type is 
 
 ## Definition
 
-*Module:* dynamsoft_document_normalizer
+*Module:* ddn
 
 ```python
 class LogicLinesUnit(IntermediateResultUnit):

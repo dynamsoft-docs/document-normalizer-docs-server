@@ -11,7 +11,7 @@ The `DetectedQuadResultItem` class stores a captured result whose type is detect
 
 ## Definition
 
-*Module:* dynamsoft_document_normalizer
+*Module:* ddn
 
 ```python
 class DetectedQuadResultItem(dynamsoft_core.CapturedResultItem)
