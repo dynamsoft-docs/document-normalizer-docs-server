@@ -11,7 +11,7 @@ The `ProcessedDocumentResult` class is a base class for storing processed docume
 
 ## Definition
 
-*Module:* dynamsoft_document_normalizer
+*Module:* ddn
 
 ```python
 class ProcessedDocumentResult(CapturedResultBase):

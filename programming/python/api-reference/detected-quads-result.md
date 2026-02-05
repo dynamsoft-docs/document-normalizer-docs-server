@@ -11,7 +11,7 @@ The `DetectedQuadsResult` class stores a captured result whose type is detected 
 
 ## Definition
 
-*Module:* dynamsoft_document_normalizer
+*Module:* ddn
 
 ```python
 class DetectedQuadsResult

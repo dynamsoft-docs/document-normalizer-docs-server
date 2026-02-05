@@ -11,7 +11,7 @@ The `CornersUnit` class represents an intermediate result unit whose type is cor
 
 ## Definition
 
-*Module:* dynamsoft_document_normalizer
+*Module:* ddn
 
 ```python
 class CornersUnit(IntermediateResultUnit)

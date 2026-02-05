@@ -13,7 +13,7 @@ The `DocumentNormalizerModule` class defines general functions in the document n
 
 ## Definition
 
-*Module:* dynamsoft_document_normalizer
+*Module:* ddn
 
 ```python
 class DocumentNormalizerModule

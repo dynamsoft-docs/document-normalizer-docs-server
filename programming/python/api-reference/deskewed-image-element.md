@@ -11,7 +11,7 @@ The `DeskewedImageElement` class stores an intermediate result whose type is Des
 
 ## Definition
 
-*Module:* dynamsoft_document_normalizer
+*Module:* ddn
 
 ```python
 class DeskewedImageElement(RegionObjectElement):

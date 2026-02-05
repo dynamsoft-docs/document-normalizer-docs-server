@@ -11,7 +11,7 @@ The `EnhancedImageUnit` class represents an intermediate result unit whose type 
 
 ## Definition
 
-*Module:* dynamsoft_document_normalizer
+*Module:* ddn
 
 ```python
 class EnhancedImageUnit(IntermediateResultUnit):

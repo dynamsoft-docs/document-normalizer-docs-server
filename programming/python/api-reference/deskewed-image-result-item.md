@@ -11,7 +11,7 @@ The `DeskewedImageResultItem` class stores a captured result item whose type is 
 
 ## Definition
 
-*Module:* dynamsoft_document_normalizer
+*Module:* ddn
 
 ```python
 class DeskewedImageResultItem(CapturedResultItem):

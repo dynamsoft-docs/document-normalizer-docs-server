@@ -11,7 +11,7 @@ The `LongLinesUnit` class represents an intermediate result unit whose type is l
 
 ## Definition
 
-*Module:* dynamsoft_document_normalizer
+*Module:* ddn
 
 ```python
 class LongLinesUnit(IntermediateResultUnit)
