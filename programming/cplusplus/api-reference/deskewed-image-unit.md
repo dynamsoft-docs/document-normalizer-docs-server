@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CDeskewedImagesUnit Class
-description: This page shows CDeskewedImagesUnit class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+description: API reference for the CDeskewedImagesUnit class in Dynamsoft Document Normalizer C++ Edition, which represents an intermediate result unit containing deskewed document images.
 keywords: GetDeskewedImage, CDeskewedImagesUnit, api reference
 permalink: /programming/cplusplus/api-reference/Deskewed-image-unit.html
 ---

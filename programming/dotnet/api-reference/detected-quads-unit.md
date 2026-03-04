@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: DetectedQuadsUnit Class - Dynamsoft Document Normalizer Module .NET Edition API Reference
-description: This page shows DetectedQuadsUnit class definition of Dynamsoft Document Normalizer SDK .NET Edition.
+description: API reference for the DetectedQuadsUnit class in Dynamsoft Document Normalizer .NET Edition, which represents an intermediate result unit containing detected quadrilateral boundaries.
 keywords: GetCount, GetDetectedQuad, DetectedQuadsUnit, api reference
 ---
 

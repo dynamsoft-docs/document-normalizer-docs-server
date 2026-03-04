@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CDetectedQuadsResultArray Class
-description: This page shows CDetectedQuadsResultArray class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+description: API reference for the CDetectedQuadsResultArray class in Dynamsoft Document Normalizer C++ Edition, which provides an array of detected quadrilateral results.
 keywords: GetCount, GetResult, CDetectedQuadsResultArray, api reference
 permalink: /programming/cplusplus/api-reference/detected-quads-result-array.html
 ---

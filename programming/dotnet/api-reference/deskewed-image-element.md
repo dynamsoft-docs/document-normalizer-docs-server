@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: DeskewedImageElement Class - Dynamsoft Document Normalizer Module .NET Edition API Reference
-description: This page shows DeskewedImageElement class definition of Dynamsoft Document Normalizer SDK .NET Edition.
+description: API reference for the DeskewedImageElement class in Dynamsoft Document Normalizer .NET Edition, which represents a deskewed image element produced during document normalization.
 keywords: GetImageData, DeskewedImageElement, api reference
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CandidateQuadEdgesUnit Class - Dynamsoft Document Normalizer Module .NET Edition API Reference
-description: This page shows CandidateQuadEdgesUnit class definition of Dynamsoft Document Normalizer SDK .NET Edition.
+description: API reference for the CandidateQuadEdgesUnit class in Dynamsoft Document Normalizer .NET Edition, which represents an intermediate result unit containing candidate quad edges detected from a document image.
 keywords: GetCount, GetCandidateQuadEdge, CandidateQuadEdgesUnit, api reference
 ---
 

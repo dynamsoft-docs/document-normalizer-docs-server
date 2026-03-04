@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: DetectedQuadElement Class
-description: This page shows DetectedQuadElement class definition of Dynamsoft Document Normalizer SDK Java Edition.
+description: API reference for the DetectedQuadElement class in Dynamsoft Document Normalizer Java Edition, which represents an intermediate result element containing a detected quadrilateral boundary of a document.
 keywords: getConfidenceAsDocumentBoundary, DetectedQuadElement, api reference
 ---
 

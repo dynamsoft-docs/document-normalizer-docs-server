@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CandidateQuadEdgesUnit Class
-description: This page shows CandidateQuadEdgesUnit class definition of Dynamsoft Document Normalizer SDK Java Edition.
+description: API reference for the CandidateQuadEdgesUnit class in Dynamsoft Document Normalizer Java Edition, which represents an intermediate result unit containing candidate quad edges detected from a document image.
 keywords: getCount, getCandidateQuadEdge, CandidateQuadEdgesUnit, api reference
 ---
 

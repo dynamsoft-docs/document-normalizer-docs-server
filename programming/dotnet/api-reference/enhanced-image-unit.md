@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: EnhancedImagesUnit Class - Dynamsoft Document Normalizer Module .NET Edition API Reference
-description: This page shows EnhancedImagesUnit class definition of Dynamsoft Document Normalizer SDK .NET Edition.
+description: API reference for the EnhancedImagesUnit class in Dynamsoft Document Normalizer .NET Edition, which represents an intermediate result unit containing enhanced document images.
 keywords: GetEnhancedImage, EnhancedImagesUnit, api reference
 ---
 

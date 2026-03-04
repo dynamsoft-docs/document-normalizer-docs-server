@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CornersUnit Class
-description: This page shows CornersUnit class definition of Dynamsoft Document Normalizer SDK Java Edition.
+description: API reference for the CornersUnit class in Dynamsoft Document Normalizer Java Edition, which represents an intermediate result unit containing corners detected from a document image.
 keywords: getCount, getCorner, CornersUnit, api reference
 ---
 

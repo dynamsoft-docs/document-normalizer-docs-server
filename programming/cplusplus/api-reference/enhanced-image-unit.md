@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CEnhancedImagesUnit Class
-description: This page shows CEnhancedImagesUnit class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+description: API reference for the CEnhancedImagesUnit class in Dynamsoft Document Normalizer C++ Edition, which represents an intermediate result unit containing enhanced document images.
 keywords: GetEnhancedImage, CEnhancedImagesUnit, api reference
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: LongLinesUnit Class
-description: This page shows LongLinesUnit class definition of Dynamsoft Document Normalizer SDK Python Edition.
+description: API reference for the LongLinesUnit class in Dynamsoft Document Normalizer Python Edition, which represents an intermediate result unit containing long lines detected from a document image.
 keywords: get_count, get_long_line, LongLinesUnit, api reference
 ---
 

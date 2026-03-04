@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CCornersUnit Class
-description: This page shows CCornersUnit class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+description: API reference for the CCornersUnit class in Dynamsoft Document Normalizer C++ Edition, which represents an intermediate result unit containing corners detected from a document image.
 keywords: GetCount, GetCorner, CCornersUnit, api reference
 permalink: /programming/cplusplus/api-reference/corners-unit.html
 ---

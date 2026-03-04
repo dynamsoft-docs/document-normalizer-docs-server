@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CDeskewedImageResultItem Class
-description: This page shows CDeskewedImageResultItem class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+description: API reference for the CDeskewedImageResultItem class in Dynamsoft Document Normalizer C++ Edition, which represents a captured result item containing a deskewed document image.
 keywords: GetImageData, SaveToFile, CDeskewedImageResultItem, api reference
 ---
 

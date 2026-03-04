@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CDetectedQuadElement Class
-description: This page shows CDetectedQuadElement class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+description: API reference for the CDetectedQuadElement class in Dynamsoft Document Normalizer C++ Edition, which represents an intermediate result element containing a detected quadrilateral boundary of a document.
 keywords: GetConfidenceAsDocumentBoundary, CDetectedQuadElement, api reference
 ---
 

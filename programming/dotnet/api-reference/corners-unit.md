@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CornersUnit Class - Dynamsoft Document Normalizer Module .NET Edition API Reference
-description: This page shows CornersUnit class definition of Dynamsoft Document Normalizer SDK .NET Edition.
+description: API reference for the CornersUnit class in Dynamsoft Document Normalizer .NET Edition, which represents an intermediate result unit containing corners detected from a document image.
 keywords: GetCount, GetCorner, CornersUnit, api reference
 ---
 

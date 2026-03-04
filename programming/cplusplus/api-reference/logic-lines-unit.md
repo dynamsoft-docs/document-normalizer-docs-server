@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CLogicLinesUnit Class
-description: This page shows CLogicLinesUnit class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+description: API reference for the CLogicLinesUnit class in Dynamsoft Document Normalizer C++ Edition, which represents an intermediate result unit containing logical lines detected from a document image.
 keywords: GetCount, GetLogicLine, CLogicLinesUnit, api reference
 permalink: /programming/cplusplus/api-reference/logic-lines-unit.html
 ---

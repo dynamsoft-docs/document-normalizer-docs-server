@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: DeskewedImageResultItem Class
-description: This page shows DeskewedImageResultItem class definition of Dynamsoft Document Normalizer SDK Python Edition.
+description: API reference for the DeskewedImageResultItem class in Dynamsoft Document Normalizer Python Edition, which represents a captured result item containing a deskewed document image.
 keywords: get_image_data, get_source_deskew_quad, get_cross_verification_status, get_original_to_local_matrix, DeskewedImageResultItem, api reference
 ---
 

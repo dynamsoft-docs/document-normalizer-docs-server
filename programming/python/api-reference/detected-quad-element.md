@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: DetectedQuadElement Class
-description: This page shows DetectedQuadElement class definition of Dynamsoft Document Normalizer SDK Python Edition.
+description: API reference for the DetectedQuadElement class in Dynamsoft Document Normalizer Python Edition, which represents an intermediate result element containing a detected quadrilateral boundary of a document.
 keywords: get_confidence_as_document_boundary, DetectedQuadElement, api reference
 ---
 

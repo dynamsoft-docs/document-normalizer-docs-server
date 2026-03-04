@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: DetectedQuadsUnit Class
-description: This page shows DetectedQuadsUnit class definition of Dynamsoft Document Normalizer SDK Java Edition.
+description: API reference for the DetectedQuadsUnit class in Dynamsoft Document Normalizer Java Edition, which represents an intermediate result unit containing detected quadrilateral boundaries.
 keywords: getCount, getDetectedQuad, DetectedQuadsUnit, api reference
 ---
 

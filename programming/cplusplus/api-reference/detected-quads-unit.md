@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CDetectedQuadsUnit Class
-description: This page shows CDetectedQuadsUnit class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+description: API reference for the CDetectedQuadsUnit class in Dynamsoft Document Normalizer C++ Edition, which represents an intermediate result unit containing detected quadrilateral boundaries.
 keywords: GetCount, GetDetectedQuad, CDetectedQuadsUnit, api reference
 permalink: /programming/cplusplus/api-reference/detected-quads-unit.html
 ---

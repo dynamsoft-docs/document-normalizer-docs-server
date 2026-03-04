@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: EnhancedImageResultItem Class
-description: This page shows EnhancedImageResultItem class definition of Dynamsoft Document Normalizer SDK Java Edition.
+description: API reference for the EnhancedImageResultItem class in Dynamsoft Document Normalizer Java Edition, which represents a captured result item containing an enhanced document image.
 keywords: getImageData, getOriginalToLocalMatrix, EnhancedImageResultItem, api reference
 ---
 

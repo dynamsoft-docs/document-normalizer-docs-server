@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CDetectedQuadsResult Class
-description: This page shows CDetectedQuadsResult class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+description: API reference for the CDetectedQuadsResult class in Dynamsoft Document Normalizer C++ Edition, which represents the collection of all detected quadrilateral results from a document detection task.
 keywords: GetItemsCount, GetErrorCode, GetErrorString, GetItem, GetOriginalImageHashId, GetOriginalImageTag, CDetectedQuadsResult, api reference
 permalink: /programming/cplusplus/api-reference/detected-quads-result.html
 ---
