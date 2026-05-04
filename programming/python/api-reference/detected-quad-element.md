@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: DetectedQuadElement Class
+title: DetectedQuadElement Class – Document Normalizer Python
 description: This page shows DetectedQuadElement class definition of Dynamsoft Document Normalizer SDK Python Edition.
 keywords: get_confidence_as_document_boundary, DetectedQuadElement, api reference
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: ImageColourMode - Dynamsoft Document Normalizer Enumerations
-description: The enumeration ImageColourMode of Dynamsoft Document Normalizer describes the mapping status of a parsed field.
+description: "Explore ImageColourMode values in Dynamsoft Document Normalizer C++ API and learn how they define status, configuration, and processing behavior for modern web."
 keywords: Mapping status
 needGenerateH3Content: true
 needAutoGenerateSidebar: true

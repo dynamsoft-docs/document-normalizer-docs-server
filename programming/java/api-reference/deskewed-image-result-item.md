@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: DeskewedImageResultItem Class
+title: DeskewedImageResultItem – Document Normalizer Java API
 description: This page shows DeskewedImageResultItem class definition of Dynamsoft Document Normalizer SDK Java Edition.
 keywords: getImageData, getSourceDeskewQuad, getCrossVerificationStatus, getOriginalToLocalMatrix, DeskewedImageResultItem, api reference
 ---

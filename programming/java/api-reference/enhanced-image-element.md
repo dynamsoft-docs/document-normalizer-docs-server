@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: EnhancedImageElement Class
+title: EnhancedImageElement Class – Document Normalizer Java
 description: This page shows EnhancedImageElement class definition of Dynamsoft Document Normalizer SDK Java Edition.
 keywords: setImageData, EnhancedImageElement, api reference
 ---
