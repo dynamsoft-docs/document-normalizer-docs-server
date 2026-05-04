@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: DetectedQuadsUnit Class
+title: DetectedQuadsUnit Class – Document Normalizer Java API
 description: This page shows DetectedQuadsUnit class definition of Dynamsoft Document Normalizer SDK Java Edition.
 keywords: getCount, getDetectedQuad, DetectedQuadsUnit, api reference
 ---

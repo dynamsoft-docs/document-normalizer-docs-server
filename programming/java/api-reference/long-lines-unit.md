@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: LongLinesUnit Class
+title: LongLinesUnit Class – Document Normalizer Java API
 description: This page shows LongLinesUnit class definition of Dynamsoft Document Normalizer SDK Java Edition.
 keywords: getCount, getLongLine, LongLinesUnit, api reference
 ---

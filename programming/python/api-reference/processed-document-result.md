@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: ProcessedDocumentResult Class
+title: ProcessedDocumentResult Class – Document Normalizer Python
 description: This page shows ProcessedDocumentResult class definition of Dynamsoft Document Normalizer SDK Python Edition.
 keywords: ProcessedDocumentResult, api reference
 ---

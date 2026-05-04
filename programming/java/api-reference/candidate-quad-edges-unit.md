@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: CandidateQuadEdgesUnit Class
+title: CandidateQuadEdgesUnit Class – Document Normalizer Java
 description: This page shows CandidateQuadEdgesUnit class definition of Dynamsoft Document Normalizer SDK Java Edition.
 keywords: getCount, getCandidateQuadEdge, CandidateQuadEdgesUnit, api reference
 ---

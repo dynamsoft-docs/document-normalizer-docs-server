@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: CornersUnit Class
+title: CornersUnit Class – Document Normalizer Java API Ref
 description: This page shows CornersUnit class definition of Dynamsoft Document Normalizer SDK Java Edition.
 keywords: getCount, getCorner, CornersUnit, api reference
 ---

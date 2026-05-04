@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: EnhancedImageResultItem Class
+title: EnhancedImageResultItem – Document Normalizer Java API
 description: This page shows EnhancedImageResultItem class definition of Dynamsoft Document Normalizer SDK Java Edition.
 keywords: getImageData, getOriginalToLocalMatrix, EnhancedImageResultItem, api reference
 ---
