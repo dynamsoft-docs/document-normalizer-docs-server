@@ -1,7 +1,7 @@
 ---
 layout: default-layout
-title: ProcessedDocumentResult Class
-description: API reference for the ProcessedDocumentResult class in Dynamsoft Document Normalizer Python Edition, which holds all processed document results including detected quads, deskewed images, and enhanced images.
+title: ProcessedDocumentResult Class – Document Normalizer Python
+description: This page shows ProcessedDocumentResult class definition of Dynamsoft Document Normalizer SDK Python Edition.
 keywords: ProcessedDocumentResult, api reference
 ---
 

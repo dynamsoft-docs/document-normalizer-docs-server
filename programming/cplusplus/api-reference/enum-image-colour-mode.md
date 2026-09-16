@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: ImageColourMode - Dynamsoft Document Normalizer Enumerations
-description: The enumeration ImageColourMode of Dynamsoft Document Normalizer describes the colour mode options for output document images, such as colour, grayscale, or binary.
+description: "Explore ImageColourMode values in Dynamsoft Document Normalizer C++ API and learn how they define status, configuration, and processing behavior for modern web."
 keywords: Mapping status
 needGenerateH3Content: true
 needAutoGenerateSidebar: true

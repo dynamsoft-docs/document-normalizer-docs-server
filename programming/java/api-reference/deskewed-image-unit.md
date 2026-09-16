@@ -1,7 +1,7 @@
 ---
 layout: default-layout
-title: DeskewedImageUnit Class
-description: API reference for the DeskewedImageUnit class in Dynamsoft Document Normalizer Java Edition, which represents an intermediate result unit containing deskewed document images.
+title: DeskewedImageUnit Class – Document Normalizer Java API
+description: This page shows DeskewedImageUnit class definition of Dynamsoft Document Normalizer SDK Java Edition.
 keywords: getDeskewedImage, setDeskewedImage, DeskewedImageUnit, api reference
 ---
 

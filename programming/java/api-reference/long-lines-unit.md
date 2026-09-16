@@ -1,7 +1,7 @@
 ---
 layout: default-layout
-title: LongLinesUnit Class
-description: API reference for the LongLinesUnit class in Dynamsoft Document Normalizer Java Edition, which represents an intermediate result unit containing long lines detected from a document image.
+title: LongLinesUnit Class – Document Normalizer Java API
+description: This page shows LongLinesUnit class definition of Dynamsoft Document Normalizer SDK Java Edition.
 keywords: getCount, getLongLine, LongLinesUnit, api reference
 ---
 
