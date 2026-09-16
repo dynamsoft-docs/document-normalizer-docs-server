@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: DeskewedImagesUnit Class - Dynamsoft Document Normalizer Module .NET Edition API Reference
-description: This page shows DeskewedImagesUnit class definition of Dynamsoft Document Normalizer SDK .NET Edition.
+description: API reference for the DeskewedImagesUnit class in Dynamsoft Document Normalizer .NET Edition, which represents an intermediate result unit containing deskewed document images.
 keywords: GetDeskewedImage, DeskewedImagesUnit, api reference
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CCandidateQuadEdgesUnit Class
-description: This page shows CCandidateQuadEdgesUnit class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+description: API reference for the CCandidateQuadEdgesUnit class in Dynamsoft Document Normalizer C++ Edition, which represents an intermediate result unit containing candidate quad edges detected from a document image.
 keywords: GetCount, GetCandidateQuadEdge, CCandidateQuadEdgesUnit, api reference
 permalink: /programming/cplusplus/api-reference/candidate-quad-edges-unit.html
 ---

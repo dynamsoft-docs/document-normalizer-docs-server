@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CDeskewedImageElement Class
-description: This page shows CDeskewedImageElement class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+description: API reference for the CDeskewedImageElement class in Dynamsoft Document Normalizer C++ Edition, which represents a deskewed image element produced during document normalization.
 keywords: GetImageData, CDeskewedImageElement, api reference
 ---
 

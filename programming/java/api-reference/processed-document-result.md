@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: ProcessedDocumentResult Class
-description: This page shows ProcessedDocumentResult class definition of Dynamsoft Document Normalizer SDK Java Edition.
+description: API reference for the ProcessedDocumentResult class in Dynamsoft Document Normalizer Java Edition, which holds all processed document results including detected quads, deskewed images, and enhanced images.
 keywords: ProcessedDocumentResult, api reference
 ---
 

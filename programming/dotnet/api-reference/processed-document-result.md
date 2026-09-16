@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: ProcessedDocumentResult Class - Dynamsoft Document Normalizer Module .NET Edition API Reference
-description: This page shows ProcessedDocumentResult class definition of Dynamsoft Document Normalizer SDK .NET Edition.
+description: API reference for the ProcessedDocumentResult class in Dynamsoft Document Normalizer .NET Edition, which holds all processed document results including detected quads, deskewed images, and enhanced images.
 keywords: ProcessedDocumentResult, api reference
 ---
 

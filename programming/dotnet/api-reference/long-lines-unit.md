@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: LongLinesUnit Class - Dynamsoft Document Normalizer Module .NET Edition API Reference
-description: This page shows LongLinesUnit class definition of Dynamsoft Document Normalizer SDK .NET Edition.
+description: API reference for the LongLinesUnit class in Dynamsoft Document Normalizer .NET Edition, which represents an intermediate result unit containing long lines detected from a document image.
 keywords: GetCount, GetLongLine, LongLinesUnit, api reference
 ---
 

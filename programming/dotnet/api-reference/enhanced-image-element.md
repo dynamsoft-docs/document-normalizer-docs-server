@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: EnhancedImageElement Class - Dynamsoft Document Normalizer Module .NET Edition API Reference
-description: This page shows EnhancedImageElement class definition of Dynamsoft Document Normalizer SDK .NET Edition.
+description: API reference for the EnhancedImageElement class in Dynamsoft Document Normalizer .NET Edition, which represents an intermediate result element containing an enhanced (color-corrected) document image.
 keywords: SetImageData, EnhancedImageElement, api reference
 ---
 

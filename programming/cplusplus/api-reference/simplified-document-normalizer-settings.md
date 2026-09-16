@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: struct SimplifiedDocumentNormalizerSettings - Dynamsoft Capture Vision C++ Edition API Reference
-description: This page shows the SimplifiedDocumentNormalizerSettings struct of the CCaptureVisionRouter class of the Dynamsoft Capture Vision C++ Edition.
+description: API reference for the SimplifiedDocumentNormalizerSettings struct in Dynamsoft Document Normalizer C++ Edition, which contains simplified configuration options for document normalization tasks.
 keywords: struct, c++, SimplifiedDocumentNormalizerSettings
 needAutoGenerateSidebar: true
 needGenerateH3Content: true

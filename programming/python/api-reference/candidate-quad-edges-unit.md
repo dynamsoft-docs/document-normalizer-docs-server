@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CandidateQuadEdgesUnit Class
-description: This page shows CandidateQuadEdgesUnit class definition of Dynamsoft Document Normalizer SDK Python Edition.
+description: API reference for the CandidateQuadEdgesUnit class in Dynamsoft Document Normalizer Python Edition, which represents an intermediate result unit containing candidate quad edges detected from a document image.
 keywords: get_count, get_candidate_quad_edge, CandidateQuadEdgesUnit, api reference
 ---
 

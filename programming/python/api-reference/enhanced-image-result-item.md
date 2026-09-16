@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: EnhancedImageResultItem Class
-description: This page shows EnhancedImageResultItem class definition of Dynamsoft Document Normalizer SDK Python Edition.
+description: API reference for the EnhancedImageResultItem class in Dynamsoft Document Normalizer Python Edition, which represents a captured result item containing an enhanced document image.
 keywords: get_image_data, get_original_to_local_matrix, EnhancedImageResultItem, api reference
 ---
 

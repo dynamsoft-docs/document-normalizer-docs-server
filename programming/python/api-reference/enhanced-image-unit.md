@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: EnhancedImageUnit Class
-description: This page shows EnhancedImageUnit class definition of Dynamsoft Document Normalizer SDK Python Edition.
+description: API reference for the EnhancedImageUnit class in Dynamsoft Document Normalizer Python Edition, which represents an intermediate result unit containing enhanced document images.
 keywords: get_enhanced_image, set_enhanced_image, EnhancedImageUnit, api reference
 ---
 

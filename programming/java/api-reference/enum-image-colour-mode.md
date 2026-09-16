@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: EnumImageColourMode - Dynamsoft Document Normalizer Java Enumerations
-description: The enumeration EnumImageColourMode of Dynamsoft Document Normalizer describes the mapping status of a parsed field.
+description: The enumeration EnumImageColourMode of Dynamsoft Document Normalizer describes the colour mode options for output document images in Java Edition, such as colour, grayscale, or binary.
 keywords: Mapping status
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: DetectedQuadElement Class - Dynamsoft Document Normalizer Module .NET Edition API Reference
-description: This page shows DetectedQuadElement class definition of Dynamsoft Document Normalizer SDK .NET Edition.
+description: API reference for the DetectedQuadElement class in Dynamsoft Document Normalizer .NET Edition, which represents an intermediate result element containing a detected quadrilateral boundary of a document.
 keywords: GetConfidenceAsDocumentBoundary, DetectedQuadElement, api reference
 ---
 

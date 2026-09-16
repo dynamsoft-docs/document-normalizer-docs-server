@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: LogicLinesUnit Class
-description: This page shows LogicLinesUnit class definition of Dynamsoft Document Normalizer SDK Python Edition.
+description: API reference for the LogicLinesUnit class in Dynamsoft Document Normalizer Python Edition, which represents an intermediate result unit containing logical lines detected from a document image.
 keywords: get_count, get_logic_line, LogicLinesUnit, api reference
 ---
 

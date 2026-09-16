@@ -48,7 +48,7 @@ EnumGrayscaleEnhancementMode[] grayscaleEnhancementModes;
 
 ### colourMode
 
-Sets the output image colour mode using an enumeration value from [`EnumImageColourMode`]({{ site.ddn_dotnet_api }}core/enum-image-colour-mode.html).
+Sets the output image colour mode using an enumeration value from [`EnumImageColourMode`]({{ site.ddn_dotnet_api }}enum-image-colour-mode.html).
 
 ```csharp
 EnumImageColourMode colourMode;

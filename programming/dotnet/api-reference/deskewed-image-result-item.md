@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: DeskewedImageResultItem Class - Dynamsoft Document Normalizer Module .NET Edition API Reference
-description: This page shows DeskewedImageResultItem class definition of Dynamsoft Document Normalizer SDK .NET Edition.
+description: API reference for the DeskewedImageResultItem class in Dynamsoft Document Normalizer .NET Edition, which represents a captured result item containing a deskewed document image.
 keywords: GetImageData, SaveToFile, DeskewedImageResultItem, api reference
 ---
 

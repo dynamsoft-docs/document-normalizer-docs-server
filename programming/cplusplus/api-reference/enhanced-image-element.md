@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CEnhancedImageElement Class
-description: This page shows CEnhancedImageElement class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+description: API reference for the CEnhancedImageElement class in Dynamsoft Document Normalizer C++ Edition, which represents an intermediate result element containing an enhanced (color-corrected) document image.
 keywords: SetImageData, CEnhancedImageElement, api reference
 ---
 

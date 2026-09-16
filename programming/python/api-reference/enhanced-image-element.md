@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: EnhancedImageElement Class
-description: This page shows EnhancedImageElement class definition of Dynamsoft Document Normalizer SDK Python Edition.
+description: API reference for the EnhancedImageElement class in Dynamsoft Document Normalizer Python Edition, which represents an intermediate result element containing an enhanced (color-corrected) document image.
 keywords: set_image_data, EnhancedImageElement, api reference
 ---
 

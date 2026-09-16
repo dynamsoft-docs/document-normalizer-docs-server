@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: ImageColourMode - Dynamsoft Document Normalizer .NET Enumerations
-description: The enumeration ImageColourMode describes the mapping status of a parsed field for .NET Edition.
+description: The enumeration ImageColourMode describes the colour mode options for output document images in Dynamsoft Document Normalizer .NET Edition, such as colour, grayscale, or binary.
 keywords: Mapping status
 needGenerateH3Content: true
 needAutoGenerateSidebar: true

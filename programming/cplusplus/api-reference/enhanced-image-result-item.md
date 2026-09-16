@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CEnhancedImageResultItem Class
-description: This page shows CEnhancedImageResultItem class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+description: API reference for the CEnhancedImageResultItem class in Dynamsoft Document Normalizer C++ Edition, which represents a captured result item containing an enhanced document image.
 keywords: GetImageData, SaveToFile, CEnhancedImageResultItem, api reference
 ---
 

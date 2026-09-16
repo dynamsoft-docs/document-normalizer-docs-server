@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CDetectedQuadResultItem Class
-description: This page shows CDetectedQuadResultItem class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+description: API reference for the CDetectedQuadResultItem class in Dynamsoft Document Normalizer C++ Edition, which represents a captured result item containing a detected quadrilateral boundary.
 keywords: GetLocation, GetConfidenceAsDocumentBoundary, GetRotationTransformMatrix, CDetectedQuadResultItem, api reference
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CProcessedDocumentResult Class
-description: This page shows CProcessedDocumentResult class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+description: API reference for the CProcessedDocumentResult class in Dynamsoft Document Normalizer C++ Edition, which holds all processed document results including detected quads, deskewed images, and enhanced images.
 keywords: CProcessedDocumentResult, api reference
 ---
 

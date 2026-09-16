@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: DeskewedImageUnit Class
-description: This page shows DeskewedImageUnit class definition of Dynamsoft Document Normalizer SDK Python Edition.
+description: API reference for the DeskewedImageUnit class in Dynamsoft Document Normalizer Python Edition, which represents an intermediate result unit containing deskewed document images.
 keywords: get_deskewed_image, set_deskewed_image, DeskewedImageUnit, api reference
 ---
 

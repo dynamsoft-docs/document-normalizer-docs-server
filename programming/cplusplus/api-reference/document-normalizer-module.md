@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: class CDocumentNormalizerModule - Dynamsoft Document Normalizer Classes
-description: This page shows the C++ edition of the class CDocumentNormalizerModule in Document Normalizer Module.
+description: API reference for the CDocumentNormalizerModule class in Dynamsoft Document Normalizer C++ Edition, which provides general functions for the Document Normalizer module.
 keywords: document normalizer module, c++
 needAutoGenerateSidebar: true
 needGenerateH3Content: true

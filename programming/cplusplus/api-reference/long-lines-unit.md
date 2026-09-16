@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CLongLinesUnit Class
-description: This page shows CLongLinesUnit class definition of Dynamsoft Document Normalizer SDK C++ Edition.
+description: API reference for the CLongLinesUnit class in Dynamsoft Document Normalizer C++ Edition, which represents an intermediate result unit containing long lines detected from a document image.
 keywords: GetCount, GetLongLine, CLongLinesUnit, api reference
 permalink: /programming/cplusplus/api-reference/long-lines-unit.html
 ---
