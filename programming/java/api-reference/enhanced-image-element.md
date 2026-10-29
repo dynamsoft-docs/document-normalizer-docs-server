@@ -1,7 +1,7 @@
 ---
 layout: default-layout
-title: EnhancedImageElement Class
-description: API reference for the EnhancedImageElement class in Dynamsoft Document Normalizer Java Edition, which represents an intermediate result element containing an enhanced (color-corrected) document image.
+title: EnhancedImageElement Class – Document Normalizer Java
+description: This page shows EnhancedImageElement class definition of Dynamsoft Document Normalizer SDK Java Edition.
 keywords: setImageData, EnhancedImageElement, api reference
 ---
 

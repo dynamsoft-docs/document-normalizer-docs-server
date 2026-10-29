@@ -1,7 +1,7 @@
 ---
 layout: default-layout
-title: DeskewedImageElement Class
-description: API reference for the DeskewedImageElement class in Dynamsoft Document Normalizer Java Edition, which represents a deskewed image element produced during document normalization.
+title: DeskewedImageElement Class – Document Normalizer Java
+description: This page shows DeskewedImageElement class definition of Dynamsoft Document Normalizer SDK Java Edition.
 keywords: setImageData, getSourceDeskewQuad, DeskewedImageElement, api reference
 ---
 
